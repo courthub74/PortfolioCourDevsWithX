@@ -404,4 +404,32 @@
   * body #skillsmobilecontainer .mobile-nav-skills.slide-in {
     left: 0;
   }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv {
+    display: grid;
+    margin: 0vh -10vw 0 0;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesign {
+    grid-column: 1;
+    grid-row: 1/span 2;
+    font-size: 5vw;
+    font-family: "Julius Sans One", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    margin: 7vh 0 0 10vw;
+    padding: 3vh 0 0 0;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 55vw;
+    height: 50vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesign p {
+    margin: -2vh 0 0 0;
+  }
 }/*# sourceMappingURL=style.css.map */

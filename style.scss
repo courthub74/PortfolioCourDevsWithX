@@ -479,6 +479,38 @@ $socialsgrey: #B7BCD6;
                     .mobile-nav-skills.slide-in {
                         left: 0;
                     }
+                    // Bottom of Skills section
+                    .botskillsmobile {
+                        .responsedesigndiv {
+                            display: grid;
+                            margin: 0vh -10vw 0 0;
+                             // SKILL CIRCLE 1
+                             .responsivedesign {
+                                grid-column: 1;
+                                grid-row: 1 / span 2;
+                                font-size: 5vw;
+                                font-family: 'Julius Sans One',sans-serif;
+                                color: $skillswhite;
+                                display: flex;
+                                text-align: center;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 3vh;
+                                margin: 7vh 0 0 10vw;
+                                padding: 3vh 0 0 0;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                width: 55vw;
+                                height: 50vw;
+                                box-shadow: 2px 2px 2px $boxshadowcircles;
+                                p {
+                                    margin: -2vh 0 0 0;
+                                }
+                             }
+                        }
+                    }
                  }
         }
     }
