@@ -85,3 +85,28 @@ aboutwholebutton.addEventListener('click', function () {
 
 
 
+// SKILLS SECTION
+
+const skillshamburger = document.querySelector('.menuburgerskills');
+
+const skillswholebutton = document.querySelector('.skills_hamburgermobile');
+
+const skillsbuttontext = document.querySelector('.skills_closetext');
+
+const slide_menu_skills = document.querySelector('.mobile-nav-skills');
+
+// apply the click function to the wholebutton
+skillswholebutton.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the skills burger button");
+    // toggle the is-gone class on the burger
+        // to make the burger dissapear
+    skillshamburger.classList.toggle('is-gone');
+    // toggle the is-active class on the whole button to 
+        // show the X and the slide in menu
+    skillswholebutton.classList.toggle('is-active');
+    // toggle the X to is-shown when the button is active
+    skillsbuttontext.classList.toggle('is-shown');
+    // toggle the slide in menu css class to slide-in
+    slide_menu_skills.classList.toggle('slide-in');
+});
