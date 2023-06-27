@@ -19,7 +19,7 @@ $experiencegreenbutton: #476D6B;
 $portfolios: #36395D;
 $experiences: #496b69;
 $experiencestwo: #476D6B;
-$abouts: #80A7A5;
+$abouts: #627C7A;
 
 // BOX SHADOW
 $boxshadowcircles: rgba(0, 0, 0, 0.521);
@@ -245,9 +245,9 @@ $socialsgrey: #B7BCD6;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                border: 1px solid $abouts;
+                                border: 1px solid $experiencegreenbutton;
                                 border-radius: 30px;
-                                background-color: $abouts;
+                                background-color: $experiencegreenbutton;
                                 width: 30vw;
                                 height: 5vh;
                                 margin: 4.5vh 0 0 20vw;
@@ -283,6 +283,34 @@ $socialsgrey: #B7BCD6;
                                 font-size: 3vw;
                                 transition: .3s;
                             }
+                        }
+                        .infoblockmobile {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 10vh 0 0 0;
+                            line-height: 1.5;
+                        }
+                        .infomobile {
+                            font-family: 'Roboto', sans-serif;
+                            text-align: left;
+                            padding: 5vh;
+                        }
+                        .resumemobile {
+                            border: 1px solid $experiencegreenbutton;
+                            border-radius: 20px;
+                            // width: 40%;
+                            width: 50vw;
+                            background-color: $experiencegreenbutton;
+                            padding: 2vw;
+                            margin: 15vh 0 0 0;
+                            a {
+                                   font-family: 'Inter', sans-serif;
+                                   text-decoration: none;
+                                   color: $learnmorebutton;
+                                   text-align: center;
+                                }
                         }
                     }
                 }
