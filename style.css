@@ -515,8 +515,8 @@
     border: 1px solid #080E2F;
     border-radius: 50%;
     background-color: #080E2F;
-    width: 25vw;
-    height: 25vw;
+    width: 24vw;
+    height: 24vw;
     margin: -0.5vh 0 0 -43vw;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
   }
@@ -525,6 +525,29 @@
     height: 12vw;
   }
   * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .css p {
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .sass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 4;
+    border: 1px solid #080E2F;
+    border-radius: 50%;
+    background-color: #080E2F;
+    width: 24vw;
+    height: 24vw;
+    margin: -11vh 0 0 -71vw;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .sass img {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .sass p {
     font-size: 3vw;
     font-family: "Inter", sans-serif;
   }
