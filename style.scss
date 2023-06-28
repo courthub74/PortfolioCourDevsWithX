@@ -299,7 +299,7 @@ $socialsgrey: #B7BCD6;
                             height: 100vh;
                             display: block;
                             background-color: $aboutgreen;
-                            margin: 0 0 0 0;
+                            margin: 10vh 0 0 0;
                             transition: .8s;
                             z-index: 98;
                             .mobilelogoabout {
@@ -440,7 +440,7 @@ $socialsgrey: #B7BCD6;
                         height: 100vh;
                         display: block;
                         background-color: $skillsteal;
-                        margin: 0 0 0 0;
+                        margin: 10vh 0 0 0;
                         transition: .8s;
                         z-index: 98;
                         .mobilelogoskills {
@@ -506,7 +506,7 @@ $socialsgrey: #B7BCD6;
                                 height: 50vw;
                                 box-shadow: 2px 2px 2px $boxshadowcircles;
                                 p {
-                                    margin: -2vh 0 0 0;
+                                    margin: -3vh 0 0 0;
                                 }
                              }
                         }

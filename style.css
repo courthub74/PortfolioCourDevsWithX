@@ -242,7 +242,7 @@
     height: 100vh;
     display: block;
     background-color: #0E4946;
-    margin: 0 0 0 0;
+    margin: 10vh 0 0 0;
     transition: 0.8s;
     z-index: 98;
   }
@@ -369,7 +369,7 @@
     height: 100vh;
     display: block;
     background-color: #146166;
-    margin: 0 0 0 0;
+    margin: 10vh 0 0 0;
     transition: 0.8s;
     z-index: 98;
   }
@@ -430,6 +430,6 @@
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesign p {
-    margin: -2vh 0 0 0;
+    margin: -3vh 0 0 0;
   }
 }/*# sourceMappingURL=style.css.map */
