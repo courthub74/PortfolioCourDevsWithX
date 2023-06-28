@@ -374,7 +374,7 @@ $socialsgrey: #B7BCD6;
                     #skillsmobile {
                         background-color: $skillsteal;
                         color: white;
-                        height: 100vh;
+                        height: 170vh;
                         // Top of the skills section
                         .topskillsmobile {
                             display: flex;
@@ -481,6 +481,7 @@ $socialsgrey: #B7BCD6;
                     }
                     // Bottom of Skills section
                     .botskillsmobile {
+                        margin-top: -3vh;
                         .responsedesigndiv {
                             display: grid;
                             margin: 0vh -10vw 0 0;
@@ -592,6 +593,7 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
+                                gap: 1vh;
                                 grid-column: 2;
                                 grid-row: 3;
                                 border: 1px solid $mainblue;
@@ -617,6 +619,7 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
+                                gap: 1vh;
                                 grid-column: 2;
                                 grid-row: 4;
                                 border: 1px solid $mainblue;
@@ -627,11 +630,82 @@ $socialsgrey: #B7BCD6;
                                 margin: -11vh 0 0 -71vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
                                 img {
-                                    width: 12vw;
-                                    height: 12vw;
+                                    width: 11vw;
+                                    height: 11vw;
                                 }
                                 p {
                                     font-size: 3vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                        .scriptingandfunctionalitydiv {
+                            margin-top: -4vh;
+                            .scriptingandfunctionality {
+                                // grid-column: 1;
+                                // grid-row: 4 / span 2;
+                                font-size: 4vw;
+                                font-family: 'Julius Sans One',sans-serif;
+                                color: $skillswhite;
+                                display: flex;
+                                text-align: center;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 3vh;
+                                margin: 6vh 0 0 36vw;
+                                padding: 3vh 0 0 0;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                width: 55vw;
+                                height: 50vw;
+                                box-shadow: 2px 2px 2px $boxshadowcircles;
+                                p {
+                                    font-size: 4.5vw;
+                                    margin-top: -2vh;
+                                }
+                            }
+                            // JAVASCRIPT CIRCLE
+                            .javascript {
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                width: 24vw;
+                                height: 24vw;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin: -10vh 0 0 14vw;
+                                img {
+                                    margin: -1vh 0 0 0;
+                                    width: 16vw;
+                                    height: 16vw;
+                                }
+                                p {
+                                    font-size: 3vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                            // PYTHON CIRCLE
+                            .python {
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                width: 24vw;
+                                height: 24vw;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin: -2vh 0 0 35vw;
+                                img {
+                                    width: 16vw;
+                                    height: 16vw;
+                                }
+                                p {
+                                    font-size: 2.8vw;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
