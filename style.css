@@ -420,7 +420,7 @@
     justify-content: center;
     align-items: center;
     gap: 3vh;
-    margin: 7vh 0 0 10vw;
+    margin: 15vh 0 0 10vw;
     padding: 3vh 0 0 0;
     border: 1px solid #080E2F;
     background-color: #080E2F;
@@ -431,5 +431,101 @@
   }
   * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesign p {
     margin: -3vh 0 0 0;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px solid #080E2F;
+    border-radius: 50%;
+    background-color: #080E2F;
+    width: 24vw;
+    height: 24vw;
+    margin: 8vh 0 0 -32vw;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react img {
+    width: 10vw;
+    height: 9vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react p {
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react-native {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid #080E2F;
+    border-radius: 50%;
+    background-color: #080E2F;
+    width: 24vw;
+    height: 24vw;
+    margin: -11vh 0 0 -18vw;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react-native img {
+    margin-top: -1vh;
+    width: 13vw;
+    height: 13vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react-native p {
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    grid-column: 2;
+    grid-row: 3;
+    border: 1px solid #080E2F;
+    border-radius: 50%;
+    background-color: #080E2F;
+    width: 24vw;
+    height: 24vw;
+    margin: -9.5vh 0 0 -22vw;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .html img {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .html p {
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .css {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 3;
+    border: 1px solid #080E2F;
+    border-radius: 50%;
+    background-color: #080E2F;
+    width: 25vw;
+    height: 25vw;
+    margin: -0.5vh 0 0 -43vw;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .css img {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .css p {
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
   }
 }/*# sourceMappingURL=style.css.map */

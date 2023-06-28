@@ -497,7 +497,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 3vh;
-                                margin: 7vh 0 0 10vw;
+                                margin: 15vh 0 0 10vw;
                                 padding: 3vh 0 0 0;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
@@ -509,6 +509,108 @@ $socialsgrey: #B7BCD6;
                                     margin: -3vh 0 0 0;
                                 }
                              }
+                            //  REACT JS CIRCLE
+                            .react {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                grid-column: 2;
+                                grid-row: 1;
+                                border: 1px solid $mainblue;
+                                border-radius: 50%;
+                                background-color: $mainblue;
+                                width: 24vw;
+                                height: 24vw;
+                                margin: 8vh 0 0 -32vw;
+                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                img {
+                                    width: 10vw;
+                                    height: 9vw;
+                                }
+                                p {
+                                    font-size: 3vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                            // REACT NATIVE CIRCLE
+                            .react-native {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .5vh;
+                                grid-column: 2;
+                                grid-row: 2;
+                                border: 1px solid $mainblue;
+                                border-radius: 50%;
+                                background-color: $mainblue;
+                                width: 24vw;
+                                height: 24vw;
+                                margin: -11vh 0 0 -18vw;
+                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                img {
+                                    margin-top: -1vh;
+                                    width: 13vw;
+                                    height: 13vw;
+                                }
+                                p {
+                                    font-size: 3vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                            // HTML CIRCLE
+                            .html {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                grid-column: 2;
+                                grid-row: 3;
+                                border: 1px solid $mainblue;
+                                border-radius: 50%;
+                                background-color: $mainblue;
+                                width: 24vw;
+                                height: 24vw;
+                                // margin: -5vh 0 0 -18vw;
+                                margin: -9.5vh 0 0 -22vw;
+                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                img {
+                                    width: 12vw;
+                                    height: 12vw;
+                                }
+                                p {
+                                    font-size: 3vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                            // CSS CIRCLE
+                            .css {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                grid-column: 2;
+                                grid-row: 3;
+                                border: 1px solid $mainblue;
+                                border-radius: 50%;
+                                background-color: $mainblue;
+                                width: 25vw;
+                                height: 25vw;
+                                // margin: -5vh 0 0 -18vw;
+                                margin: -.5vh 0 0 -43vw;
+                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                img {
+                                    width: 12vw;
+                                    height: 12vw;
+                                }
+                                p {
+                                    font-size: 3vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
                         }
                     }
                  }
