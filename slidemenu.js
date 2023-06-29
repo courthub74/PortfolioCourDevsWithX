@@ -110,3 +110,29 @@ skillswholebutton.addEventListener('click', function () {
     // toggle the slide in menu css class to slide-in
     slide_menu_skills.classList.toggle('slide-in');
 });
+
+// PORTFOLIO SECTION
+
+const portfoliohamburger = document.querySelector('.menuburgerportfolio');
+
+const portfoliowholebutton = document.querySelector('.portfolio_hamburgermobile');
+
+const portfoliobuttontext = document.querySelector('.portfolio_closetext');
+
+const slide_menu_portfolio = document.querySelector('.mobile-nav-portfolio');
+
+// apply the click function to the wholebutton
+portfoliowholebutton.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the portfolio burger button");
+    // toggle the is-gone class on the burger
+        // to make the burger dissapear
+    portfoliohamburger.classList.toggle('is-gone');
+    // toggle the is-active class on the whole button to 
+        // show the X and the slide in menu
+    portfoliowholebutton.classList.toggle('is-active');
+    // toggle the X to is-shown when the button is active
+    portfoliobuttontext.classList.toggle('is-shown');
+    // toggle the slide in menu css class to slide-in
+    slide_menu_portfolio.classList.toggle('slide-in');
+});
