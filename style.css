@@ -865,4 +865,89 @@
     font-size: 10vw;
     font-family: "Inter", sans-serif;
   }
+  * body #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .portfolio_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    width: 30vw;
+    height: 5vh;
+    margin: 4.5vh 0 0 8vw;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .menuburgerportfolio {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .menuburgerportfolio.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .portfolio_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .portfolio_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .portfolio_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .portfolio_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 10vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .mobilelogoportfolio {
+    margin: 5vh 15vw 0 0;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .mobilelogoportfolio .navlogoportfolio {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .mobilelistportfolio a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .slidesocialsmobileportfolio {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .slidesocialsmobileportfolio img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio.slide-in {
+    left: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

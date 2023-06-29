@@ -969,7 +969,100 @@ $socialsgrey: #B7BCD6;
                                     font-size: 10vw;
                                     font-family: 'Inter', sans-serif;
                                 }
-                            } 
+                            }
+                            .portfolio_hamburgermobile {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid $portfolios;
+                                border-radius: 30px;
+                                background-color: $portfolios;
+                                width: 30vw;
+                                height: 5vh;
+                                // margin: 4.5vh 0 0 23vw;
+                                margin: 4.5vh 0 0 8vw;
+                            }
+                            .menuburgerportfolio {
+                                position: relative;
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            .menuburgerportfolio.is-gone {
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                            .portfolio_closetext {
+                                width: 30vw;
+                                height: 5vh;
+                                padding: 1vw;
+                                position: absolute;
+                                color: white;
+                                opacity: 0;
+                                z-index: 100;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                            }
+                            .portfolio_closetext.is-shown {
+                                opacity: 1;
+                                color: white;
+                                width: 10vw;
+                                // figure out how to make these 
+                                    // stay in the same place
+                            }
+                        }
+                        .portfolio_hamburgermobile.is-active {
+                            font-size: 3vw;
+                            transition: .3s;
+                        }
+                        // The Nav bar slide in
+                        .mobile-nav-portfolio {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $mainblue;
+                            margin: 10vh 0 0 0;
+                            transition: .8s;
+                            z-index: 98;
+                            .mobilelogoportfolio {
+                                margin: 5vh 15vw 0 0;
+                                    // background-color: #023430;
+                                .navlogoportfolio {
+                                    margin: -2vh 0 0 5vw;
+                                    width: 25vw;
+                                    height: 25vw;
+                                }
+                            }
+                            .mobilelistportfolio {
+                                a {
+                                    display: block;
+                                    text-align: left;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 6vw;
+                                    font-weight: bold;
+                                    margin: 4vh 0 0 9vw;
+                                }
+                            }
+                            .slidesocialsmobileportfolio {
+                                // background-color: #023430;
+                                display: flex;
+                                flex-direction: row;
+                                gap: 2vw;
+                                margin: 5vh 0 0 8vw;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                            }
+                        }
+                        .mobile-nav-portfolio.slide-in {
+                            left: 0;
                         }
                     }
                 }
