@@ -374,7 +374,7 @@ $socialsgrey: #B7BCD6;
                     #skillsmobile {
                         background-color: $skillsteal;
                         color: white;
-                        height: 220vh;
+                        height: 230vh;
                         // Top of the skills section
                         .topskillsmobile {
                             display: flex;
@@ -484,7 +484,7 @@ $socialsgrey: #B7BCD6;
                         margin-top: -3vh;
                         .responsedesigndiv {
                             display: grid;
-                            margin: 0vh -10vw 0 0;
+                            margin: 3vh -10vw 0 0;
                              // SKILL CIRCLE 1
                              .responsivedesign {
                                 grid-column: 1;
@@ -498,16 +498,17 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 3vh;
-                                margin: 15vh 0 0 10vw;
+                                margin: 10vh 0 0 9vw;
                                 padding: 3vh 0 0 0;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 55vw;
-                                height: 50vw;
+                                width: 50vw;
+                                height: 45vw;
                                 box-shadow: 2px 2px 2px $boxshadowcircles;
                                 p {
                                     margin: -3vh 0 0 0;
+                                    font-size: 4vw;
                                 }
                              }
                             //  REACT JS CIRCLE
@@ -516,16 +517,17 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1vh;
+                                gap: .5vh;
                                 grid-column: 2;
                                 grid-row: 1;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 24vw;
-                                height: 24vw;
-                                margin: 8vh 0 0 -32vw;
+                                width: 19vw;
+                                height: 19vw;
+                                margin: 8vh 0 0 -15vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
+                                padding: 1vw;
                                 img {
                                     width: 10vw;
                                     height: 9vw;
@@ -541,23 +543,25 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: .5vh;
+                                // gap: .5vh;
                                 grid-column: 2;
                                 grid-row: 2;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 24vw;
-                                height: 24vw;
-                                margin: -11vh 0 0 -18vw;
+                                width: 19vw;
+                                height: 19vw;
+                                margin: -5vh 0 0 -10vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
+                                padding: 1vw;
                                 img {
-                                    margin-top: -1vh;
-                                    width: 13vw;
-                                    height: 13vw;
+                                    // margin-top: 1vh;
+                                    width: 11vw;
+                                    height: 11vw;
                                 }
                                 p {
                                     font-size: 3vw;
+                                    text-align: center;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
@@ -567,20 +571,21 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1vh;
+                                gap: .5vh;
                                 grid-column: 2;
                                 grid-row: 3;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 24vw;
-                                height: 24vw;
+                                width: 19vw;
+                                height: 19vw;
                                 // margin: -5vh 0 0 -18vw;
-                                margin: -9.5vh 0 0 -22vw;
+                                margin: -5vh 0 0 -17vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
+                                padding: 1vw;
                                 img {
-                                    width: 12vw;
-                                    height: 12vw;
+                                    width: 11vw;
+                                    height: 11vw;
                                 }
                                 p {
                                     font-size: 3vw;
@@ -593,20 +598,20 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1vh;
+                                gap: .5vh;
                                 grid-column: 2;
                                 grid-row: 3;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 24vw;
-                                height: 24vw;
-                                // margin: -5vh 0 0 -18vw;
-                                margin: -.5vh 0 0 -43vw;
+                                width: 19vw;
+                                height: 19vw;
+                                margin: 2vh 0 0 -36vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
+                                padding: 1vw;
                                 img {
-                                    width: 12vw;
-                                    height: 12vw;
+                                    width: 11vw;
+                                    height: 11vw;
                                 }
                                 p {
                                     font-size: 3vw;
@@ -619,19 +624,20 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1vh;
+                                gap: .5vh;
                                 grid-column: 2;
                                 grid-row: 4;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 24vw;
-                                height: 24vw;
-                                margin: -11vh 0 0 -71vw;
+                                width: 19vw;
+                                height: 19vw;
+                                margin: -8vh 0 0 -60vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
+                                padding: 1vw;
                                 img {
-                                    width: 11vw;
-                                    height: 11vw;
+                                    width: 10vw;
+                                    height: 10vw;
                                 }
                                 p {
                                     font-size: 3vw;
@@ -641,7 +647,7 @@ $socialsgrey: #B7BCD6;
                         }
                         // SCRIPTING AND FUNCTIONALITY
                         .scriptingandfunctionalitydiv {
-                            margin-top: -3vh;
+                            margin-top: 2vh;
                             .scriptingandfunctionality {
                                 // grid-column: 1;
                                 // grid-row: 4 / span 2;
@@ -654,16 +660,16 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 3vh;
-                                margin: 6vh 0 0 36vw;
+                                margin: 6vh 0 0 42vw;
                                 padding: 3vh 0 0 0;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 55vw;
-                                height: 50vw;
+                                width: 50vw;
+                                height: 45vw;
                                 box-shadow: 2px 2px 2px $boxshadowcircles;
                                 p {
-                                    font-size: 4.5vw;
+                                    font-size: 4vw;
                                     margin-top: -2vh;
                                 }
                             }
@@ -672,18 +678,19 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 24vw;
-                                height: 24vw;
+                                width: 19vw;
+                                height: 19vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1vh;
-                                margin: -10vh 0 0 14vw;
+                                // gap: 1vh;
+                                margin: -9vh 0 0 19vw;
+                                padding: 1vw;
                                 img {
                                     margin: -1vh 0 0 0;
-                                    width: 14vw;
-                                    height: 14vw;
+                                    width: 12vw;
+                                    height: 12vw;
                                 }
                                 p {
                                     font-size: 3vw;
@@ -695,17 +702,19 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 24vw;
-                                height: 24vw;
+                                width: 19vw;
+                                height: 19vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1vh;
-                                margin: -2vh 0 0 35vw;
+                                gap: .5vh;
+                                margin: -1vh 0 0 35vw;
+                                padding: 1vw;
                                 img {
-                                    width: 14vw;
-                                    height: 14vw;
+                                    margin: -.5vh 0 0 0;
+                                    width: 10vw;
+                                    height: 10vw;
                                 }
                                 p {
                                     font-size: 2.8vw;
@@ -715,7 +724,7 @@ $socialsgrey: #B7BCD6;
                         }
                         // SERVER SIDE PROGRAMMING
                         .serversideprogrammingdiv {
-                            margin-top: -11vh;
+                            margin-top: -6vh;
                             .serversideprogramming {
                                 // grid-column: 1;
                                 // grid-row: 4 / span 2;
@@ -728,13 +737,13 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 3vh;
-                                margin: 15vh 0 0 10vw;
+                                margin: 15vh 0 0 9vw;
                                 padding: 3vh 0 0 0;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 55vw;
-                                height: 50vw;
+                                width: 50vw;
+                                height: 45vw;
                                 box-shadow: 2px 2px 2px $boxshadowcircles;
                                 p {
                                     font-size: 4.5vw;
@@ -746,20 +755,21 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 24vw;
-                                height: 24vw;
+                                width: 19vw;
+                                height: 19vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 1vh;
-                                margin: -13vh 0 0 66vw;
+                                margin: -5.5vh 0 0 56vw;
+                                padding: 1vw;
                                 img {
-                                    width: 12vw;
-                                    height: 13vw;
+                                    width: 10vw;
+                                    height: 10vw;
                                 }
                                 p {
-                                    font-size: 2.8vw;
+                                    font-size: 3vw;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
@@ -768,27 +778,29 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 24vw;
-                                height: 24vw;
+                                width: 19vw;
+                                height: 19vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
                                 // gap: 1vh;
-                                margin: -1vh 0 0 49vw;
+                                margin: -3vh 0 0 35vw;
+                                padding: 1vw;
                                 img {
-                                    width: 14vw;
-                                    height: 14vw;
+                                    margin: -1vh 0 0 0;
+                                    width: 10vw;
+                                    height: 10vw;
                                 }
                                 p {
-                                    font-size: 2.8vw;
+                                    font-size: 3vw;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
                         }
                         // INTEGRATION WITH DATABASES
                         .integrationwithdatabasesdiv {
-                            margin-top: -4vh;
+                            margin-top: 2vh;
                             .integrationwithdatabasescircle {
                                 font-size: 4vw;
                                 font-family: 'Julius Sans One',sans-serif;
