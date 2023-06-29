@@ -980,7 +980,7 @@ $socialsgrey: #B7BCD6;
                                 width: 30vw;
                                 height: 5vh;
                                 // margin: 4.5vh 0 0 23vw;
-                                margin: 4.5vh 0 0 8vw;
+                                margin: 4.5vh 0 0 7.5vw;
                             }
                             .menuburgerportfolio {
                                 position: relative;
@@ -1063,6 +1063,96 @@ $socialsgrey: #B7BCD6;
                         }
                         .mobile-nav-portfolio.slide-in {
                             left: 0;
+                        }
+                        // Bottom of the Portfolio page
+                        .botportfoliomobile {
+                            display: flex;
+                            flex-direction: column;
+                            .portfoliooutline {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                padding: 7vh;
+                                margin: 3vh 0 0 0;
+                                gap: 6vh;
+                                .app1 {
+                                    border: 1px solid $portfolios;
+                                    background-color: $portfolios;
+                                    border-radius: 10px;
+                                    // height: 42vw;
+                                    // width: 88.5vw;
+                                    height: 42vw;
+                                    width: 78vw;
+                                    .app1cover {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 5vh 0 0 0;
+                                        width: 100%;
+                                        a {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            text-decoration: none;
+                                            gap: 1vh;
+                                            margin-top: -2.5vh;
+                                            img {
+                                                width: 20vw;
+                                                height: 20vw;
+                                            }
+                                            p {
+                                                font-size: 5vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                                // font-weight: bold;
+                                                color: white;
+                                            }
+                                        }
+                                    }
+                                }
+                                .app2 {
+                                    border: 1px solid $portfolios;
+                                    background-color: $portfolios;
+                                    border-radius: 10px;
+                                    height: 42vw;
+                                    // width: 88.5vw;
+                                    width: 78vw;
+                                    .app2cover {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 8vh 0 0 0;
+                                        width: 100%;
+                                        a {
+                                            img {
+                                                width: 50vw;
+                                                height: 8vw;
+                                            }
+                                        }
+                                    }
+                                }
+                                .app3 {
+                                    border: 1px solid $portfolios;
+                                    background-color: $portfolios;
+                                    border-radius: 10px;
+                                    height: 42vw;
+                                    // width: 88.5vw;
+                                    width: 78vw;
+                                    .app3cover {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 0 0 0 0;
+                                        width: 100%;
+                                        a {
+                                            img {
+                                                width: 37vw;
+                                                height: 40vw;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
