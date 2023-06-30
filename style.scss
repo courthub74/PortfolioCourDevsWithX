@@ -484,7 +484,7 @@ $socialsgrey: #B7BCD6;
                         margin-top: -3vh;
                         .responsedesigndiv {
                             display: grid;
-                            margin: 3vh -10vw 0 0;
+                            margin: 3vh -15vw 0 0;
                              // SKILL CIRCLE 1
                              .responsivedesign {
                                 grid-column: 1;
@@ -498,7 +498,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 3vh;
-                                margin: 10vh 0 0 9vw;
+                                margin: 10vh 0 0 13vw;
                                 padding: 3vh 0 0 0;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
@@ -523,18 +523,18 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 19vw;
-                                height: 19vw;
-                                margin: 8vh 0 0 -15vw;
+                                width: 15vw;
+                                height: 15vw;
+                                margin: 8vh 0 0 -30vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
-                                    width: 10vw;
-                                    height: 9vw;
+                                    width: 8vw;
+                                    height: 7vw;
                                 }
                                 p {
-                                    font-size: 3vw;
-                                    font-family: 'Inter', sans-serif;
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                             // REACT NATIVE CIRCLE
@@ -549,20 +549,20 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 19vw;
-                                height: 19vw;
-                                margin: -5vh 0 0 -10vw;
+                                width: 15vw;
+                                height: 15vw;
+                                margin: -7vh 0 0 -23.5vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
                                     // margin-top: 1vh;
-                                    width: 11vw;
-                                    height: 11vw;
+                                    width: 9vw;
+                                    height: 9vw;
                                 }
                                 p {
-                                    font-size: 3vw;
+                                    font-size: 2.5vw;
                                     text-align: center;
-                                    font-family: 'Inter', sans-serif;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                             // HTML CIRCLE
@@ -577,19 +577,19 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 19vw;
-                                height: 19vw;
+                                width: 15vw;
+                                height: 15vw;
                                 // margin: -5vh 0 0 -18vw;
-                                margin: -5vh 0 0 -17vw;
+                                margin: -7vh 0 0 -28vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
-                                    width: 11vw;
-                                    height: 11vw;
+                                    width: 9vw;
+                                    height: 9vw;
                                 }
                                 p {
-                                    font-size: 3vw;
-                                    font-family: 'Inter', sans-serif;
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                             // CSS CIRCLE
@@ -604,18 +604,18 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 19vw;
-                                height: 19vw;
-                                margin: 2vh 0 0 -36vw;
+                                width: 15vw;
+                                height: 15vw;
+                                margin: -.5vh 0 0 -43vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
-                                    width: 11vw;
-                                    height: 11vw;
+                                    width: 9vw;
+                                    height: 9vw;
                                 }
                                 p {
-                                    font-size: 3vw;
-                                    font-family: 'Inter', sans-serif;
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                             // SASS CIRCLE
@@ -630,27 +630,48 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 19vw;
-                                height: 19vw;
-                                margin: -8vh 0 0 -60vw;
+                                width: 15vw;
+                                height: 15vw;
+                                margin: -6.5vh 0 0 -63vw;
                                 box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
-                                    width: 10vw;
-                                    height: 10vw;
+                                    width: 9vw;
+                                    height: 9vw;
                                 }
                                 p {
-                                    font-size: 3vw;
-                                    font-family: 'Inter', sans-serif;
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                            .figma {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .5vh;
+                                grid-column: 2;
+                                grid-row: 4;
+                                border: 1px solid $mainblue;
+                                border-radius: 50%;
+                                background-color: $mainblue;
+                                width: 16vw;
+                                height: 16vw;
+                                margin: -9.5vh 0 0 -80vw;
+                                img {
+                                    width: 8vw;
+                                    height: 7vw;
+                                }
+                                p {
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                         }
                         // SCRIPTING AND FUNCTIONALITY
                         .scriptingandfunctionalitydiv {
-                            margin-top: 2vh;
+                            margin-top: 10vh;
                             .scriptingandfunctionality {
-                                // grid-column: 1;
-                                // grid-row: 4 / span 2;
                                 font-size: 4vw;
                                 font-family: 'Julius Sans One',sans-serif;
                                 color: $skillswhite;
@@ -660,7 +681,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 3vh;
-                                margin: 6vh 0 0 42vw;
+                                margin: 6vh 0 0 36vw;
                                 padding: 3vh 0 0 0;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
@@ -678,23 +699,23 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 19vw;
-                                height: 19vw;
+                                width: 15vw;
+                                height: 15vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
                                 // gap: 1vh;
-                                margin: -23vh 0 0 13vw;
+                                margin: -25vh 0 0 21vw;
                                 padding: 1vw;
                                 img {
                                     margin: -1vh 0 0 0;
-                                    width: 12vw;
-                                    height: 12vw;
+                                    width: 10vw;
+                                    height: 10vw;
                                 }
                                 p {
-                                    font-size: 3vw;
-                                    font-family: 'Inter', sans-serif;
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                             // PYTHON CIRCLE
@@ -702,70 +723,23 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 19vw;
-                                height: 19vw;
+                                width: 15vw;
+                                height: 15vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
                                 gap: .5vh;
-                                margin: 1vh 0 0 10vw;
+                                margin: 1vh 0 0 16vw;
                                 padding: 1vw;
                                 img {
                                     margin: -.5vh 0 0 0;
-                                    width: 10vw;
-                                    height: 10vw;
+                                    width: 8vw;
+                                    height: 8vw;
                                 }
                                 p {
-                                    font-size: 2.8vw;
-                                    font-family: 'Inter', sans-serif;
-                                }
-                            }
-                            // MONGO DB
-                            .mongodb {
-                                border: 1px solid $mainblue;
-                                background-color: $mainblue;
-                                border-radius: 50%;
-                                width: 19vw;
-                                height: 19vw;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                gap: .5vh;
-                                margin: -10vh 0 0 62vw;
-                                padding: 1vw;
-                                img {
-                                    width: 4vw;
-                                    height: 10vw;
-                                }
-                                p {
-                                    font-size: 2.8vw;
-                                    font-family: 'Inter', sans-serif;
-                                }
-                            }
-                            // FIREBASE
-                            .firebase {
-                                border: 1px solid $mainblue;
-                                background-color: $mainblue;
-                                border-radius: 50%;
-                                width: 19vw;
-                                height: 19vw;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                gap: .5vh;
-                                margin: -10vh 0 0 80vw;
-                                padding: 1vw;
-                                img {
-                                    width: 12vw;
-                                    height: 12vw;
-                                    margin: -1vh 0 0 0;
-                                }
-                                p {
-                                    font-size: 2.8vw;
-                                    font-family: 'Inter', sans-serif;
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                             // NODE JS
@@ -773,22 +747,22 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 19vw;
-                                height: 19vw;
+                                width: 15vw;
+                                height: 15vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1vh;
-                                margin: .5vh 0 0 18vw;
+                                gap: .5vh;
+                                margin: .5vh 0 0 22vw;
                                 padding: 1vw;
                                 img {
-                                    width: 10vw;
-                                    height: 10vw;
+                                    width: 6.5vw;
+                                    height: 8vw;
                                 }
                                 p {
-                                    font-size: 3vw;
-                                    font-family: 'Inter', sans-serif;
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                             // DJANGO
@@ -796,14 +770,14 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 19vw;
-                                height: 19vw;
+                                width: 15vw;
+                                height: 15vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
                                 // gap: 1vh;
-                                margin: -5vh 0 0 39vw;
+                                margin: -1vh 0 0 36vw;
                                 padding: 1vw;
                                 img {
                                     margin: -1vh 0 0 0;
@@ -811,8 +785,55 @@ $socialsgrey: #B7BCD6;
                                     height: 10vw;
                                 }
                                 p {
-                                    font-size: 3vw;
-                                    font-family: 'Inter', sans-serif;
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                            // MONGO DB
+                            .mongodb {
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                width: 15vw;
+                                height: 15vw;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .5vh;
+                                margin: -6.5vh 0 0 56vw;
+                                padding: 1vw;
+                                img {
+                                    width: 3vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    font-size: 2.5vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                            // FIREBASE
+                            .firebase {
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                width: 15vw;
+                                height: 15vw;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .5vh;
+                                margin: -12vh 0 0 76vw;
+                                padding: 1vw;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                    margin: -1vh 0 0 0;
+                                }
+                                p {
+                                    font-size: 2.8vw;
+                                    font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
                         }
