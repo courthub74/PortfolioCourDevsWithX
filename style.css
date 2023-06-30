@@ -597,7 +597,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -9vh 0 0 19vw;
+    margin: -23vh 0 0 13vw;
     padding: 1vw;
   }
   * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .javascript img {
@@ -620,7 +620,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5vh;
-    margin: -1vh 0 0 35vw;
+    margin: 1vh 0 0 10vw;
     padding: 1vw;
   }
   * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .python img {
@@ -632,33 +632,7 @@
     font-size: 2.8vw;
     font-family: "Inter", sans-serif;
   }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv {
-    margin-top: -6vh;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv .serversideprogramming {
-    font-size: 4vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #FFFFFF;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3vh;
-    margin: 15vh 0 0 9vw;
-    padding: 3vh 0 0 0;
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 50vw;
-    height: 45vw;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv .serversideprogramming p {
-    font-size: 4.5vw;
-    margin-top: -2vh;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv .nodejs {
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .mongodb {
     border: 1px solid #080E2F;
     background-color: #080E2F;
     border-radius: 50%;
@@ -668,19 +642,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1vh;
-    margin: -5.5vh 0 0 56vw;
+    gap: 0.5vh;
+    margin: -10vh 0 0 62vw;
     padding: 1vw;
   }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv .nodejs img {
-    width: 10vw;
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .mongodb img {
+    width: 4vw;
     height: 10vw;
   }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv .nodejs p {
-    font-size: 3vw;
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .mongodb p {
+    font-size: 2.8vw;
     font-family: "Inter", sans-serif;
   }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv .django {
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .firebase {
     border: 1px solid #080E2F;
     background-color: #080E2F;
     border-radius: 50%;
@@ -690,85 +664,61 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -3vh 0 0 35vw;
+    gap: 0.5vh;
+    margin: -10vh 0 0 80vw;
     padding: 1vw;
   }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv .django img {
-    margin: -1vh 0 0 0;
-    width: 10vw;
-    height: 10vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .serversideprogrammingdiv .django p {
-    font-size: 3vw;
-    font-family: "Inter", sans-serif;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv {
-    margin-top: 2vh;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv .integrationwithdatabasescircle {
-    font-size: 4vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #FFFFFF;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3vh;
-    margin: 8vh 0 0 35vw;
-    padding: 3vh 0 0 0;
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 55vw;
-    height: 50vw;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv .integrationwithdatabasescircle p {
-    font-size: 4.5vw;
-    margin-top: -2vh;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv .mongodb {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 24vw;
-    height: 24vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    margin: -7vh 0 0 16vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv .mongodb img {
-    width: 5vw;
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .firebase img {
+    width: 12vw;
     height: 12vw;
+    margin: -1vh 0 0 0;
   }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv .mongodb p {
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .firebase p {
     font-size: 2.8vw;
     font-family: "Inter", sans-serif;
   }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv .firebase {
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .nodejs {
     border: 1px solid #080E2F;
     background-color: #080E2F;
     border-radius: 50%;
-    width: 24vw;
-    height: 24vw;
+    width: 19vw;
+    height: 19vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1vh;
-    margin: -4vh 0 0 40vw;
+    margin: 0.5vh 0 0 18vw;
+    padding: 1vw;
   }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv .firebase img {
-    width: 15vw;
-    height: 15vw;
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .nodejs img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .nodejs p {
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .django {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 19vw;
+    height: 19vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -5vh 0 0 39vw;
+    padding: 1vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .django img {
     margin: -1vh 0 0 0;
+    width: 10vw;
+    height: 10vw;
   }
-  * body #skillsmobilecontainer .botskillsmobile .integrationwithdatabasesdiv .firebase p {
-    font-size: 2.8vw;
+  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .django p {
+    font-size: 3vw;
     font-family: "Inter", sans-serif;
   }
   * body #skillsmobilecontainer .botskillsmobile .deploymentdiv {

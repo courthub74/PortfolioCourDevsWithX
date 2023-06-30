@@ -685,7 +685,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 // gap: 1vh;
-                                margin: -9vh 0 0 19vw;
+                                margin: -23vh 0 0 13vw;
                                 padding: 1vw;
                                 img {
                                     margin: -1vh 0 0 0;
@@ -709,7 +709,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: .5vh;
-                                margin: -1vh 0 0 35vw;
+                                margin: 1vh 0 0 10vw;
                                 padding: 1vw;
                                 img {
                                     margin: -.5vh 0 0 0;
@@ -721,33 +721,51 @@ $socialsgrey: #B7BCD6;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
-                        }
-                        // SERVER SIDE PROGRAMMING
-                        .serversideprogrammingdiv {
-                            margin-top: -6vh;
-                            .serversideprogramming {
-                                // grid-column: 1;
-                                // grid-row: 4 / span 2;
-                                font-size: 4vw;
-                                font-family: 'Julius Sans One',sans-serif;
-                                color: $skillswhite;
-                                display: flex;
-                                text-align: center;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                gap: 3vh;
-                                margin: 15vh 0 0 9vw;
-                                padding: 3vh 0 0 0;
+                            // MONGO DB
+                            .mongodb {
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
-                                width: 50vw;
-                                height: 45vw;
-                                box-shadow: 2px 2px 2px $boxshadowcircles;
+                                width: 19vw;
+                                height: 19vw;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .5vh;
+                                margin: -10vh 0 0 62vw;
+                                padding: 1vw;
+                                img {
+                                    width: 4vw;
+                                    height: 10vw;
+                                }
                                 p {
-                                    font-size: 4.5vw;
-                                    margin-top: -2vh;
+                                    font-size: 2.8vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                            // FIREBASE
+                            .firebase {
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                width: 19vw;
+                                height: 19vw;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .5vh;
+                                margin: -10vh 0 0 80vw;
+                                padding: 1vw;
+                                img {
+                                    width: 12vw;
+                                    height: 12vw;
+                                    margin: -1vh 0 0 0;
+                                }
+                                p {
+                                    font-size: 2.8vw;
+                                    font-family: 'Inter', sans-serif;
                                 }
                             }
                             // NODE JS
@@ -762,7 +780,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 1vh;
-                                margin: -5.5vh 0 0 56vw;
+                                margin: .5vh 0 0 18vw;
                                 padding: 1vw;
                                 img {
                                     width: 10vw;
@@ -785,7 +803,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 // gap: 1vh;
-                                margin: -3vh 0 0 35vw;
+                                margin: -5vh 0 0 39vw;
                                 padding: 1vw;
                                 img {
                                     margin: -1vh 0 0 0;
@@ -798,78 +816,8 @@ $socialsgrey: #B7BCD6;
                                 }
                             }
                         }
-                        // INTEGRATION WITH DATABASES
-                        .integrationwithdatabasesdiv {
-                            margin-top: 2vh;
-                            .integrationwithdatabasescircle {
-                                font-size: 4vw;
-                                font-family: 'Julius Sans One',sans-serif;
-                                color: $skillswhite;
-                                display: flex;
-                                text-align: center;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                gap: 3vh;
-                                margin: 8vh 0 0 35vw;
-                                padding: 3vh 0 0 0;
-                                border: 1px solid $mainblue;
-                                background-color: $mainblue;
-                                border-radius: 50%;
-                                width: 55vw;
-                                height: 50vw;
-                                box-shadow: 2px 2px 2px $boxshadowcircles;
-                                p {
-                                    font-size: 4.5vw;
-                                    margin-top: -2vh;
-                                }
-                            }
-                            // MONGO DB
-                            .mongodb {
-                                border: 1px solid $mainblue;
-                                background-color: $mainblue;
-                                border-radius: 50%;
-                                width: 24vw;
-                                height: 24vw;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                gap: 1vh;
-                                margin: -7vh 0 0 16vw;
-                                img {
-                                    width: 5vw;
-                                    height: 12vw;
-                                }
-                                p {
-                                    font-size: 2.8vw;
-                                    font-family: 'Inter', sans-serif;
-                                }
-                            }
-                            // FIREBASE
-                            .firebase {
-                                border: 1px solid $mainblue;
-                                background-color: $mainblue;
-                                border-radius: 50%;
-                                width: 24vw;
-                                height: 24vw;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                gap: 1vh;
-                                margin: -4vh 0 0 40vw;
-                                img {
-                                    width: 15vw;
-                                    height: 15vw;
-                                    margin: -1vh 0 0 0;
-                                }
-                                p {
-                                    font-size: 2.8vw;
-                                    font-family: 'Inter', sans-serif;
-                                }
-                            }
-                        }
+                        
+                        
                         // DEPLOYMENT
                         .deploymentdiv {
                             margin-top: -4vh;
