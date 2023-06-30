@@ -52,6 +52,8 @@ $socialsgrey: #B7BCD6;
                 height: 100vh;
                 .tophomemobile {
                     display: flex;
+                    justify-content: center;
+                    align-items: center;
                     .contactbutton {
                         display: flex;
                         justify-content: center;
@@ -59,14 +61,14 @@ $socialsgrey: #B7BCD6;
                         border: 1px solid $portfolios;
                         border-radius: 30px;
                         background-color: $portfolios;
-                        width: 30vw;
+                        width: 20vw;
                         height: 5vh;
-                        margin: 4vh 0 0 6vw;
+                        margin: 4vh 0 0 1vw;
                         a {
                             text-decoration: none;
                             font-family: 'Inter', sans-serif;
                             color: $skillswhite;
-                            font-size: 4vw;
+                            font-size: 3vw;
                         }
                     }
                     .logomobile {
@@ -83,9 +85,9 @@ $socialsgrey: #B7BCD6;
                         border: 1px solid $portfolios;
                         border-radius: 30px;
                         background-color: $portfolios;
-                        width: 30vw;
+                        width: 20vw;
                         height: 5vh;
-                        margin: 4vh 0 0 5vw;
+                        margin: 4vh 0 0 9vw;
                         .menuburger {
                             position: relative;
                             width: 9vw;
@@ -239,9 +241,9 @@ $socialsgrey: #B7BCD6;
                         .topaboutmobile {
                             display: flex;
                             .titlemobile {
-                                margin: 4vh 0 0 5vh;
+                                margin: 5vh 0 0 5vh;
                                 h1 {
-                                    font-size: 10vw;
+                                    font-size: 8vw;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
@@ -252,9 +254,9 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $experiencegreenbutton;
                                 border-radius: 30px;
                                 background-color: $experiencegreenbutton;
-                                width: 30vw;
+                                width: 20vw;
                                 height: 5vh;
-                                margin: 4.5vh 0 0 23vw;
+                                margin: 4.5vh 0 0 35vw;
                                 .menuburgerabout {
                                     position: relative;
                                     width: 9vw;
@@ -392,7 +394,7 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $skillsdarker2;
                                 border-radius: 30px;
                                 background-color: $skillsdarker2;
-                                width: 30vw;
+                                width: 20vw;
                                 height: 5vh;
                                 margin: 4.5vh 0 0 23vw;
                             }
@@ -961,7 +963,7 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $portfolios;
                                 border-radius: 30px;
                                 background-color: $portfolios;
-                                width: 30vw;
+                                width: 20vw;
                                 height: 5vh;
                                 // margin: 4.5vh 0 0 23vw;
                                 margin: 4.5vh 0 0 7.5vw;
@@ -1137,6 +1139,70 @@ $socialsgrey: #B7BCD6;
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+                // EXPERIENCE
+                #experiencemobilecontainer {
+                    #experiencemobile {
+                        background-color: $aboutgreen;
+                        color: white;
+                        height: 100vh;
+                        // Top of the experience section
+                        .topexperiencemobile {
+                            display: flex;
+                            .titlemobile {
+                                margin: 4vh 0 0 5vh;
+                                h1 {
+                                    font-size: 9vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                            .experience_hamburgermobile {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid $experiencegreenbutton;
+                                border-radius: 30px;
+                                background-color: $experiencegreenbutton;
+                                width: 20vw;
+                                height: 5vh;
+                                margin: 4.5vh 0 0 0;
+                            }
+                            .experience_hamburgermobile.is-active {
+                                font-size: 3vw;
+                                transition: .3s;
+                            }
+                            .menuburgerexperience {
+                                position: relative;
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            .menuburgerexperience.is-gone {
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                            .experience_closetext {
+                                width: 30vw;
+                                height: 5vh;
+                                padding: 1vw;
+                                position: absolute;
+                                color: white;
+                                opacity: 0;
+                                z-index: 100;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                            }
+                            .experience_closetext.is-shown {
+                                opacity: 1;
+                                color: white;
+                                width: 10vw;
+                                // figure out how to make these 
+                                    // stay in the same place
+                            }
+                            
                         }
                     }
                 }

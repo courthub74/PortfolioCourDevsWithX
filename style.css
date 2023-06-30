@@ -12,6 +12,8 @@
   }
   * body #mobilemain .tophomemobile {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   * body #mobilemain .tophomemobile .contactbutton {
     display: flex;
@@ -20,15 +22,15 @@
     border: 1px solid #36395D;
     border-radius: 30px;
     background-color: #36395D;
-    width: 30vw;
+    width: 20vw;
     height: 5vh;
-    margin: 4vh 0 0 6vw;
+    margin: 4vh 0 0 1vw;
   }
   * body #mobilemain .tophomemobile .contactbutton a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     color: #FFFFFF;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   * body #mobilemain .tophomemobile .logomobile {
     margin: 2vh 0 0 5vw;
@@ -44,9 +46,9 @@
     border: 1px solid #36395D;
     border-radius: 30px;
     background-color: #36395D;
-    width: 30vw;
+    width: 20vw;
     height: 5vh;
-    margin: 4vh 0 0 5vw;
+    margin: 4vh 0 0 9vw;
   }
   * body #mobilemain .tophomemobile .hamburgermobile .menuburger {
     position: relative;
@@ -186,10 +188,10 @@
     display: flex;
   }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile {
-    margin: 4vh 0 0 5vh;
+    margin: 5vh 0 0 5vh;
   }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile h1 {
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: "Inter", sans-serif;
   }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile {
@@ -199,9 +201,9 @@
     border: 1px solid #476D6B;
     border-radius: 30px;
     background-color: #476D6B;
-    width: 30vw;
+    width: 20vw;
     height: 5vh;
-    margin: 4.5vh 0 0 23vw;
+    margin: 4.5vh 0 0 35vw;
   }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile .menuburgerabout {
     position: relative;
@@ -326,7 +328,7 @@
     border: 1px solid #507e81;
     border-radius: 30px;
     background-color: #507e81;
-    width: 30vw;
+    width: 20vw;
     height: 5vh;
     margin: 4.5vh 0 0 23vw;
   }
@@ -851,7 +853,7 @@
     border: 1px solid #36395D;
     border-radius: 30px;
     background-color: #36395D;
-    width: 30vw;
+    width: 20vw;
     height: 5vh;
     margin: 4.5vh 0 0 7.5vw;
   }
@@ -1008,5 +1010,62 @@
   * body #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app3 .app3cover a img {
     width: 37vw;
     height: 40vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile {
+    background-color: #0E4946;
+    color: white;
+    height: 100vh;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile {
+    display: flex;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .titlemobile {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .titlemobile h1 {
+    font-size: 9vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #476D6B;
+    border-radius: 30px;
+    background-color: #476D6B;
+    width: 20vw;
+    height: 5vh;
+    margin: 4.5vh 0 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .menuburgerexperience {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .menuburgerexperience.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
   }
 }/*# sourceMappingURL=style.css.map */
