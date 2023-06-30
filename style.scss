@@ -374,7 +374,7 @@ $socialsgrey: #B7BCD6;
                     #skillsmobile {
                         background-color: $skillsteal;
                         color: white;
-                        height: 230vh;
+                        height: 110vh;
                         // Top of the skills section
                         .topskillsmobile {
                             display: flex;
@@ -505,7 +505,7 @@ $socialsgrey: #B7BCD6;
                                 border-radius: 50%;
                                 width: 50vw;
                                 height: 45vw;
-                                box-shadow: 2px 2px 2px $boxshadowcircles;
+                                // box-shadow: 2px 2px 2px $boxshadowcircles;
                                 p {
                                     margin: -3vh 0 0 0;
                                     font-size: 4vw;
@@ -525,8 +525,8 @@ $socialsgrey: #B7BCD6;
                                 background-color: $mainblue;
                                 width: 15vw;
                                 height: 15vw;
-                                margin: 8vh 0 0 -30vw;
-                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                margin: 8vh 0 0 -32vw;
+                                // box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
                                     width: 8vw;
@@ -543,7 +543,7 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                // gap: .5vh;
+                                gap: .3vh;
                                 grid-column: 2;
                                 grid-row: 2;
                                 border: 1px solid $mainblue;
@@ -551,8 +551,8 @@ $socialsgrey: #B7BCD6;
                                 background-color: $mainblue;
                                 width: 15vw;
                                 height: 15vw;
-                                margin: -7vh 0 0 -23.5vw;
-                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                margin: -8vh 0 0 -25vw;
+                                // box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
                                     // margin-top: 1vh;
@@ -580,8 +580,8 @@ $socialsgrey: #B7BCD6;
                                 width: 15vw;
                                 height: 15vw;
                                 // margin: -5vh 0 0 -18vw;
-                                margin: -7vh 0 0 -28vw;
-                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                margin: -8vh 0 0 -29vw;
+                                // box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
                                     width: 9vw;
@@ -606,8 +606,8 @@ $socialsgrey: #B7BCD6;
                                 background-color: $mainblue;
                                 width: 15vw;
                                 height: 15vw;
-                                margin: -.5vh 0 0 -43vw;
-                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                margin: -1.5vh 0 0 -43vw;
+                                // box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
                                     width: 9vw;
@@ -632,12 +632,12 @@ $socialsgrey: #B7BCD6;
                                 background-color: $mainblue;
                                 width: 15vw;
                                 height: 15vw;
-                                margin: -6.5vh 0 0 -63vw;
-                                box-shadow: 2px 2px 1px $boxshadowcircles;
+                                margin: -6.3vh 0 0 -62vw;
+                                // box-shadow: 2px 2px 1px $boxshadowcircles;
                                 padding: 1vw;
                                 img {
-                                    width: 9vw;
-                                    height: 9vw;
+                                    width: 8.5vw;
+                                    height: 8.5vw;
                                 }
                                 p {
                                     font-size: 2.5vw;
@@ -655,9 +655,11 @@ $socialsgrey: #B7BCD6;
                                 border: 1px solid $mainblue;
                                 border-radius: 50%;
                                 background-color: $mainblue;
-                                width: 16vw;
-                                height: 16vw;
-                                margin: -9.5vh 0 0 -80vw;
+                                width: 15vw;
+                                height: 15vw;
+                                margin: -9.3vh 0 0 -80vw;
+                                // box-shadow: 2px 2px 1px $boxshadowcircles;
+                                padding: 1vw;
                                 img {
                                     width: 8vw;
                                     height: 7vw;
@@ -688,7 +690,7 @@ $socialsgrey: #B7BCD6;
                                 border-radius: 50%;
                                 width: 50vw;
                                 height: 45vw;
-                                box-shadow: 2px 2px 2px $boxshadowcircles;
+                                // box-shadow: 2px 2px 2px $boxshadowcircles;
                                 p {
                                     font-size: 4vw;
                                     margin-top: -2vh;
@@ -706,7 +708,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 // gap: 1vh;
-                                margin: -25vh 0 0 21vw;
+                                margin: -25vh 0 0 23vw;
                                 padding: 1vw;
                                 img {
                                     margin: -1vh 0 0 0;
@@ -730,7 +732,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: .5vh;
-                                margin: 1vh 0 0 16vw;
+                                margin: 1vh 0 0 17.5vw;
                                 padding: 1vw;
                                 img {
                                     margin: -.5vh 0 0 0;
@@ -754,7 +756,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: .5vh;
-                                margin: .5vh 0 0 22vw;
+                                margin: .5vh 0 0 23vw;
                                 padding: 1vw;
                                 img {
                                     width: 6.5vw;
@@ -777,7 +779,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 // gap: 1vh;
-                                margin: -1vh 0 0 36vw;
+                                margin: -2vh 0 0 37vw;
                                 padding: 1vw;
                                 img {
                                     margin: -1vh 0 0 0;
@@ -800,6 +802,7 @@ $socialsgrey: #B7BCD6;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
+                                text-align: center;
                                 gap: .5vh;
                                 margin: -6.5vh 0 0 56vw;
                                 padding: 1vw;
@@ -824,7 +827,7 @@ $socialsgrey: #B7BCD6;
                                 justify-content: center;
                                 align-items: center;
                                 gap: .5vh;
-                                margin: -12vh 0 0 76vw;
+                                margin: -11vh 0 0 74vw;
                                 padding: 1vw;
                                 img {
                                     width: 10vw;
