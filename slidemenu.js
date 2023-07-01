@@ -161,3 +161,11 @@ experiencewholebutton.addEventListener('click', function () {
     // toggle the slide in menu css class to slide-in
     slide_menu_experience.classList.toggle('slide-in');
 });
+
+// BLOG SECTION
+
+const bloghamburger = document.querySelector('.menuburgerblog');
+
+const blogwholebutton = document.querySelector('.blog_hamburgermobile');
+
+
