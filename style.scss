@@ -63,7 +63,7 @@ $socialsgrey: #B7BCD6;
                         background-color: $portfolios;
                         width: 20vw;
                         height: 5vh;
-                        margin: 4vh 0 0 1vw;
+                        margin: 5vh 0 0 0;
                         a {
                             text-decoration: none;
                             font-family: 'Inter', sans-serif;
@@ -72,10 +72,10 @@ $socialsgrey: #B7BCD6;
                         }
                     }
                     .logomobile {
-                        margin: 2vh 0 0 5vw;
+                        margin: 2vh 0 0 0;
                         img {
-                            width: 20vw;
-                            height: 20vw;
+                            width: 23vw;
+                            height: 23vw;
                         }
                     }
                     .hamburgermobile {
@@ -87,7 +87,7 @@ $socialsgrey: #B7BCD6;
                         background-color: $portfolios;
                         width: 20vw;
                         height: 5vh;
-                        margin: 4vh 0 0 9vw;
+                        margin: 2vh 0 0 35vw;
                         .menuburger {
                             position: relative;
                             width: 9vw;
@@ -181,7 +181,7 @@ $socialsgrey: #B7BCD6;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    margin: 6vh 0 0 0;
+                    margin: 4vh 0 0 0;
                     .photomobile {
                         img {
                             border-radius: 50%;
@@ -243,7 +243,7 @@ $socialsgrey: #B7BCD6;
                             .titlemobile {
                                 margin: 5vh 0 0 5vh;
                                 h1 {
-                                    font-size: 8vw;
+                                    font-size: 10vw;
                                     font-family: 'Inter', sans-serif;
                                 }
                             }
@@ -256,7 +256,7 @@ $socialsgrey: #B7BCD6;
                                 background-color: $experiencegreenbutton;
                                 width: 20vw;
                                 height: 5vh;
-                                margin: 4.5vh 0 0 35vw;
+                                margin: 5.5vh 0 0 28.5vw;
                                 .menuburgerabout {
                                     position: relative;
                                     width: 9vw;
@@ -396,7 +396,7 @@ $socialsgrey: #B7BCD6;
                                 background-color: $skillsdarker2;
                                 width: 20vw;
                                 height: 5vh;
-                                margin: 4.5vh 0 0 23vw;
+                                margin: 4.5vh 0 0 33vw;
                             }
                             .menuburgerskills {
                                 position: relative;
@@ -946,7 +946,7 @@ $socialsgrey: #B7BCD6;
                     #portfoliomobilediv {
                         background-color: $mainblue;
                         color: white;
-                        height: 100vh;
+                        height: 105vh;
                         .topportfoliomobile {
                             display: flex;
                             .titlemobile {
@@ -966,7 +966,7 @@ $socialsgrey: #B7BCD6;
                                 width: 20vw;
                                 height: 5vh;
                                 // margin: 4.5vh 0 0 23vw;
-                                margin: 4.5vh 0 0 7.5vw;
+                                margin: 4.5vh 0 0 17vw;
                             }
                             .menuburgerportfolio {
                                 position: relative;
@@ -1167,7 +1167,7 @@ $socialsgrey: #B7BCD6;
                                 background-color: $experiencegreenbutton;
                                 width: 20vw;
                                 height: 5vh;
-                                margin: 4.5vh 0 0 0;
+                                margin: 4.5vh 0 0 9.5vw;
                             }
                             .experience_hamburgermobile.is-active {
                                 font-size: 3vw;

@@ -24,7 +24,7 @@
     background-color: #36395D;
     width: 20vw;
     height: 5vh;
-    margin: 4vh 0 0 1vw;
+    margin: 5vh 0 0 0;
   }
   * body #mobilemain .tophomemobile .contactbutton a {
     text-decoration: none;
@@ -33,11 +33,11 @@
     font-size: 3vw;
   }
   * body #mobilemain .tophomemobile .logomobile {
-    margin: 2vh 0 0 5vw;
+    margin: 2vh 0 0 0;
   }
   * body #mobilemain .tophomemobile .logomobile img {
-    width: 20vw;
-    height: 20vw;
+    width: 23vw;
+    height: 23vw;
   }
   * body #mobilemain .tophomemobile .hamburgermobile {
     display: flex;
@@ -48,7 +48,7 @@
     background-color: #36395D;
     width: 20vw;
     height: 5vh;
-    margin: 4vh 0 0 9vw;
+    margin: 2vh 0 0 35vw;
   }
   * body #mobilemain .tophomemobile .hamburgermobile .menuburger {
     position: relative;
@@ -133,7 +133,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 6vh 0 0 0;
+    margin: 4vh 0 0 0;
   }
   * body #mobilemain .bothomemobile .photomobile img {
     border-radius: 50%;
@@ -191,7 +191,7 @@
     margin: 5vh 0 0 5vh;
   }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile h1 {
-    font-size: 8vw;
+    font-size: 10vw;
     font-family: "Inter", sans-serif;
   }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile {
@@ -203,7 +203,7 @@
     background-color: #476D6B;
     width: 20vw;
     height: 5vh;
-    margin: 4.5vh 0 0 35vw;
+    margin: 5.5vh 0 0 28.5vw;
   }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile .menuburgerabout {
     position: relative;
@@ -330,7 +330,7 @@
     background-color: #507e81;
     width: 20vw;
     height: 5vh;
-    margin: 4.5vh 0 0 23vw;
+    margin: 4.5vh 0 0 33vw;
   }
   * body #skillsmobilecontainer #skillsmobile .topskillsmobile .menuburgerskills {
     position: relative;
@@ -834,7 +834,7 @@
   * body #portfoliomobilecontainer #portfoliomobilediv {
     background-color: #080E2F;
     color: white;
-    height: 100vh;
+    height: 105vh;
   }
   * body #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile {
     display: flex;
@@ -855,7 +855,7 @@
     background-color: #36395D;
     width: 20vw;
     height: 5vh;
-    margin: 4.5vh 0 0 7.5vw;
+    margin: 4.5vh 0 0 17vw;
   }
   * body #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .menuburgerportfolio {
     position: relative;
@@ -1035,7 +1035,7 @@
     background-color: #476D6B;
     width: 20vw;
     height: 5vh;
-    margin: 4.5vh 0 0 0;
+    margin: 4.5vh 0 0 9.5vw;
   }
   * body #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_hamburgermobile.is-active {
     font-size: 3vw;
