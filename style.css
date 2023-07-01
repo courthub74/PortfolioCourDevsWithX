@@ -1068,4 +1068,197 @@
     color: white;
     width: 10vw;
   }
+  * body #experiencemobilecontainer #experiencemobile .mobile-nav-experience {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #0E4946;
+    margin: 10vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * body #experiencemobilecontainer #experiencemobile .mobile-nav-experience .mobilelogoexperience {
+    margin: 5vh 15vw 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .mobile-nav-experience .mobilelogoexperience .navlogoexperience {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .mobile-nav-experience .mobilelistexperience a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .mobile-nav-experience .slidesocialsmobileexperience {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .mobile-nav-experience .slidesocialsmobileexperience img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .mobile-nav-experience.slide-in {
+    left: 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer {
+    display: flex;
+    justify-content: center;
+    margin: 8vh 0 0 -5vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+    border-radius: 12px;
+    padding: 8vw;
+    width: 60vw;
+    height: 60vw;
+    margin: 0 0 0 5vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.5vh;
+    line-height: 2vh;
+    margin: 0 0 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs img {
+    width: 25vw;
+    height: 25vw;
+    margin: 0 0 0 -2vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs h2 {
+    margin: 0 0 0 -0.2vw;
+    font-size: 5vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs .jobtitle {
+    margin: 1vh 0 0 0;
+    font-size: 4vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs .jobdates {
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 1vh 0 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .more {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .more a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9e2e2;
+    background-color: #d9e2e2;
+    border-radius: 5px;
+    width: 40vw;
+    height: 7vw;
+    text-decoration: none;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .more a p {
+    color: #0E4946;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+    padding: 8vw;
+    width: 60vw;
+    height: 60vw;
+    margin: 0 0 0 5vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.5vh;
+    line-height: 2vh;
+    margin: 1vh 0 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs img {
+    width: 20vw;
+    height: 20vw;
+    margin: 0 0 0 -2vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs h2 {
+    margin: 1vh 0 0 -1.5vw;
+    font-size: 4vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs .jobtitle {
+    margin: 1vh 0 0 0;
+    font-size: 4vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs .jobdates {
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 1vh 0 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .more {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .more a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9e2e2;
+    background-color: #d9e2e2;
+    border-radius: 5px;
+    width: 40vw;
+    height: 7vw;
+    text-decoration: none;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .more a p {
+    color: #0E4946;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 {
+    margin: 7vh 0 0 0;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions {
+    margin: 7vh 0 0 0;
+    font-family: "Inter", sans-serif;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions h1 {
+    font-size: 4vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions h3 {
+    font-size: 4vw;
+  }
+  * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions p {
+    font-size: 3vw;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1202,7 +1202,218 @@ $socialsgrey: #B7BCD6;
                                 // figure out how to make these 
                                     // stay in the same place
                             }
-                            
+                        }
+                        // Experience slide in menu
+                        .mobile-nav-experience {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $aboutgreen;
+                            margin: 10vh 0 0 0;
+                            transition: .8s;
+                            z-index: 98;
+                            .mobilelogoexperience {
+                                margin: 5vh 15vw 0 0;
+                                    // background-color: #023430;
+                                .navlogoexperience {
+                                    margin: -2vh 0 0 5vw;
+                                    width: 25vw;
+                                    height: 25vw;
+                                }
+                            }
+                            .mobilelistexperience {
+                                a {
+                                    display: block;
+                                    text-align: left;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 6vw;
+                                    font-weight: bold;
+                                    margin: 4vh 0 0 9vw;
+                                }
+                            }
+                            .slidesocialsmobileexperience {
+                                // background-color: #023430;
+                                display: flex;
+                                flex-direction: row;
+                                gap: 2vw;
+                                margin: 5vh 0 0 8vw;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                            }
+                        }
+                        .mobile-nav-experience.slide-in {
+                            left: 0;
+                        }
+                        // Bottom of Experience
+                        .botexperiencemobile {
+                            .botexperiencecontainer {
+                                display: flex;
+                                justify-content: center;
+                                // align-items: center;
+                                margin: 8vh 0 0 -5vw;
+                                // background-color: yellow;
+                                .places {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 5vh;
+                                    .courdevs {
+                                        display: flex;
+                                        flex-direction: column;
+                                        border: 1px solid white;
+                                        box-shadow: 2px 2px 2px $boxshadowcircles;
+                                        border-radius: 12px;
+                                        padding: 8vw;
+                                        width: 60vw;
+                                        height: 60vw;
+                                        margin: 0 0 0 5vw;
+                                        .incourdevs {
+                                            font-family: 'Inter', sans-serif;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            width: 100%;
+                                            gap: .5vh;
+                                            line-height: 2vh;
+                                            margin: 0 0 0 0;
+                                            // background-color: yellow;
+                                            img {
+                                                width: 25vw;
+                                                height: 25vw;
+                                                margin: 0 0 0 -2vw;
+                                            }
+                                            h2 {
+                                                margin: 0 0 0 -.2vw;
+                                                font-size: 5vw;
+                                            }
+                                            .jobtitle {
+                                                margin: 1vh 0 0 0;
+                                                font-size: 4vw;
+                                                font-family: 'Roboto', sans-serif;
+                                                // background-color: yellow;
+                                            }
+                                            .jobdates {
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                margin: 1vh 0 0 0;
+                                            }
+                                        }
+                                        .more {
+                                            display: flex;
+                                            justify-content: center;
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 2vh 0 0 0;
+                                            a {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border: 1px solid $languagewhite;
+                                                background-color: $languagewhite;
+                                                // background-color: $experiencegreenbutton;
+                                                border-radius: 5px;
+                                                width: 40vw;
+                                                height: 7vw;
+                                                text-decoration: none;
+                                                p {
+                                                    color: $aboutgreen;
+                                                    // color: $skillswhite;
+                                                    font-weight: bold;
+                                                    font-size: 3vw;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .r1rcm {
+                                        display: flex;
+                                        flex-direction: column;
+                                        border: 1px solid white;
+                                        border-radius: 12px;
+                                        box-shadow: 2px 2px 2px $boxshadowcircles;
+                                        padding: 8vw;
+                                        width: 60vw;
+                                        height: 60vw;
+                                        margin: 0 0 0 5vw;
+                                        .incourdevs {
+                                            font-family: 'Inter', sans-serif;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            width: 100%;
+                                            gap: .5vh;
+                                            line-height: 2vh;
+                                            margin: 1vh 0 0 0;
+                                            img {
+                                                // width: 17vw;
+                                                // height: 14vw;
+                                                width: 20vw;
+                                                height: 20vw;
+                                                margin: 0 0 0 -2vw;
+                                            }
+                                            h2 {
+                                                margin: 1vh 0 0 -1.5vw;
+                                                font-size: 4vw;
+                                            }
+                                            .jobtitle {
+                                                margin: 1vh 0 0 0;
+                                                font-size: 4vw;
+                                                font-family: 'Roboto', sans-serif;
+                                            }
+                                            .jobdates {
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                margin: 1vh 0 0 0;
+                                            }
+                                        }
+                                        .more {
+                                            display: flex;
+                                            justify-content: center;
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 2vh 0 0 0;
+                                            a {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border: 1px solid $languagewhite;
+                                                background-color: $languagewhite;
+                                                border-radius: 5px;
+                                                width: 40vw;
+                                                height: 7vw;
+                                                text-decoration: none;
+                                                p {
+                                                    color: $aboutgreen;
+                                                    font-weight: bold;
+                                                    font-size: 3vw;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .descriptions {
+                                    .courdev2 {
+                                        margin: 7vh 0 0 0;
+                                        .indescriptions {
+                                            // background-color: yellow;
+                                            margin: 7vh 0 0 0;
+                                            font-family: 'Inter', sans-serif;
+                                            h1 {
+                                                font-size: 4vw;
+                                            }
+                                            h3 {
+                                                font-size: 4vw;
+                                            }
+                                            p {
+                                                font-size: 3vw;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }

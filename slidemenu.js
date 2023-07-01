@@ -136,3 +136,28 @@ portfoliowholebutton.addEventListener('click', function () {
     // toggle the slide in menu css class to slide-in
     slide_menu_portfolio.classList.toggle('slide-in');
 });
+
+// EXPERIENCE SECTION
+
+const experiencehamburger = document.querySelector('.menuburgerexperience');
+
+const experiencewholebutton = document.querySelector('.experience_hamburgermobile');
+
+const experiencebuttontext = document.querySelector('.experience_closetext');
+
+const slide_menu_experience = document.querySelector('.mobile-nav-experience');
+
+experiencewholebutton.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Experience burger button");
+    // toggle the is-gone class on the burger
+        // to make the burger dissapear
+    experiencehamburger.classList.toggle('is-gone');
+    // toggle the is-active class on the whole button to 
+        // show the X and the slide in menu
+    experiencewholebutton.classList.toggle('is-active');
+    // toggle the X to is-shown when the button is active
+    experiencebuttontext.classList.toggle('is-shown');
+    // toggle the slide in menu css class to slide-in
+    slide_menu_experience.classList.toggle('slide-in');
+});
