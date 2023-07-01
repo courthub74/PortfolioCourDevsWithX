@@ -244,7 +244,7 @@
     height: 100vh;
     display: block;
     background-color: #0E4946;
-    margin: 10vh 0 0 0;
+    margin: 16vh 0 0 0;
     transition: 0.8s;
     z-index: 98;
   }
@@ -896,7 +896,7 @@
     height: 100vh;
     display: block;
     background-color: #080E2F;
-    margin: 10vh 0 0 0;
+    margin: 5vh 0 0 0;
     transition: 0.8s;
     z-index: 98;
   }
@@ -1076,7 +1076,7 @@
     height: 100vh;
     display: block;
     background-color: #0E4946;
-    margin: 10vh 0 0 0;
+    margin: 15vh 0 0 0;
     transition: 0.8s;
     z-index: 98;
   }
@@ -1260,5 +1260,58 @@
   }
   * body #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions p {
     font-size: 3vw;
+  }
+  * body #blogmobilecontainer #blogmobile {
+    background-color: #146166;
+    color: white;
+    height: 100vh;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile {
+    display: flex;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile .titlemobile {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #507e81;
+    border-radius: 30px;
+    background-color: #507e81;
+    width: 20vw;
+    height: 5vh;
+    margin: 4.5vh 0 0 38vw;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .menuburgerblog {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .menuburgerblog.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .blog_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .blog_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .blog_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
   }
 }/*# sourceMappingURL=style.css.map */
