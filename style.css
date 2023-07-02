@@ -1452,4 +1452,51 @@
     color: white;
     width: 10vw;
   }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * body #contactmobilecontainer #contactmobile .mobile-nav-contact {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 10vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * body #contactmobilecontainer #contactmobile .mobile-nav-contact .mobilelogocontact {
+    margin: 5vh 15vw 0 0;
+  }
+  * body #contactmobilecontainer #contactmobile .mobile-nav-contact .mobilelogocontact .navlogocontact {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * body #contactmobilecontainer #contactmobile .mobile-nav-contact .mobilelistcontact a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * body #contactmobilecontainer #contactmobile .mobile-nav-contact .slidesocialsmobilecontact {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * body #contactmobilecontainer #contactmobile .mobile-nav-contact .slidesocialsmobilecontact img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #contactmobilecontainer #contactmobile .mobile-nav-contact.slide-in {
+    left: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

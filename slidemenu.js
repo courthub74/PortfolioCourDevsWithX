@@ -187,4 +187,29 @@ blogwholebutton.addEventListener('click', function () {
     slide_menu_blog.classList.toggle('slide-in');
 });
 
+// CONTACT SECTION
+
+const contacthamburger = document.querySelector('.menuburgercontact');
+
+const contactwholebutton = document.querySelector('.contact_hamburgermobile');
+
+const contactbuttontext = document.querySelector('.contact_closetext');
+
+const slide_menu_contact = document.querySelector('.mobile-nav-contact');
+
+contactwholebutton.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Contact burger button");
+    // toggle the is-gone class on the burger
+        // to make the burger dissapear
+    contacthamburger.classList.toggle('is-gone');
+    // toggle the is-active class on the whole button to 
+        // show the X and the slide in menu
+    contactwholebutton.classList.toggle('is-active');
+    // toggle the X to is-shown when the button is active
+    contactbuttontext.classList.toggle('is-shown');
+    // toggle the slide in menu css class to slide-in
+    slide_menu_contact.classList.toggle('slide-in');
+});
+
 
