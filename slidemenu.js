@@ -168,4 +168,23 @@ const bloghamburger = document.querySelector('.menuburgerblog');
 
 const blogwholebutton = document.querySelector('.blog_hamburgermobile');
 
+const blogbuttontext = document.querySelector('.blog_closetext');
+
+const slide_menu_blog = document.querySelector('.mobile-nav-blog');
+
+blogwholebutton.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the Blog burger button");
+    // toggle the is-gone class on the burger
+        // to make the burger dissapear
+    bloghamburger.classList.toggle('is-gone');
+    // toggle the is-active class on the whole button to 
+        // show the X and the slide in menu
+    blogwholebutton.classList.toggle('is-active');
+    // toggle the X to is-shown when the button is active
+    blogbuttontext.classList.toggle('is-shown');
+    // toggle the slide in menu css class to slide-in
+    slide_menu_blog.classList.toggle('slide-in');
+});
+
 

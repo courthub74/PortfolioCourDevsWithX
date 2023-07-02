@@ -1399,4 +1399,57 @@
     font-size: 3vw;
     font-family: "Inter", sans-serif;
   }
+  * body #contactmobilecontainer #contactmobile {
+    background-color: #080E2F;
+    color: white;
+    height: 100vh;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile {
+    display: flex;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .titlemobile {
+    margin: 3vh 0 0 5vh;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    width: 20vw;
+    height: 5vh;
+    margin: 3.8vh 0 0 20vw;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .menuburgercontact {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .menuburgercontact.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .contact_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .contact_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .contact_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+  }
 }/*# sourceMappingURL=style.css.map */
