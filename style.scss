@@ -346,7 +346,7 @@ $socialsgrey: #B7BCD6;
                             flex-direction: column;
                             align-items: center;
                             justify-content: center;
-                            margin: 10vh 0 0 0;
+                            margin: 4vh 0 0 0;
                             line-height: 1.8;
                         }
                         .infomobile {
@@ -361,7 +361,7 @@ $socialsgrey: #B7BCD6;
                             width: 50vw;
                             background-color: $experiencegreenbutton;
                             padding: 2vw;
-                            margin: 15vh 0 0 0;
+                            margin: 4vh 0 0 0;
                             a {
                                    font-family: 'Inter', sans-serif;
                                    text-decoration: none;
@@ -376,7 +376,7 @@ $socialsgrey: #B7BCD6;
                     #skillsmobile {
                         background-color: $skillsteal;
                         color: white;
-                        height: 110vh;
+                        height: 105vh;
                         // Top of the skills section
                         .topskillsmobile {
                             display: flex;
@@ -493,6 +493,8 @@ $socialsgrey: #B7BCD6;
                                 grid-row: 1 / span 2;
                                 font-size: 5vw;
                                 font-family: 'Julius Sans One',sans-serif;
+                                // font-family: 'Roboto', sans-serif;
+                                // font-family: 'Inter', sans-serif;
                                 color: $skillswhite;
                                 display: flex;
                                 text-align: center;
@@ -537,6 +539,9 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Roboto', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // REACT NATIVE CIRCLE
@@ -565,6 +570,9 @@ $socialsgrey: #B7BCD6;
                                     font-size: 2.5vw;
                                     text-align: center;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Roboto', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // HTML CIRCLE
@@ -592,6 +600,9 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Roboto', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // CSS CIRCLE
@@ -618,6 +629,9 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Roboto', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // SASS CIRCLE
@@ -644,6 +658,9 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Roboto', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             .figma {
@@ -669,6 +686,9 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Roboto', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                         }
@@ -678,6 +698,7 @@ $socialsgrey: #B7BCD6;
                             .scriptingandfunctionality {
                                 font-size: 4vw;
                                 font-family: 'Julius Sans One',sans-serif;
+                                // font-family: 'Roboto', sans-serif;
                                 color: $skillswhite;
                                 display: flex;
                                 text-align: center;
@@ -720,6 +741,8 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // PYTHON CIRCLE
@@ -744,6 +767,8 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // NODE JS
@@ -767,6 +792,8 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // DJANGO
@@ -791,6 +818,8 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // MONGO DB
@@ -815,6 +844,8 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                             // FIREBASE
@@ -839,6 +870,8 @@ $socialsgrey: #B7BCD6;
                                 p {
                                     font-size: 2.8vw;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Inter', sans-serif;
+                                    color: $skillses;
                                 }
                             }
                         }
@@ -1575,6 +1608,7 @@ $socialsgrey: #B7BCD6;
                     background-color: $mainblue;
                     color: white;
                     height: 100vh;
+                    // TOP CONTACT
                     .topcontactmobile {
                         display: flex;
                         .titlemobile {
@@ -1676,6 +1710,124 @@ $socialsgrey: #B7BCD6;
                     }
                     .mobile-nav-contact.slide-in {
                         left: 0;
+                    }
+                    // BOTTOM mobile section
+                    .botcontactmobile {
+                        margin: 6vh 0 0 11.5vw;
+                        font-family: 'Inter', sans-serif;
+                        .contactform {
+                            display: flex;
+                            flex-direction: column;
+                            .nameemaildiv{
+                                display: flex;
+                                flex-direction: column;
+                                .name {
+                                    margin: 0 0 5vh 0;
+                                    p {
+                                        font-size: 5vw;
+                                    }
+                                    input {
+                                        width: 75vw;
+                                        height: 5vh;
+                                        border: none;
+                                        border-radius: 5px;
+                                        background-color: $portfolios;
+                                        border: 1px solid $portfolios;
+                                    }  
+                                }
+                                .email {
+                                    margin: 0 0 5vh 0;
+                                    p {
+                                        font-size: 5vw;
+                                        // color: $hoverfonts;
+                                    }
+                                    input {
+                                        width: 75vw;
+                                        height: 5vh;
+                                        border: none;
+                                        border-radius: 5px;
+                                        background-color: $portfolios;
+                                        border: 1px solid $portfolios;
+                                        // background-color: $mainblue;
+                                        // border: 2px solid white;
+                                        // color: white;
+                                    }  
+                                }
+                                .message {
+                                    margin: 0 0 5vh 0;
+                                    p {
+                                        font-size: 5vw;
+                                    }
+                                    input {
+                                        width: 75vw;
+                                        height: 20vh;
+                                        border: none;
+                                        border-radius: 5px;
+                                        background-color: $portfolios;
+                                        border: 1px solid $portfolios;
+                                        color: white;
+                                    }  
+                                }
+                                .submit {
+                                    margin: 2vh 0 0 0;
+                                    button {
+                                        background-color: $portfolios;
+                                        border: 1px solid $portfolios;
+                                        color: $skillswhite;
+                                        border-radius: 10px;
+                                        width: 75vw;
+                                        height: 5vh;
+                                        font-size: 5vw;
+                                    }
+                                }
+                                .mobilesocials {
+                                    margin: 4vh 0 0 16.5vw;
+                                    // background-color: rebeccapurple;
+                                    a {
+                                        // padding: 2vh 2vh;
+                                        #github {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                        #linkedin {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                        #twitter {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                        #instagram {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                    }
+                                }
+                                .poweredby {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 8vh 0 0 -12vw;
+                                    color: $skillswhite;
+                                    img {
+                                        width: 6vw;
+                                        height: 6vw;
+                                        color: $portfolios;
+                                        margin: 0 2vw 0 0;
+                                    }
+                                    small {
+                                        display: flex;
+                                        gap: .5vh;
+                                        p {
+                                            color: $socialsgrey;
+                                        }
+                                        a {
+                                            color: $firstblue;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
