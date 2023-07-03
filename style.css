@@ -413,435 +413,53 @@
     display: grid;
     margin: 3vh -15vw 0 0;
   }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesign {
-    grid-column: 1;
-    grid-row: 1/span 2;
-    font-size: 5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #FFFFFF;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3vh;
-    margin: 10vh 0 0 13vw;
-    padding: 3vh 0 0 0;
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesignbig {
+    display: grid;
     border: 1px solid #080E2F;
     background-color: #080E2F;
     border-radius: 50%;
-    width: 50vw;
-    height: 45vw;
+    width: 80vw;
+    height: 75vw;
+    margin: 10vh 0 0 10vw;
   }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesign p {
-    margin: -3vh 0 0 0;
-    font-size: 4vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react {
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesignbig .html {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 0.5vh;
+    margin: 0 0 0 0;
     grid-column: 2;
-    grid-row: 1;
-    border: 1px solid #080E2F;
-    border-radius: 50%;
-    background-color: #080E2F;
-    width: 15vw;
-    height: 15vw;
-    margin: 8vh 0 0 -25vw;
-    padding: 1vw;
   }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react img {
-    width: 8vw;
-    height: 7vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react-native {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.3vh;
-    grid-column: 2;
-    grid-row: 2;
-    border: 1px solid #080E2F;
-    border-radius: 50%;
-    background-color: #080E2F;
-    width: 15vw;
-    height: 15vw;
-    margin: -8vh 0 0 -20vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react-native img {
-    width: 9vw;
-    height: 9vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .react-native p {
-    font-size: 2.5vw;
-    text-align: center;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .html {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5vh;
-    grid-column: 2;
-    grid-row: 3;
-    border: 1px solid #080E2F;
-    border-radius: 50%;
-    background-color: #080E2F;
-    width: 15vw;
-    height: 15vw;
-    margin: -8vh 0 0 -23vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .html img {
-    width: 9vw;
-    height: 9vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .html p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .css {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5vh;
-    grid-column: 2;
-    grid-row: 3;
-    border: 1px solid #080E2F;
-    border-radius: 50%;
-    background-color: #080E2F;
-    width: 15vw;
-    height: 15vw;
-    margin: -0.6vh 0 0 -35vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .css img {
-    width: 9vw;
-    height: 9vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .css p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .sass {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5vh;
-    grid-column: 2;
-    grid-row: 4;
-    border: 1px solid #080E2F;
-    border-radius: 50%;
-    background-color: #080E2F;
-    width: 15vw;
-    height: 15vw;
-    margin: -5vh 0 0 -54vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .sass img {
-    width: 8.5vw;
-    height: 8.5vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .sass p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .figma {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5vh;
-    grid-column: 2;
-    grid-row: 4;
-    border: 1px solid #080E2F;
-    border-radius: 50%;
-    background-color: #080E2F;
-    width: 15vw;
-    height: 15vw;
-    margin: -6vh 0 0 -74vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .figma img {
-    width: 8vw;
-    height: 7vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .figma p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv {
-    margin-top: 9vh;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .scriptingandfunctionality {
-    font-size: 4vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #FFFFFF;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3vh;
-    margin: 6vh 0 0 36vw;
-    padding: 3vh 0 0 0;
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 50vw;
-    height: 45vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .scriptingandfunctionality p {
-    font-size: 4vw;
-    margin-top: -2vh;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .javascript {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: -25vh 0 0 16vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .javascript img {
-    margin: -1vh 0 0 0;
-    width: 10vw;
-    height: 10vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .javascript p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .python {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5vh;
-    margin: 1vh 0 0 11vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .python img {
-    margin: -0.5vh 0 0 0;
-    width: 8vw;
-    height: 8vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .python p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .nodejs {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5vh;
-    margin: 1vh 0 0 13vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .nodejs img {
-    width: 6.5vw;
-    height: 8vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .nodejs p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .django {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: -0.5vh 0 0 26vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .django img {
-    margin: -1vh 0 0 0;
-    width: 10vw;
-    height: 10vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .django p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .mongodb {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 0.5vh;
-    margin: -5vh 0 0 45vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .mongodb img {
-    width: 3vw;
-    height: 8vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .mongodb p {
-    font-size: 2.5vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .firebase {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5vh;
-    margin: -9vh 0 0 65vw;
-    padding: 1vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .firebase img {
-    width: 10vw;
-    height: 10vw;
-    margin: -1vh 0 0 0;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .scriptingandfunctionalitydiv .firebase p {
-    font-size: 2.8vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #7FC4C9;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv {
-    margin-top: -4vh;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .deploymentcircle {
-    font-size: 4vw;
-    font-family: "Julius Sans One", sans-serif;
-    color: #FFFFFF;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3vh;
-    margin: 8vh 0 0 10vw;
-    padding: 2vh 0 0 0;
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 55vw;
-    height: 50vw;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .deploymentcircle p {
-    font-size: 5vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .heroku {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 24vw;
-    height: 24vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    margin: -8vh 0 0 61vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .heroku img {
-    width: 10vw;
-    height: 10vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .heroku p {
-    font-size: 2.8vw;
-    font-family: "Inter", sans-serif;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .digitalocean {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 24vw;
-    height: 24vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    margin: -4vh 0 0 43vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .digitalocean img {
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesignbig .html #htmlskill {
     width: 12vw;
     height: 12vw;
   }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .digitalocean p {
-    font-size: 2.8vw;
-    font-family: "Inter", sans-serif;
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesignbig .html p {
+    font-family: "Julius Sans One", sans-serif;
   }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .aws {
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 50%;
-    width: 24vw;
-    height: 24vw;
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesignbig .figma {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    margin: -25vh 0 0 10vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesignbig .figma #figmaskill {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesignbig .figma p {
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .responsedesigndiv .responsivedesignbig .responsivedesign {
+    position: relative;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5vh;
-    margin: -10.5vh 0 0 15vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .aws img {
-    width: 9vw;
-    height: 9vw;
-  }
-  * body #skillsmobilecontainer .botskillsmobile .deploymentdiv .aws p {
-    font-size: 2.8vw;
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Julius Sans One", sans-serif;
+    border: 2px solid white;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    margin: 0 2vw 0 0;
   }
   * body #portfoliomobilecontainer #portfoliomobilediv {
     background-color: #080E2F;
