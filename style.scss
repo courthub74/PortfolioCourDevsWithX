@@ -493,13 +493,13 @@ $lighterskills: #080e31;
                                     justify-content: center;
                                     align-items: center;
                                     gap: 7vh;
-                                    margin: 5vh 0 0 0;
+                                    margin: 7vh 0 0 0;
                                 // BIG BACK CIRCLE
                                 .bigcircle {
                                     border: 1px solid $mainblue;
                                     background-color: $mainblue;
-                                    width: 60vw;
-                                    height: 60vw;
+                                    width: 75vw;
+                                    height: 75vw;
                                     border-radius: 50%;
                                     display: flex;
                                     justify-content: center;
@@ -508,8 +508,8 @@ $lighterskills: #080e31;
                                     .lilcircle {
                                         border: 3px solid white;
                                         border-radius: 50%;
-                                        width: 30vw;
-                                        height: 30vw;
+                                        width: 35vw;
+                                        height: 35vw;
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
@@ -535,9 +535,9 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        border: 1px solid $mainblue;
-                                        background-color: $mainblue;
-                                        border-radius: 50%;
+                                        // border: 1px solid $mainblue;
+                                        // background-color: $mainblue;
+                                        // border-radius: 50%;
                                         width: 20vw;
                                         height: 20vw;
                                         #html {
@@ -555,9 +555,9 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        border: 1px solid $mainblue;
-                                        background-color: $mainblue;
-                                        border-radius: 50%;
+                                        // border: 1px solid $mainblue;
+                                        // background-color: $mainblue;
+                                        // border-radius: 50%;
                                         width: 20vw;
                                         height: 20vw;
                                         #css {
@@ -575,9 +575,9 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        border: 1px solid $mainblue;
-                                        background-color: $mainblue;
-                                        border-radius: 50%;
+                                        // border: 1px solid $mainblue;
+                                        // background-color: $mainblue;
+                                        // border-radius: 50%;
                                         width: 20vw;
                                         height: 20vw;
                                         #reactjs {
@@ -602,9 +602,9 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        border: 1px solid $mainblue;
-                                        background-color: $mainblue;
-                                        border-radius: 50%;
+                                        // border: 1px solid $mainblue;
+                                        // background-color: $mainblue;
+                                        // border-radius: 50%;
                                         width: 20vw;
                                         height: 20vw;
                                         #sass {
@@ -622,9 +622,9 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        border: 1px solid $mainblue;
-                                        background-color: $mainblue;
-                                        border-radius: 50%;
+                                        // border: 1px solid $mainblue;
+                                        // background-color: $mainblue;
+                                        // border-radius: 50%;
                                         width: 20vw;
                                         height: 20vw;
                                         #figma {
@@ -642,9 +642,9 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        border: 1px solid $mainblue;
-                                        background-color: $mainblue;
-                                        border-radius: 50%;
+                                        // border: 1px solid $mainblue;
+                                        // background-color: $mainblue;
+                                        // border-radius: 50%;
                                         width: 20vw;
                                         height: 20vw;
                                         #react-native {
@@ -671,8 +671,8 @@ $lighterskills: #080e31;
                                     .lilcircletwo {
                                         border: 3px solid white;
                                         border-radius: 50%;
-                                        width: 30vw;
-                                        height: 30vw;
+                                        width: 40vw;
+                                        height: 40vw;
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
@@ -688,7 +688,7 @@ $lighterskills: #080e31;
                                             gap: 1vh;
                                             p {
                                                 color: white;
-                                                font-size: 3vw;
+                                                font-size: 4vw;
                                                 // background-color: blueviolet;
                                             }
                                         }
