@@ -378,7 +378,7 @@ $lighterskills: #080e31;
                     #skillsmobile {
                         background-color: $skillsteal;
                         color: white;
-                        height: 180vh;
+                        height: 170vh;
                         // Top of the skills section
                         .topskillsmobile {
                             display: flex;
@@ -683,7 +683,7 @@ $lighterskills: #080e31;
 
                                 // SECOND BIG CIRCLE
                                 .bigcircletwo {
-                                    margin: 15vh 0 0 0;
+                                    margin: 5vh 0 0 0;
                                     border: 1px solid $mainblue;
                                     background-color: $mainblue;
                                     width: 75vw;
@@ -1192,8 +1192,10 @@ $lighterskills: #080e31;
                                     .courdevs {
                                         display: flex;
                                         flex-direction: column;
-                                        border: 1px solid white;
-                                        box-shadow: 2px 2px 2px $boxshadowcircles;
+                                        // border: 1px solid white;
+                                        border: 1px solid $experiencegreenbutton;
+                                        background-color: $experiencegreenbutton;
+                                        // box-shadow: 2px 2px 2px $boxshadowcircles;
                                         border-radius: 12px;
                                         padding: 8vw;
                                         width: 60vw;
@@ -1242,7 +1244,8 @@ $lighterskills: #080e31;
                                                 border: 1px solid $languagewhite;
                                                 background-color: $languagewhite;
                                                 // background-color: $experiencegreenbutton;
-                                                border-radius: 5px;
+                                                // box-shadow: 2px 2px 2px $boxshadowcircles;
+                                                border-radius: 20px;
                                                 width: 40vw;
                                                 height: 7vw;
                                                 text-decoration: none;
@@ -1258,9 +1261,10 @@ $lighterskills: #080e31;
                                     .r1rcm {
                                         display: flex;
                                         flex-direction: column;
-                                        border: 1px solid white;
+                                        border: 1px solid $experiencegreenbutton;
+                                        background-color: $experiencegreenbutton;
                                         border-radius: 12px;
-                                        box-shadow: 2px 2px 2px $boxshadowcircles;
+                                        // box-shadow: 2px 2px 2px $boxshadowcircles;
                                         padding: 8vw;
                                         width: 60vw;
                                         height: 60vw;
@@ -1307,7 +1311,7 @@ $lighterskills: #080e31;
                                                 align-items: center;
                                                 border: 1px solid $languagewhite;
                                                 background-color: $languagewhite;
-                                                border-radius: 5px;
+                                                border-radius: 20px;
                                                 width: 40vw;
                                                 height: 7vw;
                                                 text-decoration: none;

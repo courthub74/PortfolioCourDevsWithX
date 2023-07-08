@@ -309,7 +309,7 @@
   * body #skillsmobilecontainer #skillsmobile {
     background-color: #146166;
     color: white;
-    height: 180vh;
+    height: 170vh;
   }
   * body #skillsmobilecontainer #skillsmobile .topskillsmobile {
     display: flex;
@@ -599,7 +599,7 @@
     font-family: "Julius Sans One", sans-serif;
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .bigcircletwo {
-    margin: 15vh 0 0 0;
+    margin: 5vh 0 0 0;
     border: 1px solid #080E2F;
     background-color: #080E2F;
     width: 75vw;
@@ -1065,8 +1065,8 @@
   * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
     border-radius: 12px;
     padding: 8vw;
     width: 60vw;
@@ -1114,7 +1114,7 @@
     align-items: center;
     border: 1px solid #d9e2e2;
     background-color: #d9e2e2;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 40vw;
     height: 7vw;
     text-decoration: none;
@@ -1127,9 +1127,9 @@
   * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
     border-radius: 12px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
     padding: 8vw;
     width: 60vw;
     height: 60vw;
@@ -1176,7 +1176,7 @@
     align-items: center;
     border: 1px solid #d9e2e2;
     background-color: #d9e2e2;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 40vw;
     height: 7vw;
     text-decoration: none;
