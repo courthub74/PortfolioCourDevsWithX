@@ -378,7 +378,7 @@ $lighterskills: #080e31;
                     #skillsmobile {
                         background-color: $skillsteal;
                         color: white;
-                        height: 105vh;
+                        height: 180vh;
                         // Top of the skills section
                         .topskillsmobile {
                             display: flex;
@@ -485,15 +485,16 @@ $lighterskills: #080e31;
                     }
                     // Bottom of Skills section
                     .botskillsmobile {
-                        // margin-top: -5vh;
-                        // FIRST CIRCLE DIV
-                        .circlesdiv {
+                        margin-top: 7vh;
+                        
+                            // FIRST CIRCLE DIV
+                            .circlesdiv {
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
                                     gap: 7vh;
-                                    margin: 7vh 0 0 0;
+                                    margin: 8vh 0 0 0;
                                 // BIG BACK CIRCLE
                                 .bigcircle {
                                     border: 1px solid $mainblue;
@@ -524,30 +525,35 @@ $lighterskills: #080e31;
                                         }
                                     }
                                 }
+
+                                // ICONS HERE
                                 .iconsfrontthree {
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
                                     gap: 2vw;
-                                    margin: -5vh 0 0 0;
+                                    margin: -3vh 0 0 0;
                                     .html {
                                         display: flex;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        // border: 1px solid $mainblue;
-                                        // background-color: $mainblue;
-                                        // border-radius: 50%;
+                                        gap: 1vh;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
                                         width: 20vw;
                                         height: 20vw;
                                         #html {
-                                            width: 8vw;
-                                            height: 8vw;
+                                            width: 12vw;
+                                            height: 12vw;
                                         }
                                         p {
                                             color: white;
                                             font-size: 3vw;
-                                            font-family: 'Roboto', sans-serif;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     .css {
@@ -555,19 +561,22 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        // border: 1px solid $mainblue;
-                                        // background-color: $mainblue;
-                                        // border-radius: 50%;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
                                         width: 20vw;
                                         height: 20vw;
+                                        gap: 1vh;
                                         #css {
-                                            width: 8vw;
-                                            height: 8vw;
+                                            width: 12vw;
+                                            height: 12vw;
                                         }
                                         p {
                                             color: white;
                                             font-size: 3vw;
-                                            font-family: 'Roboto', sans-serif;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     .reactjs {
@@ -575,19 +584,22 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        // border: 1px solid $mainblue;
-                                        // background-color: $mainblue;
-                                        // border-radius: 50%;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
                                         width: 20vw;
                                         height: 20vw;
+                                        gap: 1.5vh;
                                         #reactjs {
-                                            width: 8vw;
-                                            height: 8vw;
+                                            width: 12vw;
+                                            height: 10vw;
                                         }
                                         p {
                                             color: white;
                                             font-size: 3vw;
-                                            font-family: 'Roboto', sans-serif;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                 }
@@ -602,19 +614,22 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        // border: 1px solid $mainblue;
-                                        // background-color: $mainblue;
-                                        // border-radius: 50%;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
                                         width: 20vw;
                                         height: 20vw;
+                                        gap: 1vh;
                                         #sass {
-                                            width: 7vw;
-                                            height: 7vw;
+                                            width: 10vw;
+                                            height: 10vw;
                                         }
                                         p {
                                             color: white;
                                             font-size: 3vw;
-                                            font-family: 'Roboto', sans-serif;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     .figma {
@@ -622,19 +637,22 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        // border: 1px solid $mainblue;
-                                        // background-color: $mainblue;
-                                        // border-radius: 50%;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
                                         width: 20vw;
                                         height: 20vw;
+                                        gap: 1vh;
                                         #figma {
-                                            width: 6vw;
-                                            height: 6vw;
+                                            width: 10vw;
+                                            height: 10vw;
                                         }
                                         p {
                                             color: white;
                                             font-size: 3vw;
-                                            font-family: 'Roboto', sans-serif;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     .react-native {
@@ -642,23 +660,30 @@ $lighterskills: #080e31;
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        // border: 1px solid $mainblue;
-                                        // background-color: $mainblue;
-                                        // border-radius: 50%;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
                                         width: 20vw;
                                         height: 20vw;
+                                        gap: 0.5vh;
                                         #react-native {
-                                            width: 10vw;
-                                            height: 10vw;
+                                            width: 12vw;
+                                            height: 12vw;
                                         }
                                         p {
                                             color: white;
                                             font-size: 3vw;
-                                            font-family: 'Roboto', sans-serif;
+                                            text-align: center;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                 }
+
+                                // SECOND BIG CIRCLE
                                 .bigcircletwo {
+                                    margin: 15vh 0 0 0;
                                     border: 1px solid $mainblue;
                                     background-color: $mainblue;
                                     width: 75vw;
@@ -691,6 +716,150 @@ $lighterskills: #080e31;
                                                 font-size: 4vw;
                                                 // background-color: blueviolet;
                                             }
+                                        }
+                                    }
+                                }
+                                // ICONS 
+                                .iconsfrontthree {
+                                    .javascript {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        // gap: .5/vh;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        #javascript {
+                                            width: 15vw;
+                                            height: 15vw;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3vw;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                        }
+                                    }
+                                    .python {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        #python {
+                                            width: 12vw;
+                                            height: 12vw;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3vw;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                        }
+                                    }
+                                    .nodejs {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        #nodejs {
+                                            width: 12vw;
+                                            height: 12vw;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3vw;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                        }
+                                    }
+                                }
+                                .iconsbackthree {
+                                    .mongo {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        #mongo {
+                                            width: 5vw;
+                                            height: 12vw;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3vw;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                        }
+                                    }
+                                    .firebase {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        #firebase {
+                                            margin-top: -2vh;
+                                            width: 14vw;
+                                            height: 14vw;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3vw;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                        }
+                                    }
+                                    .heroku {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 10px;
+                                        border-radius: 50%;
+                                        padding: 1vh;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        #heroku {
+                                            width: 12vw;
+                                            height: 12vw;
+                                        }
+                                        p {
+                                            color: white;
+                                            font-size: 3vw;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                 }
