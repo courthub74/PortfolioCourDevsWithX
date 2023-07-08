@@ -1733,7 +1733,7 @@ $lighterskills: #080e31;
 
 
     // SMALLER MOBILE VERSIONS (375PX  and below)
-    @media screen and (max-width: 375px) {
+    @media screen and (min-width: 360px) and (max-width: 375px) {
     * {
         margin: 0;
         scroll-behavior: smooth;
@@ -3425,4 +3425,1700 @@ $lighterskills: #080e31;
                 }
             }
         }
+    }
+
+
+    // EVEN SMALLER (Max 360px 
+    @media screen and (max-width: 360px) {
+        * {
+            margin: 0;
+            scroll-behavior: smooth;
+            scroll-snap-type: y mandatory;
+            body {
+                #mobilemain {
+                    background-color: $mainblue;
+                    color: white;
+                    height: 100vh;
+                    .tophomemobile {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .contactbutton {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid $portfolios;
+                            border-radius: 30px;
+                            background-color: $portfolios;
+                            width: 20vw;
+                            height: 5vh;
+                            margin: 5vh 0 0 0;
+                            a {
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif;
+                                color: $skillswhite;
+                                font-size: 3vw;
+                            }
+                        }
+                        .logomobile {
+                            margin: 2vh 0 0 0;
+                            img {
+                                width: 23vw;
+                                height: 23vw;
+                            }
+                        }
+                        .hamburgermobile {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid $portfolios;
+                            border-radius: 30px;
+                            background-color: $portfolios;
+                            width: 20vw;
+                            height: 5vh;
+                            margin: 2vh 0 0 35vw;
+                            .menuburger {
+                                position: relative;
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            .menuburger.is-gone {
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                            .closetext {
+                                width: 30vw;
+                                height: 5vh;
+                                padding: 1vw;
+                                position: absolute;
+                                color: white;
+                                opacity: 0;
+                                z-index: 100;
+                                img {
+                                        width: 10vw;
+                                    height: 10vw;
+                                }
+                            }
+                            .closetext.is-shown {
+                                opacity: 1;
+                                color: white;
+                                width: 10vw;
+                                height: 10vw;
+                                transition: .6s;
+                            }
+                        }
+                        .hamburgermobile.is-active {
+                            color: white;
+                            font-size: 3vw;
+                            transition: .3s;
+                        }
+                    }
+                    .mobile-nav-home {
+                        position: fixed;
+                        top: 0;
+                        left: 100%;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+                        z-index: 98;
+                        background-color: $mainblue;
+                        margin: 0 0 0 0;
+                        transition: .8s;
+                        z-index: 98;
+                        .mobilelogohome {
+                            margin: 5vh 15vw 0 0;
+                            // background-color: #023430;
+                            .navlogo {
+                                margin: -2vh 0 0 5vw;
+                                width: 25vw;
+                                height: 25vw;
+                            }
+                        }
+                        .mobilelisthome {
+                            a {
+                                display: block;
+                                text-align: left;
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 6vw;
+                                font-weight: bold;
+                                margin: 4vh 0 0 9vw;
+                            }
+                        }
+                        .slidesocialsmobilehome {
+                                // background-color: #023430;
+                                display: flex;
+                                flex-direction: row;
+                                gap: 2vw;
+                                margin: 5vh 0 0 8vw;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                        }
+                    }
+                    .mobile-nav-home.slide-in {
+                        left: 0;
+                    }
+                    // Need to set a CSS state that makes the
+                    // menu evaporate
+    
+                    // BOTTOM OF MOBILE
+                    .bothomemobile {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 4vh 0 0 0;
+                        .photomobile {
+                            img {
+                                border-radius: 50%;
+                                width: 65vw;
+                                height: 65vw;
+                            }
+                        }
+                        .nameheadermobile {
+                                margin: 6vh 0 0 0;
+                                #namemobile {
+                                    font-size: 8vw;
+                                    font-weight: bold;
+                                    font-family: 'Inter', sans-serif;
+                                    color: $skillswhite;
+                                }
+                                #jobdescripmobile {
+                                    font-family: 'Inter', sans-serif;
+                                    text-align: center;
+                                    color: $socialsgrey;
+                                    font-size: 5vw;
+                                }
+                            }
+                            .catchphrasemobile {
+                                margin: 10vh 0 0 0;
+                                text-align: center;
+                                #catchphrasemobile {
+                                    // font-family: 'Inter', sans-serif;
+                                    font-family: 'Roboto', sans-serif;
+                                    color: $skillswhite;
+                                    font-size: 4vw;
+                                }
+                            }
+                            .portfoliobuttonmobile {
+                                border: 1px solid $portfolios;
+                                border-radius: 30px;
+                                background-color: $portfolios;
+                                padding: 2vw;
+                                width: 50vw;
+                                text-align: center;
+                                margin: 12vh 0 0 0;
+                                a {
+                                    text-decoration: none;
+                                    font-family: 'Inter', sans-serif;
+                                    color: $skillswhite;
+                                    font-size: 4vw;
+                                }
+                            }
+                    }
+                }
+                // ABOUT SECTION MOBILE
+                    #aboutmobilecontainer {
+                        #aboutmobile {
+                            background-color: $aboutgreen;
+                            color: white;
+                            height: 115vh;
+                            // Top of the about section
+                            .topaboutmobile {
+                                display: flex;
+                                .titlemobile {
+                                    margin: 5vh 0 0 5vh;
+                                    h1 {
+                                        font-size: 10vw;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                }
+                                .about_hamburgermobile {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 1px solid $experiencegreenbutton;
+                                    border-radius: 30px;
+                                    background-color: $experiencegreenbutton;
+                                    width: 20vw;
+                                    height: 5vh;
+                                    margin: 5.5vh 0 0 28.5vw;
+                                    .menuburgerabout {
+                                        position: relative;
+                                        width: 9vw;
+                                        height: 9vw;
+                                    }
+                                    .menuburgerabout.is-gone {
+                                        opacity: 0;
+                                        transition: .5s;
+                                    }
+                                    .about_closetext {
+                                        width: 30vw;
+                                        height: 5vh;
+                                        padding: 1vw;
+                                        position: absolute;
+                                        color: white;
+                                        opacity: 0;
+                                        z-index: 100;
+                                        img {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                    }
+                                    .about_closetext.is-shown {
+                                        opacity: 1;
+                                        color: white;
+                                        width: 10vw;
+                                        // figure out how to make these 
+                                            // stay in the same place
+                                    }
+                                }
+                                .about_hamburgermobile.is-active {
+                                    font-size: 3vw;
+                                    transition: .3s;
+                                }
+                            }
+                                // The Nav bar slide in
+                                .mobile-nav-about {
+                                position: fixed;
+                                top: 0;
+                                left: 100%;
+                                width: 100%;
+                                height: 100vh;
+                                display: block;
+                                background-color: $aboutgreen;
+                                margin: 16vh 0 0 0;
+                                transition: .8s;
+                                z-index: 98;
+                                .mobilelogoabout {
+                                    margin: 5vh 15vw 0 0;
+                                    // background-color: #023430;
+                                    .navlogoabout {
+                                        margin: -2vh 0 0 5vw;
+                                        width: 25vw;
+                                        height: 25vw;
+                                    }
+                                }
+                                .mobilelistabout {
+                                    a {
+                                        display: block;
+                                        text-align: left;
+                                        text-decoration: none;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 6vw;
+                                        font-weight: bold;
+                                        margin: 4vh 0 0 9vw;
+                                    }
+                                }
+                                .slidesocialsmobileabout {
+                                    // background-color: #023430;
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 2vw;
+                                    margin: 5vh 0 0 8vw;
+                                    img {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                }
+                            }
+                            .mobile-nav-about.slide-in {
+                                left: 0;
+                            }
+                            // Bottom of the about section
+                            .infoblockmobile {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                margin: 4vh 0 0 0;
+                                line-height: 1.8;
+                            }
+                            .infomobile {
+                                font-family: 'Roboto', sans-serif;
+                                text-align: left;
+                                padding: 5vh;
+                            }
+                            .resumemobile {
+                                border: 1px solid $experiencegreenbutton;
+                                border-radius: 20px;
+                                // width: 40%;
+                                width: 50vw;
+                                background-color: $experiencegreenbutton;
+                                padding: 2vw;
+                                margin: 4vh 0 0 0;
+                                a {
+                                        font-family: 'Inter', sans-serif;
+                                        text-decoration: none;
+                                        color: $learnmorebutton;
+                                        text-align: center;
+                                }
+                            }
+                        }
+                    }
+                        // SKILLS SECTION MOBILE
+                        #skillsmobilecontainer {
+                        #skillsmobile {
+                            background-color: $skillsteal;
+                            color: white;
+                            height: 175vh;
+                            // Top of the skills section
+                            .topskillsmobile {
+                                display: flex;
+                                .titlemobile {
+                                    margin: 4vh 0 0 5vh;
+                                    h1 {
+                                        font-size: 10vw;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                }
+                                .skills_hamburgermobile {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 1px solid $skillsdarker2;
+                                    border-radius: 30px;
+                                    background-color: $skillsdarker2;
+                                    width: 20vw;
+                                    height: 5vh;
+                                    margin: 4.5vh 0 0 33vw;
+                                }
+                                .menuburgerskills {
+                                    position: relative;
+                                    width: 9vw;
+                                    height: 9vw;
+                                }
+                                .menuburgerskills.is-gone {
+                                    opacity: 0;
+                                    transition: .5s;
+                                }
+                                .skills_closetext {
+                                    width: 30vw;
+                                    height: 5vh;
+                                    padding: 1vw;
+                                    position: absolute;
+                                    color: white;
+                                    opacity: 0;
+                                    z-index: 100;
+                                    img {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                }
+                                .skills_closetext.is-shown {
+                                    opacity: 1;
+                                    color: white;
+                                    width: 10vw;
+                                    // figure out how to make these 
+                                        // stay in the same place
+                                }
+                            }
+                            .skills_hamburgermobile.is-active {
+                                font-size: 3vw;
+                                transition: .3s;
+                            }
+                        }
+                            // The Nav bar slide in
+                            .mobile-nav-skills {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 105vh;
+                            display: block;
+                            background-color: $skillsteal;
+                            margin: 10vh 0 0 0;
+                            transition: .8s;
+                            z-index: 98;
+                            .mobilelogoskills {
+                                margin: 5vh 15vw 0 0;
+                                // background-color: #023430;
+                                .navlogoskills {
+                                    margin: -2vh 0 0 5vw;
+                                    width: 25vw;
+                                    height: 25vw;
+                                }
+                            }
+                            .mobilelistskills {
+                                a {
+                                    display: block;
+                                    text-align: left;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 6vw;
+                                    font-weight: bold;
+                                    margin: 4vh 0 0 9vw;
+                                }
+                            }
+                            .slidesocialsmobileskills {
+                                // background-color: #023430;
+                                display: flex;
+                                flex-direction: row;
+                                gap: 2vw;
+                                margin: 5vh 0 0 8vw;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                            } 
+                        }
+                        .mobile-nav-skills.slide-in {
+                            left: 0;
+                        }
+                        // Bottom of Skills section
+                        .botskillsmobile {
+                            margin-top: 7vh;
+                            
+                                // FIRST CIRCLE DIV
+                                .circlesdiv {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 7vh;
+                                        margin: 8vh 0 0 0;
+                                    // BIG BACK CIRCLE
+                                    .bigcircle {
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        width: 75vw;
+                                        height: 75vw;
+                                        border-radius: 50%;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        box-shadow: 2px 2px 3px $boxshadowcircles;
+                                        .lilcircle {
+                                            border: 3px solid white;
+                                            border-radius: 50%;
+                                            width: 35vw;
+                                            height: 35vw;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background-color: $mainblue;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                            text-align: center;
+                                            padding: 1vh;
+                                            p {
+                                                color: white;
+                                                font-size: 4vw;
+                                                // background-color: blueviolet;
+                                            }
+                                        }
+                                    }
+    
+                                    // ICONS HERE
+                                    .iconsfrontthree {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 2vw;
+                                        margin: -3vh 0 0 0;
+                                        .html {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vh;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            #html {
+                                                width: 12vw;
+                                                height: 12vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                        .css {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            gap: 1vh;
+                                            #css {
+                                                width: 12vw;
+                                                height: 12vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                        .reactjs {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            gap: 1.5vh;
+                                            #reactjs {
+                                                width: 12vw;
+                                                height: 10vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                    }
+                                    .iconsbackthree {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 2vw;
+                                            margin: -5vh 0 0 0;
+                                        .sass {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            gap: 1vh;
+                                            #sass {
+                                                width: 10vw;
+                                                height: 10vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                        .figma {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            gap: 1vh;
+                                            #figma {
+                                                width: 10vw;
+                                                height: 10vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                        .react-native {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            gap: 0.5vh;
+                                            #react-native {
+                                                width: 12vw;
+                                                height: 12vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                text-align: center;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                    }
+    
+                                    // SECOND BIG CIRCLE
+                                    .bigcircletwo {
+                                        margin: 5vh 0 0 0;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        width: 75vw;
+                                        height: 75vw;
+                                        border-radius: 50%;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        box-shadow: 2px 2px 3px $boxshadowcircles;
+                                        .lilcircletwo {
+                                            border: 3px solid white;
+                                            border-radius: 50%;
+                                            width: 40vw;
+                                            height: 40vw;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background-color: $mainblue;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                            text-align: center;
+                                            padding: 1vh;
+                                            .technologies {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                gap: 1vh;
+                                                p {
+                                                    color: white;
+                                                    font-size: 4vw;
+                                                    // background-color: blueviolet;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    // ICONS 
+                                    .iconsfrontthree {
+                                        .javascript {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            // gap: .5/vh;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            #javascript {
+                                                width: 15vw;
+                                                height: 15vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                        .python {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vh;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            #python {
+                                                width: 12vw;
+                                                height: 12vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                        .nodejs {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vh;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            #nodejs {
+                                                width: 12vw;
+                                                height: 12vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                    }
+                                    .iconsbackthree {
+                                        .mongo {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vh;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            #mongo {
+                                                width: 5vw;
+                                                height: 12vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                        .firebase {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vh;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            #firebase {
+                                                margin-top: -2vh;
+                                                width: 14vw;
+                                                height: 14vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                        .heroku {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vh;
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 10px;
+                                            border-radius: 50%;
+                                            padding: 1vh;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            #heroku {
+                                                width: 12vw;
+                                                height: 12vw;
+                                            }
+                                            p {
+                                                color: white;
+                                                font-size: 3vw;
+                                                font-family: 'Julius Sans One', sans-serif;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        }
+                        // PORTFOLIO
+                        #portfoliomobilecontainer {
+                        #portfoliomobilediv {
+                            background-color: $mainblue;
+                            color: white;
+                            height: 100vh;
+                            .topportfoliomobile {
+                                display: flex;
+                                .titlemobile {
+                                    margin: 4vh 0 0 5vh;
+                                    h1 {
+                                        font-size: 10vw;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                }
+                                .portfolio_hamburgermobile {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 1px solid $portfolios;
+                                    border-radius: 30px;
+                                    background-color: $portfolios;
+                                    width: 20vw;
+                                    height: 5vh;
+                                    // margin: 4.5vh 0 0 23vw;
+                                    margin: 4.5vh 0 0 17vw;
+                                }
+                                .menuburgerportfolio {
+                                    position: relative;
+                                    width: 9vw;
+                                    height: 9vw;
+                                }
+                                .menuburgerportfolio.is-gone {
+                                    opacity: 0;
+                                    transition: .5s;
+                                }
+                                .portfolio_closetext {
+                                    width: 30vw;
+                                    height: 5vh;
+                                    padding: 1vw;
+                                    position: absolute;
+                                    color: white;
+                                    opacity: 0;
+                                    z-index: 100;
+                                    img {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                }
+                                .portfolio_closetext.is-shown {
+                                    opacity: 1;
+                                    color: white;
+                                    width: 10vw;
+                                    // figure out how to make these 
+                                        // stay in the same place
+                                }
+                            }
+                            .portfolio_hamburgermobile.is-active {
+                                font-size: 3vw;
+                                transition: .3s;
+                            }
+                            // The Nav bar slide in
+                            .mobile-nav-portfolio {
+                                position: fixed;
+                                top: 0;
+                                left: 100%;
+                                width: 100%;
+                                height: 100vh;
+                                display: block;
+                                background-color: $mainblue;
+                                margin: 5vh 0 0 0;
+                                transition: .8s;
+                                z-index: 98;
+                                .mobilelogoportfolio {
+                                    margin: 5vh 15vw 0 0;
+                                        // background-color: #023430;
+                                    .navlogoportfolio {
+                                        margin: -2vh 0 0 5vw;
+                                        width: 25vw;
+                                        height: 25vw;
+                                    }
+                                }
+                                .mobilelistportfolio {
+                                    a {
+                                        display: block;
+                                        text-align: left;
+                                        text-decoration: none;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 6vw;
+                                        font-weight: bold;
+                                        margin: 4vh 0 0 9vw;
+                                    }
+                                }
+                                .slidesocialsmobileportfolio {
+                                    // background-color: #023430;
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 2vw;
+                                    margin: 5vh 0 0 8vw;
+                                    img {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                }
+                            }
+                            .mobile-nav-portfolio.slide-in {
+                                left: 0;
+                            }
+                            // Bottom of the Portfolio page
+                            .botportfoliomobile {
+                                display: flex;
+                                flex-direction: column;
+                                .portfoliooutline {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    padding: 7vh;
+                                    margin: 3vh 0 0 0;
+                                    gap: 6vh;
+                                    .app1 {
+                                        border: 1px solid $portfolios;
+                                        background-color: $portfolios;
+                                        border-radius: 10px;
+                                        // height: 42vw;
+                                        // width: 88.5vw;
+                                        height: 38vw;
+                                        width: 78vw;
+                                        .app1cover {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin: 4.5vh 0 0 0;
+                                            width: 100%;
+                                            a {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                text-decoration: none;
+                                                gap: 1vh;
+                                                margin-top: -2.5vh;
+                                                img {
+                                                    width: 20vw;
+                                                    height: 20vw;
+                                                }
+                                                p {
+                                                    font-size: 5vw;
+                                                    font-family: 'Julius Sans One', sans-serif;
+                                                    // font-weight: bold;
+                                                    color: white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .app2 {
+                                        border: 1px solid $portfolios;
+                                        background-color: $portfolios;
+                                        border-radius: 10px;
+                                        height: 38vw;
+                                        // width: 88.5vw;
+                                        width: 78vw;
+                                        .app2cover {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin: 7vh 0 0 0;
+                                            width: 100%;
+                                            a {
+                                                img {
+                                                    width: 47vw;
+                                                    height: 8vw;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .app3 {
+                                        border: 1px solid $portfolios;
+                                        background-color: $portfolios;
+                                        border-radius: 10px;
+                                        height: 38vw;
+                                        // width: 88.5vw;
+                                        width: 78vw;
+                                        .app3cover {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            margin: 0 0 0 0;
+                                            width: 100%;
+                                            a {
+                                                img {
+                                                    width: 32vw;
+                                                    height: 35vw;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    // EXPERIENCE
+                    #experiencemobilecontainer {
+                        #experiencemobile {
+                            background-color: $aboutgreen;
+                            color: white;
+                            height: 103vh;
+                            // Top of the experience section
+                            .topexperiencemobile {
+                                display: flex;
+                                .titlemobile {
+                                    margin: 4vh 0 0 5vh;
+                                    h1 {
+                                        font-size: 9vw;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                }
+                                .experience_hamburgermobile {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 1px solid $experiencegreenbutton;
+                                    border-radius: 30px;
+                                    background-color: $experiencegreenbutton;
+                                    width: 20vw;
+                                    height: 5vh;
+                                    margin: 4.5vh 0 0 9.5vw;
+                                }
+                                .experience_hamburgermobile.is-active {
+                                    font-size: 3vw;
+                                    transition: .3s;
+                                }
+                                .menuburgerexperience {
+                                    position: relative;
+                                    width: 9vw;
+                                    height: 9vw;
+                                }
+                                .menuburgerexperience.is-gone {
+                                    opacity: 0;
+                                    transition: .5s;
+                                }
+                                .experience_closetext {
+                                    width: 30vw;
+                                    height: 5vh;
+                                    padding: 1vw;
+                                    position: absolute;
+                                    color: white;
+                                    opacity: 0;
+                                    z-index: 100;
+                                    img {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                }
+                                .experience_closetext.is-shown {
+                                    opacity: 1;
+                                    color: white;
+                                    width: 10vw;
+                                    // figure out how to make these 
+                                        // stay in the same place
+                                }
+                            }
+                            // Experience slide in menu
+                            .mobile-nav-experience {
+                                position: fixed;
+                                top: 0;
+                                left: 100%;
+                                width: 100%;
+                                height: 100vh;
+                                display: block;
+                                background-color: $aboutgreen;
+                                margin: 15vh 0 0 0;
+                                transition: .8s;
+                                z-index: 98;
+                                .mobilelogoexperience {
+                                    margin: 5vh 15vw 0 0;
+                                        // background-color: #023430;
+                                    .navlogoexperience {
+                                        margin: -2vh 0 0 5vw;
+                                        width: 25vw;
+                                        height: 25vw;
+                                    }
+                                }
+                                .mobilelistexperience {
+                                    a {
+                                        display: block;
+                                        text-align: left;
+                                        text-decoration: none;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 6vw;
+                                        font-weight: bold;
+                                        margin: 4vh 0 0 9vw;
+                                    }
+                                }
+                                .slidesocialsmobileexperience {
+                                    // background-color: #023430;
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 2vw;
+                                    margin: 5vh 0 0 8vw;
+                                    img {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                }
+                            }
+                            .mobile-nav-experience.slide-in {
+                                left: 0;
+                            }
+                            // Bottom of Experience
+                            .botexperiencemobile {
+                                .botexperiencecontainer {
+                                    display: flex;
+                                    justify-content: center;
+                                    // align-items: center;
+                                    margin: 8vh 0 0 -5vw;
+                                    // background-color: yellow;
+                                    .places {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 5vh;
+                                        .courdevs {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            // border: 1px solid white;
+                                            border: 1px solid $experiencegreenbutton;
+                                            background-color: $experiencegreenbutton;
+                                            // box-shadow: 2px 2px 2px $boxshadowcircles;
+                                            border-radius: 12px;
+                                            padding: 8vw;
+                                            width: 55vw;
+                                            height: 55vw;
+                                            margin: 0 0 0 5vw;
+                                            .incourdevs {
+                                                font-family: 'Inter', sans-serif;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                width: 100%;
+                                                gap: .5vh;
+                                                line-height: 2vh;
+                                                margin: 0 0 0 0;
+                                                // background-color: yellow;
+                                                img {
+                                                    width: 23vw;
+                                                    height: 23vw;
+                                                    margin: 0 -1vw 0 0vw;
+                                                }
+                                                h2 {
+                                                    margin: 0 0 0 -.2vw;
+                                                    font-size: 5vw;
+                                                }
+                                                .jobtitle {
+                                                    margin: 1vh 0 0 0;
+                                                    font-size: 4vw;
+                                                    font-family: 'Roboto', sans-serif;
+                                                    // background-color: yellow;
+                                                }
+                                                .jobdates {
+                                                    font-size: 3vw;
+                                                    font-weight: bold;
+                                                    margin: 1vh 0 0 0;
+                                                }
+                                            }
+                                            .more {
+                                                display: flex;
+                                                justify-content: center;
+                                                font-family: 'Inter', sans-serif;
+                                                margin: 2vh 0 0 0;
+                                                a {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    border: 1px solid $languagewhite;
+                                                    background-color: $languagewhite;
+                                                    // background-color: $experiencegreenbutton;
+                                                    // box-shadow: 2px 2px 2px $boxshadowcircles;
+                                                    border-radius: 20px;
+                                                    width: 40vw;
+                                                    height: 7vw;
+                                                    text-decoration: none;
+                                                    p {
+                                                        color: $aboutgreen;
+                                                        // color: $skillswhite;
+                                                        font-weight: bold;
+                                                        font-size: 3vw;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .r1rcm {
+                                            display: flex;
+                                            flex-direction: column;
+                                            border: 1px solid $experiencegreenbutton;
+                                            background-color: $experiencegreenbutton;
+                                            border-radius: 12px;
+                                            // box-shadow: 2px 2px 2px $boxshadowcircles;
+                                            padding: 8vw;
+                                            width: 55vw;
+                                            height: 55vw;
+                                            margin: 0 0 0 5vw;
+                                            .incourdevs {
+                                                font-family: 'Inter', sans-serif;
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                justify-content: center;
+                                                width: 100%;
+                                                gap: .5vh;
+                                                line-height: 2vh;
+                                                margin: -1vh 0 0 0;
+                                                img {
+                                                    // width: 17vw;
+                                                    // height: 14vw;
+                                                    width: 18vw;
+                                                    height: 18vw;
+                                                    margin: 0 -1.5vw 0 0vw;
+                                                }
+                                                h2 {
+                                                    margin: 1vh 0 0 -1.5vw;
+                                                    font-size: 4vw;
+                                                }
+                                                .jobtitle {
+                                                    margin: 1vh 0 0 0;
+                                                    font-size: 4vw;
+                                                    font-family: 'Roboto', sans-serif;
+                                                }
+                                                .jobdates {
+                                                    font-size: 3vw;
+                                                    font-weight: bold;
+                                                    margin: 1vh 0 0 0;
+                                                }
+                                            }
+                                            .more {
+                                                display: flex;
+                                                justify-content: center;
+                                                font-family: 'Inter', sans-serif;
+                                                margin: 2vh 0 0 0;
+                                                a {
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    border: 1px solid $languagewhite;
+                                                    background-color: $languagewhite;
+                                                    border-radius: 20px;
+                                                    width: 40vw;
+                                                    height: 7vw;
+                                                    text-decoration: none;
+                                                    p {
+                                                        color: $aboutgreen;
+                                                        font-weight: bold;
+                                                        font-size: 3vw;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .descriptions {
+                                        .courdev2 {
+                                            margin: 7vh 0 0 0;
+                                            .indescriptions {
+                                                // background-color: yellow;
+                                                margin: 7vh 0 0 0;
+                                                font-family: 'Inter', sans-serif;
+                                                h1 {
+                                                    font-size: 4vw;
+                                                }
+                                                h3 {
+                                                    font-size: 4vw;
+                                                }
+                                                p {
+                                                    font-size: 3vw;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    // BLOG SECTION
+                    #blogmobilecontainer {
+                        #blogmobile {
+                            background-color: $skillsteal;
+                            color: white;
+                            height: 105vh;
+                            .topblogmobile {
+                                display: flex;
+                                .titlemobile {
+                                    margin: 3vh 0 0 5vh;
+                                    h1 {
+                                        font-size: 10vw;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                }
+                                .blog_hamburgermobile {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 1px solid $skillsdarker2;
+                                    border-radius: 30px;
+                                    background-color: $skillsdarker2;
+                                    width: 20vw;
+                                    height: 5vh;
+                                    margin: 4.5vh 0 0 37.5vw;
+                                    .menuburgerblog {
+                                        position: relative;
+                                        width: 9vw;
+                                        height: 9vw;
+                                    }
+                                    .menuburgerblog.is-gone {
+                                        opacity: 0;
+                                        transition: .5s;
+                                    }
+                                    .blog_closetext {
+                                        width: 30vw;
+                                        height: 5vh;
+                                        padding: 1vw;
+                                        position: absolute;
+                                        color: white;
+                                        opacity: 0;
+                                        z-index: 100;
+                                        img {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                    }
+                                    .blog_closetext.is-shown {
+                                        opacity: 1;
+                                        color: white;
+                                        width: 10vw;
+                                        // figure out how to make these 
+                                            // stay in the same place
+                                    }
+                                }
+                                .blog_hamburgermobile.is-active {
+                                    font-size: 3vw;
+                                    transition: .3s;
+                                }
+                            }
+                            // The Nav bar slide in
+                            .mobile-nav-blog {
+                                position: fixed;
+                                top: 0;
+                                left: 100%;
+                                width: 100%;
+                                height: 100vh;
+                                display: block;
+                                background-color: $skillsteal;
+                                margin: 10vh 0 0 0;
+                                transition: .8s;
+                                z-index: 98;
+                                .mobilelogoblog {
+                                    margin: 5vh 15vw 0 0;
+                                    // background-color: #023430;
+                                    .navlogoblog {
+                                        margin: -2vh 0 0 5vw;
+                                        width: 25vw;
+                                        height: 25vw;
+                                    }
+                                }
+                                .mobilelistblog {
+                                    a {
+                                        display: block;
+                                        text-align: left;
+                                        text-decoration: none;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 6vw;
+                                        font-weight: bold;
+                                        margin: 4vh 0 0 9vw;
+                                    }
+                                }
+                                .slidesocialsmobileblog {
+                                    // background-color: #023430;
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 2vw;
+                                    margin: 5vh 0 0 8vw;
+                                    img {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                } 
+                            }
+                            .mobile-nav-blog.slide-in {
+                                left: 0;
+                            }
+                            // BOTTOM OF BLOG SECTION
+                            #botblogmobile {
+                                .botblogcontainer {
+                                    display: flex;
+                                    flex-direction: column;
+                                    overflow: hidden;
+                                    overflow-y: scroll;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 3vh 0 0 0;
+                                    gap: 3vh;
+                                    // background-color: #58a6ff;
+                                    padding: 1vh 1vh;
+                                    .blogcircles {
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 50vw;
+                                        height: 50vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        padding: 1vw;
+                                        box-shadow: 2px 2px 3px $boxshadowcircles;
+                                        a {
+                                            text-decoration: none;
+                                            color: $skillswhite;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: right;
+                                            gap: 1vh;
+                                            h2 {
+                                                font-size: 4vw;
+                                                font-family: 'Inter', sans-serif;
+                                            }
+                                            p {
+                                                font-size: 3vw;
+                                                font-family: 'Inter', sans-serif;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                    }
+                }
+                // CONTACT SECTION
+                #contactmobilecontainer {
+                    #contactmobile {
+                        background-color: $mainblue;
+                        color: white;
+                        height: 100vh;
+                        // TOP CONTACT
+                        .topcontactmobile {
+                            display: flex;
+                            .titlemobile {
+                                margin: 3vh 0 0 5vh;
+                                h1 {
+                                    font-size: 10vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                            .contact_hamburgermobile {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid $portfolios;
+                                border-radius: 30px;
+                                background-color: $portfolios;
+                                width: 20vw;
+                                height: 5vh;
+                                margin: 3.8vh 0 0 20vw;
+                                .menuburgercontact {
+                                    position: relative;
+                                    width: 9vw;
+                                    height: 9vw;
+                                }
+                                .menuburgercontact.is-gone {
+                                    opacity: 0;
+                                    transition: .5s;
+                                }
+                                .contact_closetext {
+                                    width: 30vw;
+                                    height: 5vh;
+                                    padding: 1vw;
+                                    position: absolute;
+                                    color: white;
+                                    opacity: 0;
+                                    z-index: 100;
+                                    img {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                }
+                                .contact_closetext.is-shown {
+                                    opacity: 1;
+                                    color: white;
+                                    width: 10vw;
+                                    // figure out how to make these 
+                                        // stay in the same place
+                                }
+                            }
+                            .contact_hamburgermobile.is-active {
+                                font-size: 3vw;
+                                transition: .3s;
+                            }
+                        }
+                        // The Nav bar slide in
+                        .mobile-nav-contact {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $mainblue;
+                            margin: 10vh 0 0 0;
+                            transition: .8s;
+                            z-index: 98;
+                            .mobilelogocontact {
+                                margin: 5vh 15vw 0 0;
+                                // background-color: #023430;
+                                .navlogocontact {
+                                    margin: -2vh 0 0 5vw;
+                                    width: 25vw;
+                                    height: 25vw;
+                                }
+                            }
+                            .mobilelistcontact {
+                                a {
+                                    display: block;
+                                    text-align: left;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 6vw;
+                                    font-weight: bold;
+                                    margin: 4vh 0 0 9vw;
+                                }
+                            }
+                            .slidesocialsmobilecontact {
+                                // background-color: #023430;
+                                display: flex;
+                                flex-direction: row;
+                                gap: 2vw;
+                                margin: 5vh 0 0 8vw;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                            } 
+                        }
+                        .mobile-nav-contact.slide-in {
+                            left: 0;
+                        }
+                        // BOTTOM mobile section
+                        .botcontactmobile {
+                            margin: 6vh 0 0 11.5vw;
+                            font-family: 'Inter', sans-serif;
+                            .contactform {
+                                display: flex;
+                                flex-direction: column;
+                                .nameemaildiv{
+                                    display: flex;
+                                    flex-direction: column;
+                                    .name {
+                                        margin: 0 0 5vh 0;
+                                        p {
+                                            font-size: 5vw;
+                                        }
+                                        input {
+                                            width: 75vw;
+                                            height: 5vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                        }  
+                                    }
+                                    .email {
+                                        margin: 0 0 5vh 0;
+                                        p {
+                                            font-size: 5vw;
+                                            // color: $hoverfonts;
+                                        }
+                                        input {
+                                            width: 75vw;
+                                            height: 5vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            // background-color: $mainblue;
+                                            // border: 2px solid white;
+                                            // color: white;
+                                        }  
+                                    }
+                                    .message {
+                                        margin: 0 0 5vh 0;
+                                        p {
+                                            font-size: 5vw;
+                                        }
+                                        input {
+                                            width: 75vw;
+                                            height: 20vh;
+                                            border: none;
+                                            border-radius: 5px;
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            color: white;
+                                        }  
+                                    }
+                                    .submit {
+                                        margin: 2vh 0 0 0;
+                                        button {
+                                            background-color: $portfolios;
+                                            border: 1px solid $portfolios;
+                                            color: $skillswhite;
+                                            border-radius: 10px;
+                                            width: 75vw;
+                                            height: 5vh;
+                                            font-size: 5vw;
+                                        }
+                                    }
+                                    .mobilesocials {
+                                        margin: 4vh 0 0 16.5vw;
+                                        // background-color: rebeccapurple;
+                                        a {
+                                            // padding: 2vh 2vh;
+                                            #github {
+                                                width: 10vw;
+                                                height: 10vw;
+                                            }
+                                            #linkedin {
+                                                width: 10vw;
+                                                height: 10vw;
+                                            }
+                                            #twitter {
+                                                width: 10vw;
+                                                height: 10vw;
+                                            }
+                                            #instagram {
+                                                width: 10vw;
+                                                height: 10vw;
+                                            }
+                                        }
+                                    }
+                                    .poweredby {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 5vh 0 0 -12vw;
+                                        color: $skillswhite;
+                                        img {
+                                            width: 6vw;
+                                            height: 6vw;
+                                            color: $portfolios;
+                                            margin: 0 2vw 0 0;
+                                        }
+                                        small {
+                                            display: flex;
+                                            gap: .5vh;
+                                            p {
+                                                color: $socialsgrey;
+                                            }
+                                            a {
+                                                color: $firstblue;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
     }
