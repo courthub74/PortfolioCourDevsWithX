@@ -170,13 +170,17 @@
     background-color: #36395D;
     padding: 2vw;
     width: 50vw;
+    height: 5vw;
     text-align: center;
     margin: 12vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   * body #mobilemain .bothomemobile .portfoliobuttonmobile a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
-    color: #FFFFFF;
+    color: #EBEBEB;
     font-size: 4vw;
   }
   * body #aboutmobilecontainer #aboutmobile {
@@ -291,14 +295,19 @@
     font-family: "Roboto", sans-serif;
     text-align: left;
     padding: 5vh;
+    font-size: 4vw;
   }
   * body #aboutmobilecontainer #aboutmobile .resumemobile {
     border: 1px solid #476D6B;
     border-radius: 20px;
     width: 50vw;
+    height: 5vw;
     background-color: #476D6B;
     padding: 2vw;
     margin: 4vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   * body #aboutmobilecontainer #aboutmobile .resumemobile a {
     font-family: "Inter", sans-serif;
@@ -1550,7 +1559,7 @@
     color: #58a6ff;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 375px) {
+@media screen and (min-width: 355px) and (max-width: 375px) {
   * {
     margin: 0;
     scroll-behavior: smooth;
@@ -1721,8 +1730,12 @@
     background-color: #36395D;
     padding: 2vw;
     width: 50vw;
+    height: 5vw;
     text-align: center;
     margin: 12vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   * body #mobilemain .bothomemobile .portfoliobuttonmobile a {
     text-decoration: none;
@@ -1733,7 +1746,7 @@
   * body #aboutmobilecontainer #aboutmobile {
     background-color: #0E4946;
     color: white;
-    height: 125vh;
+    height: 110vh;
   }
   * body #aboutmobilecontainer #aboutmobile .topaboutmobile {
     display: flex;
@@ -1837,6 +1850,7 @@
     justify-content: center;
     margin: 4vh 0 0 0;
     line-height: 1.8;
+    font-size: 4vw;
   }
   * body #aboutmobilecontainer #aboutmobile .infomobile {
     font-family: "Roboto", sans-serif;
@@ -1847,9 +1861,13 @@
     border: 1px solid #476D6B;
     border-radius: 20px;
     width: 50vw;
+    height: 5vw;
     background-color: #476D6B;
     padding: 2vw;
-    margin: 4vh 0 0 0;
+    margin: 0vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   * body #aboutmobilecontainer #aboutmobile .resumemobile a {
     font-family: "Inter", sans-serif;
@@ -1860,7 +1878,7 @@
   * body #skillsmobilecontainer #skillsmobile {
     background-color: #146166;
     color: white;
-    height: 200vh;
+    height: 195vh;
   }
   * body #skillsmobilecontainer #skillsmobile .topskillsmobile {
     display: flex;
@@ -2326,7 +2344,7 @@
   * #portfoliomobilecontainer #portfoliomobilediv {
     background-color: #080E2F;
     color: white;
-    height: 105vh;
+    height: 100vh;
   }
   * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile {
     display: flex;
@@ -3106,7 +3124,7 @@
     color: #58a6ff;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 280px) and (max-width: 360px) {
   * {
     margin: 0;
     scroll-behavior: smooth;
@@ -4450,6 +4468,1575 @@
   }
   * #blogmobilecontainer #blogmobile #botblogmobile .botblogcontainer .blogcircles a p {
     font-size: 3vw;
+    font-family: "Inter", sans-serif;
+  }
+  * #contactmobilecontainer #contactmobile {
+    background-color: #080E2F;
+    color: white;
+    height: 100vh;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile {
+    display: flex;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .titlemobile {
+    margin: 3vh 0 0 5vh;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    width: 20vw;
+    height: 5vh;
+    margin: 3.8vh 0 0 20vw;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .menuburgercontact {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .menuburgercontact.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .contact_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .contact_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile .contact_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+  }
+  * #contactmobilecontainer #contactmobile .topcontactmobile .contact_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * #contactmobilecontainer #contactmobile .mobile-nav-contact {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 10vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * #contactmobilecontainer #contactmobile .mobile-nav-contact .mobilelogocontact {
+    margin: 5vh 15vw 0 0;
+  }
+  * #contactmobilecontainer #contactmobile .mobile-nav-contact .mobilelogocontact .navlogocontact {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * #contactmobilecontainer #contactmobile .mobile-nav-contact .mobilelistcontact a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * #contactmobilecontainer #contactmobile .mobile-nav-contact .slidesocialsmobilecontact {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * #contactmobilecontainer #contactmobile .mobile-nav-contact .slidesocialsmobilecontact img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #contactmobilecontainer #contactmobile .mobile-nav-contact.slide-in {
+    left: 0;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile {
+    margin: 6vh 0 0 11.5vw;
+    font-family: "Inter", sans-serif;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform {
+    display: flex;
+    flex-direction: column;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv {
+    display: flex;
+    flex-direction: column;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .name {
+    margin: 0 0 5vh 0;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .name p {
+    font-size: 5vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .name input {
+    width: 75vw;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #36395D;
+    border: 1px solid #36395D;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .email {
+    margin: 0 0 5vh 0;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .email p {
+    font-size: 5vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .email input {
+    width: 75vw;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #36395D;
+    border: 1px solid #36395D;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .message {
+    margin: 0 0 5vh 0;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .message p {
+    font-size: 5vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .message input {
+    width: 75vw;
+    height: 20vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #36395D;
+    border: 1px solid #36395D;
+    color: white;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .submit {
+    margin: 2vh 0 0 0;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .submit button {
+    background-color: #36395D;
+    border: 1px solid #36395D;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 75vw;
+    height: 5vh;
+    font-size: 5vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .mobilesocials {
+    margin: 4vh 0 0 16.5vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .mobilesocials a #github {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .mobilesocials a #linkedin {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .mobilesocials a #twitter {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .mobilesocials a #instagram {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .poweredby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 0 -12vw;
+    color: #FFFFFF;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .poweredby img {
+    width: 6vw;
+    height: 6vw;
+    color: #36395D;
+    margin: 0 2vw 0 0;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .poweredby small {
+    display: flex;
+    gap: 0.5vh;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .poweredby small p {
+    color: #B7BCD6;
+  }
+  * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .poweredby small a {
+    color: #58a6ff;
+  }
+}
+@media screen and (max-width: 281px) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body #mobilemain {
+    background-color: #080E2F;
+    color: white;
+    height: 100vh;
+  }
+  * body #mobilemain .tophomemobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #mobilemain .tophomemobile .contactbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    width: 20vw;
+    height: 5vh;
+    margin: 5vh 0 0 0;
+  }
+  * body #mobilemain .tophomemobile .contactbutton a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 3vw;
+  }
+  * body #mobilemain .tophomemobile .logomobile {
+    margin: 2vh 0 0 0;
+  }
+  * body #mobilemain .tophomemobile .logomobile img {
+    width: 23vw;
+    height: 23vw;
+  }
+  * body #mobilemain .tophomemobile .hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    width: 20vw;
+    height: 5vh;
+    margin: 1vh 0 0 35vw;
+  }
+  * body #mobilemain .tophomemobile .hamburgermobile .menuburger {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #mobilemain .tophomemobile .hamburgermobile .menuburger.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * body #mobilemain .tophomemobile .hamburgermobile .closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #mobilemain .tophomemobile .hamburgermobile .closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #mobilemain .tophomemobile .hamburgermobile .closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+    height: 10vw;
+    transition: 0.6s;
+  }
+  * body #mobilemain .tophomemobile .hamburgermobile.is-active {
+    color: white;
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * body #mobilemain .mobile-nav-home {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    z-index: 98;
+    background-color: #080E2F;
+    margin: 0 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * body #mobilemain .mobile-nav-home .mobilelogohome {
+    margin: 5vh 15vw 0 0;
+  }
+  * body #mobilemain .mobile-nav-home .mobilelogohome .navlogo {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * body #mobilemain .mobile-nav-home .mobilelisthome a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * body #mobilemain .mobile-nav-home .slidesocialsmobilehome {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * body #mobilemain .mobile-nav-home .slidesocialsmobilehome img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #mobilemain .mobile-nav-home.slide-in {
+    left: 0;
+  }
+  * body #mobilemain .bothomemobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 0;
+  }
+  * body #mobilemain .bothomemobile .photomobile img {
+    border-radius: 50%;
+    width: 65vw;
+    height: 65vw;
+  }
+  * body #mobilemain .bothomemobile .nameheadermobile {
+    margin: 6vh 0 0 0;
+  }
+  * body #mobilemain .bothomemobile .nameheadermobile #namemobile {
+    font-size: 8vw;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+  }
+  * body #mobilemain .bothomemobile .nameheadermobile #jobdescripmobile {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #B7BCD6;
+    font-size: 5vw;
+  }
+  * body #mobilemain .bothomemobile .catchphrasemobile {
+    margin: 10vh 0 0 0;
+    text-align: center;
+  }
+  * body #mobilemain .bothomemobile .catchphrasemobile #catchphrasemobile {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 4vw;
+  }
+  * body #mobilemain .bothomemobile .portfoliobuttonmobile {
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    padding: 2vw;
+    width: 50vw;
+    height: 5vw;
+    text-align: center;
+    margin: 12vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #mobilemain .bothomemobile .portfoliobuttonmobile a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #EBEBEB;
+    font-size: 4vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile {
+    background-color: #0E4946;
+    color: white;
+    height: 105vh;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile {
+    display: flex;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile {
+    margin: 5vh 0 0 5vh;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #476D6B;
+    border-radius: 30px;
+    background-color: #476D6B;
+    width: 20vw;
+    height: 5vh;
+    margin: 5vh 0 0 28.5vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile .menuburgerabout {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile .menuburgerabout.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile .about_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile .about_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile .about_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .topaboutmobile .about_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #0E4946;
+    margin: 16vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelogoabout {
+    margin: 5vh 15vw 0 0;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelogoabout .navlogoabout {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .mobilelistabout a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .slidesocialsmobileabout {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about .slidesocialsmobileabout img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .mobile-nav-about.slide-in {
+    left: 0;
+  }
+  * body #aboutmobilecontainer #aboutmobile .infoblockmobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 0 0 0;
+    line-height: 1.8;
+  }
+  * body #aboutmobilecontainer #aboutmobile .infomobile {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    padding: 5vh;
+    font-size: 4.5vw;
+  }
+  * body #aboutmobilecontainer #aboutmobile .resumemobile {
+    border: 1px solid #476D6B;
+    border-radius: 20px;
+    width: 50vw;
+    height: 5vw;
+    background-color: #476D6B;
+    padding: 2vw;
+    margin: 0vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #aboutmobilecontainer #aboutmobile .resumemobile a {
+    font-family: "Inter", sans-serif;
+    font-size: 4vw;
+    text-decoration: none;
+    color: #EBEBEB;
+    text-align: center;
+  }
+  * body #skillsmobilecontainer #skillsmobile {
+    background-color: #146166;
+    color: white;
+    height: 160vh;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile {
+    display: flex;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .titlemobile {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skills_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #507e81;
+    border-radius: 30px;
+    background-color: #507e81;
+    width: 20vw;
+    height: 5vh;
+    margin: 4vh 0 0 33vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .menuburgerskills {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .menuburgerskills.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skills_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skills_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .topskillsmobile .skills_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+  }
+  * body #skillsmobilecontainer #skillsmobile .skills_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * body #skillsmobilecontainer .mobile-nav-skills {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 105vh;
+    display: block;
+    background-color: #146166;
+    margin: 10vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * body #skillsmobilecontainer .mobile-nav-skills .mobilelogoskills {
+    margin: 5vh 15vw 0 0;
+  }
+  * body #skillsmobilecontainer .mobile-nav-skills .mobilelogoskills .navlogoskills {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * body #skillsmobilecontainer .mobile-nav-skills .mobilelistskills a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * body #skillsmobilecontainer .mobile-nav-skills .slidesocialsmobileskills {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * body #skillsmobilecontainer .mobile-nav-skills .slidesocialsmobileskills img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer .mobile-nav-skills.slide-in {
+    left: 0;
+  }
+  * body #skillsmobilecontainer .botskillsmobile {
+    margin-top: 7vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+    margin: 8vh 0 0 0;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .bigcircle {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    width: 75vw;
+    height: 75vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .bigcircle .lilcircle {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 35vw;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .bigcircle .lilcircle p {
+    color: white;
+    font-size: 4vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: -3vh 0 0 0;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .html #html {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .html p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .css {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 1vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .css #css {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .css p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .reactjs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 1.5vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .reactjs #reactjs {
+    width: 12vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .reactjs p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: -5vh 0 0 0;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .sass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 1vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .sass #sass {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .sass p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .figma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 1vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .figma #figma {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .figma p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .react-native {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 0.5vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .react-native #react-native {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .react-native p {
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .bigcircletwo {
+    margin: 5vh 0 0 0;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    width: 75vw;
+    height: 75vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .bigcircletwo .lilcircletwo {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .bigcircletwo .lilcircletwo .technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .bigcircletwo .lilcircletwo .technologies p {
+    color: white;
+    font-size: 4vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .javascript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .javascript #javascript {
+    width: 15vw;
+    height: 15vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .javascript p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .python {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .python #python {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .python p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .nodejs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .nodejs #nodejs {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .nodejs p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .mongo #mongo {
+    width: 5vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .mongo p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .firebase #firebase {
+    margin-top: -2vh;
+    width: 14vw;
+    height: 14vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .firebase p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .heroku {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .heroku #heroku {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .heroku p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv {
+    background-color: #080E2F;
+    color: white;
+    height: 100vh;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile {
+    display: flex;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .titlemobile {
+    margin: 4vh 0 0 5vh;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .portfolio_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    width: 20vw;
+    height: 5vh;
+    margin: 4vh 0 0 17vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .menuburgerportfolio {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .menuburgerportfolio.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .portfolio_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .portfolio_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .topportfoliomobile .portfolio_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .portfolio_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 5vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .mobilelogoportfolio {
+    margin: 5vh 15vw 0 0;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .mobilelogoportfolio .navlogoportfolio {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .mobilelistportfolio a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .slidesocialsmobileportfolio {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio .slidesocialsmobileportfolio img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .mobile-nav-portfolio.slide-in {
+    left: 0;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile {
+    display: flex;
+    flex-direction: column;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7vh;
+    margin: 0 0 0 0;
+    gap: 6vh;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app1 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 45vw;
+    width: 78vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app1 .app1cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.5vh 0 0 0;
+    width: 100%;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app1 .app1cover a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 1vh;
+    margin-top: -2.5vh;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app1 .app1cover a img {
+    width: 25vw;
+    height: 25vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app1 .app1cover a p {
+    font-size: 5vw;
+    font-family: "Julius Sans One", sans-serif;
+    color: white;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app2 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 45vw;
+    width: 78vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app2 .app2cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7vh 0 0 0;
+    width: 100%;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app2 .app2cover a {
+    margin: 0.5vh 0 0 0;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app2 .app2cover a img {
+    width: 52vw;
+    height: 9vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app3 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 45vw;
+    width: 78vw;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app3 .app3cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  * #portfoliomobilecontainer #portfoliomobilediv .botportfoliomobile .portfoliooutline .app3 .app3cover a img {
+    width: 38vw;
+    height: 45vw;
+  }
+  * #experiencemobilecontainer #experiencemobile {
+    background-color: #0E4946;
+    color: white;
+    height: 103vh;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile {
+    display: flex;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .titlemobile {
+    margin: 4vh 0 0 5vh;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .titlemobile h1 {
+    font-size: 9vw;
+    font-family: "Inter", sans-serif;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #476D6B;
+    border-radius: 30px;
+    background-color: #476D6B;
+    width: 20vw;
+    height: 5vh;
+    margin: 4.5vh 0 0 9.5vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .menuburgerexperience {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .menuburgerexperience.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .topexperiencemobile .experience_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .mobile-nav-experience {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #0E4946;
+    margin: 15vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * #experiencemobilecontainer #experiencemobile .mobile-nav-experience .mobilelogoexperience {
+    margin: 5vh 15vw 0 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .mobile-nav-experience .mobilelogoexperience .navlogoexperience {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .mobile-nav-experience .mobilelistexperience a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .mobile-nav-experience .slidesocialsmobileexperience {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .mobile-nav-experience .slidesocialsmobileexperience img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .mobile-nav-experience.slide-in {
+    left: 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer {
+    display: flex;
+    justify-content: center;
+    margin: 8vh 0 0 -5vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
+    border-radius: 12px;
+    padding: 8vw;
+    width: 60vw;
+    height: 65vw;
+    margin: 0 0 0 5vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.5vh;
+    line-height: 2vh;
+    margin: -2vh 0 0 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs img {
+    width: 27vw;
+    height: 27vw;
+    margin: 0 -1vw 0 0vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs h2 {
+    margin: 0 0 0 -0.2vw;
+    font-size: 5vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs .jobtitle {
+    margin: 1vh 0 0 0;
+    font-size: 5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .incourdevs .jobdates {
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 1vh 0 0 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .more {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .more a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9e2e2;
+    background-color: #d9e2e2;
+    border-radius: 20px;
+    width: 40vw;
+    height: 7vw;
+    text-decoration: none;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .courdevs .more a p {
+    color: #0E4946;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
+    border-radius: 12px;
+    padding: 8vw;
+    width: 60vw;
+    height: 65vw;
+    margin: 0 0 0 5vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5vh;
+    line-height: 2vh;
+    margin: 0 0 0 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs img {
+    width: 22vw;
+    height: 22vw;
+    margin: 0 -1.5vw 0 0vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs h2 {
+    margin: 1vh 0 0 -1.5vw;
+    font-size: 5vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs .jobtitle {
+    margin: 1vh 0 0 0;
+    font-size: 5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .incourdevs .jobdates {
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 1vh 0 0 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .more {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin: 2vh 0 0 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .more a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9e2e2;
+    background-color: #d9e2e2;
+    border-radius: 20px;
+    width: 40vw;
+    height: 7vw;
+    text-decoration: none;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .places .r1rcm .more a p {
+    color: #0E4946;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 {
+    margin: 7vh 0 0 0;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions {
+    margin: 7vh 0 0 0;
+    font-family: "Inter", sans-serif;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions h1 {
+    font-size: 4vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions h3 {
+    font-size: 4vw;
+  }
+  * #experiencemobilecontainer #experiencemobile .botexperiencemobile .botexperiencecontainer .descriptions .courdev2 .indescriptions p {
+    font-size: 3vw;
+  }
+  * #blogmobilecontainer #blogmobile {
+    background-color: #146166;
+    color: white;
+    height: 103vh;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile {
+    display: flex;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .titlemobile {
+    margin: 3vh 0 0 5vh;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #507e81;
+    border-radius: 30px;
+    background-color: #507e81;
+    width: 20vw;
+    height: 5vh;
+    margin: 4.5vh 0 0 37.5vw;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .menuburgerblog {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .menuburgerblog.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .blog_closetext {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .blog_closetext img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile .blog_closetext.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+  }
+  * #blogmobilecontainer #blogmobile .topblogmobile .blog_hamburgermobile.is-active {
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * #blogmobilecontainer #blogmobile .mobile-nav-blog {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #146166;
+    margin: 10vh 0 0 0;
+    transition: 0.8s;
+    z-index: 98;
+  }
+  * #blogmobilecontainer #blogmobile .mobile-nav-blog .mobilelogoblog {
+    margin: 5vh 15vw 0 0;
+  }
+  * #blogmobilecontainer #blogmobile .mobile-nav-blog .mobilelogoblog .navlogoblog {
+    margin: -2vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * #blogmobilecontainer #blogmobile .mobile-nav-blog .mobilelistblog a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * #blogmobilecontainer #blogmobile .mobile-nav-blog .slidesocialsmobileblog {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * #blogmobilecontainer #blogmobile .mobile-nav-blog .slidesocialsmobileblog img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * #blogmobilecontainer #blogmobile .mobile-nav-blog.slide-in {
+    left: 0;
+  }
+  * #blogmobilecontainer #blogmobile #botblogmobile .botblogcontainer {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0 0 0;
+    gap: 3vh;
+    padding: 2vh 1vh;
+  }
+  * #blogmobilecontainer #blogmobile #botblogmobile .botblogcontainer .blogcircles {
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 55vw;
+    height: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * #blogmobilecontainer #blogmobile #botblogmobile .botblogcontainer .blogcircles a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 1vh;
+  }
+  * #blogmobilecontainer #blogmobile #botblogmobile .botblogcontainer .blogcircles a h2 {
+    font-size: 4.5vw;
+    font-family: "Inter", sans-serif;
+  }
+  * #blogmobilecontainer #blogmobile #botblogmobile .botblogcontainer .blogcircles a p {
+    font-size: 3.5vw;
     font-family: "Inter", sans-serif;
   }
   * #contactmobilecontainer #contactmobile {
