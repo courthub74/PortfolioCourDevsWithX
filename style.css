@@ -474,6 +474,7 @@
     padding: 1vh;
     width: 20vw;
     height: 20vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .html #html {
     width: 12vw;
@@ -497,6 +498,7 @@
     width: 20vw;
     height: 20vw;
     gap: 1vh;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .css #css {
     width: 12vw;
@@ -520,6 +522,7 @@
     width: 20vw;
     height: 20vw;
     gap: 1.5vh;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .reactjs #reactjs {
     width: 12vw;
@@ -550,6 +553,7 @@
     width: 20vw;
     height: 20vw;
     gap: 1vh;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .sass #sass {
     width: 10vw;
@@ -573,6 +577,7 @@
     width: 20vw;
     height: 20vw;
     gap: 1vh;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .figma #figma {
     width: 10vw;
@@ -596,6 +601,7 @@
     width: 20vw;
     height: 20vw;
     gap: 0.5vh;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .react-native #react-native {
     width: 12vw;
@@ -655,6 +661,7 @@
     padding: 1vh;
     width: 20vw;
     height: 20vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .javascript #javascript {
     width: 15vw;
@@ -678,6 +685,7 @@
     padding: 1vh;
     width: 20vw;
     height: 20vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .python #python {
     width: 12vw;
@@ -701,6 +709,7 @@
     padding: 1vh;
     width: 20vw;
     height: 20vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsfrontthree .nodejs #nodejs {
     width: 12vw;
@@ -724,6 +733,7 @@
     padding: 1vh;
     width: 20vw;
     height: 20vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .mongo #mongo {
     width: 5vw;
@@ -747,6 +757,7 @@
     padding: 1vh;
     width: 20vw;
     height: 20vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .firebase #firebase {
     margin-top: -2vh;
@@ -771,6 +782,7 @@
     padding: 1vh;
     width: 20vw;
     height: 20vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body #skillsmobilecontainer .botskillsmobile .circlesdiv .iconsbackthree .heroku #heroku {
     width: 12vw;
@@ -1539,7 +1551,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8vh 0 0 -12vw;
+    margin: 5vh 0 0 -12vw;
     color: #FFFFFF;
   }
   * #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .poweredby img {
@@ -6263,11 +6275,10 @@
   }
   * body #tabletmain {
     background-color: #080E2F;
-    background-color: red;
     color: white;
     height: 100vh;
   }
-  * body #desktop {
+  * body #desktopmain {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
