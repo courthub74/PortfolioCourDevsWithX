@@ -43,4 +43,13 @@ const slide_menu_tablet = document.querySelector('.tablet-nav-home');
 wholebuttontablet.addEventListener('click', function () {
     // test print
     console.log("You've pressed the burger button");
+    // toggle the is-gone class on the burger
+    tabburger.classList.toggle('is-gone');
+    // toggle the is-active class on the whole button to 
+        // show the X and the slide in menu
+    wholebuttontablet.classList.toggle('is-active');
+    // toggle the X to is-shown when the button is active
+    tabletx.classList.toggle('is-active');
+    // toggle the slide in menu css class on to slide-in
+    slide_menu_tablet.classList.toggle('slide-in');
 });
