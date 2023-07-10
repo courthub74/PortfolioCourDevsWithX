@@ -5,6 +5,9 @@
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
   }
+  * body #tabletcontainer {
+    display: none;
+  }
   * body #mobilecontainer #mobilemain {
     background-color: #080E2F;
     color: white;
@@ -1558,7 +1561,7 @@
   * body #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .poweredby small a {
     color: #58a6ff;
   }
-  * body #tabletcontainer {
+  * #desktopcontainer {
     display: none;
   }
 }
@@ -3125,9 +3128,6 @@
   }
   * body #contactmobilecontainer #contactmobile .botcontactmobile .contactform .nameemaildiv .poweredby small a {
     color: #58a6ff;
-  }
-  * #tabletcontainer {
-    display: none;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 360px) {
@@ -6261,19 +6261,39 @@
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
   }
-  * body {
-    background-color: #080E2F;
-  }
-  * body #mobilemain {
+  * body #mobilecontainer {
     display: none;
   }
-  * body #tabletmain {
+  * body #tabletcontainer #tablethome {
     background-color: #080E2F;
     background-color: red;
     color: white;
     height: 100vh;
   }
-  * body #desktop {
+  * body #tabletcontainer #tablethome .tophometablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .logotablet {
+    margin: 2vh 0 0 0;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .logotablet img {
+    width: 23vw;
+    height: 23vw;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    width: 20vw;
+    height: 5vh;
+    margin: 2vh 0 0 35vw;
+  }
+  * body #desktopcontainer {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */

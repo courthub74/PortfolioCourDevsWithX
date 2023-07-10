@@ -48,6 +48,10 @@ $lighterskills: #080e31;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         body {
+            // ALL TABLETS
+            #tabletcontainer {
+                display: none;
+            }
             // ALL MOBILES
             #mobilecontainer {
                 #mobilemain {
@@ -1740,9 +1744,9 @@ $lighterskills: #080e31;
                         }
                     }
                 }
-                #tabletcontainer {
-                    display: none;
-                }
+            }
+            #desktopcontainer {
+                display: none;
             }
         }
     }
@@ -3457,9 +3461,6 @@ $lighterskills: #080e31;
                         }
                     }
                 }
-            }
-            #tabletcontainer {
-                display: none;
             }
         }
     }
@@ -6904,17 +6905,41 @@ $lighterskills: #080e31;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         body {
-            background-color: $mainblue;
-            #mobilemain {
+            #mobilecontainer {
                 display: none;
             }
-            #tabletmain {
-                background-color: $mainblue;
-                background-color: red;
-                color: white;
-                height: 100vh;
+            #tabletcontainer {
+                #tablethome {
+                    background-color: $mainblue;
+                    background-color: red;
+                    color: white;
+                    height: 100vh;
+                    .tophometablet {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .logotablet {
+                            margin: 2vh 0 0 0;
+                            img {
+                                width: 23vw;
+                                height: 23vw;
+                            }
+                        }
+                        .hamburgertablet {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid $portfolios;
+                            border-radius: 30px;
+                            background-color: $portfolios;
+                            width: 20vw;
+                            height: 5vh;
+                            margin: 2vh 0 0 35vw;
+                        }
+                    }
+                }
             }
-            #desktop {
+            #desktopcontainer {
                 display: none;
             }
         }

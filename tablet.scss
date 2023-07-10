@@ -1,0 +1,170 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+// COLORS
+$mainblue: #080E2F;
+$skillswhite: #FFFFFF;
+$aboutgreen: #0E4946;
+$skillsteal: #146166;
+$iconblock: #023430;
+$languagewhite: #d9e2e2;
+$techcirclegreen: #05607D;
+$hoverfonts: #B7BCD6;
+$experiencegreen: #255C5A;
+
+// BUTTON COLORS
+$learnmorebutton: #EBEBEB;
+$experiencegreenbutton: #476D6B;
+
+// DISPLAY SQAURES COLORS
+$portfolios: #36395D;
+$experiences: #496b69;
+$experiencestwo: #476D6B;
+$abouts: #627C7A;
+$skillses: #7FC4C9;
+$skillsdarker: #669EA3;
+$skillsdarker2: #507e81;
+
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+
+// FOOTER
+$firstblue: #58a6ff;
+$secondblue: #6287cf;
+$thirdblue: rgb(85, 85, 255);
+$smallsgrey: #757782;
+
+// SOCIALS
+$socialsgrey: #B7BCD6;
+
+$lighterskills: #080e31;
+
+
+/// MAIN TABLET VERSION (from 500px to 1000px)
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    *{
+        margin: 0;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        body {
+            #mobilecontainer {
+                display: none;
+            }
+            #tabletcontainer {
+                #tablethome {
+                    background-color: $mainblue;
+                    color: white;
+                    height: 100vh;
+                    .tophometablet {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .logotablet {
+                            margin: 2vh 0 0 0;
+                            img {
+                                width: 23vw;
+                                height: 23vw;
+                            }
+                        }
+                        .hamburgertablet {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid $portfolios;
+                            border-radius: 40px;
+                            background-color: $portfolios;
+                            width: 20vw;
+                            height: 6vh;
+                            margin: 2vh 0 0 35vw;
+                            .tabletburger {
+                                position: relative;
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            .tabletburger.is-gone {
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                            .tabletclose {
+                                width: 30vw;
+                                height: 5vh;
+                                padding: 1vw;
+                                position: absolute;
+                                color: white;
+                                opacity: 0;
+                                z-index: 100;
+                                img {
+                                     width: 10vw;
+                                     height: 10vw;
+                                }
+                            }
+                            .tablettext.is-shown {
+                                opacity: 1;
+                                color: white;
+                                width: 10vw;
+                                height: 10vw;
+                                transition: .6s;
+                            }
+                        }
+                        .hamburgertablet.is-active {
+                            color: white;
+                            font-size: 3vw;
+                            transition: .3s;
+                        }
+                    }
+                    .tablet-nav-home {
+                        position: fixed;
+                        top: 0;
+                        left: 100%;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+                        z-index: 98;
+                        background-color: $mainblue;
+                        margin: 0 0 0 0;
+                        transition: .8s;
+                        z-index: 98;
+                        .tabletlogohome {
+                            margin: 5vh 15vw 0 0;
+                            // background-color: #023430;
+                            .navlogotablet {
+                                margin: -2vh 0 0 5vw;
+                                width: 23vw;
+                                height: 23vw;
+                            }
+                        }
+                        .tabletlisthome {
+                            a {
+                                display: block;
+                                text-align: left;
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 5vw;
+                                font-weight: bold;
+                                margin: 4vh 0 0 9vw;
+                            }
+                        }
+                        .slidesocialstablethome {
+                            // background-color: #023430;
+                            display: flex;
+                            flex-direction: row;
+                            gap: 2vw;
+                            margin: 5vh 0 0 8vw;
+                            img {
+                                width: 8vw;
+                                height: 8vw;
+                            }
+                       }
+                    }
+                    // when nav home is toggled to class 'slide-in'
+                    .tablet-nav-home.slide-in {
+                        left: 0;
+                    }
+                }
+            }
+            #desktopcontainer {
+                display: none;
+            }
+        }  
+    }
+}
