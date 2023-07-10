@@ -113,6 +113,13 @@
   * body #tabletcontainer #tablethome .tablet-nav-home.slide-in {
     left: 0;
   }
+  * body #tabletcontainer #tablethome .bothometablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 0;
+  }
   * body #desktopcontainer {
     display: none;
   }

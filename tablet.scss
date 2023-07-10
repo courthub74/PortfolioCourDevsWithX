@@ -159,6 +159,14 @@ $lighterskills: #080e31;
                     .tablet-nav-home.slide-in {
                         left: 0;
                     }
+                    // BOTTOM of the home section
+                    .bothometablet {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 4vh 0 0 0;
+                    }
                 }
             }
             #desktopcontainer {
