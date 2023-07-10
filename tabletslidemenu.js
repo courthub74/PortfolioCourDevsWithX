@@ -49,7 +49,7 @@ wholebuttontablet.addEventListener('click', function () {
         // show the X and the slide in menu
     wholebuttontablet.classList.toggle('is-active');
     // toggle the X to is-shown when the button is active
-    tabletx.classList.toggle('is-active');
+    tabletx.classList.toggle('is-shown');
     // toggle the slide in menu css class on to slide-in
     slide_menu_tablet.classList.toggle('slide-in');
 });

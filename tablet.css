@@ -58,7 +58,7 @@
     width: 10vw;
     height: 10vw;
   }
-  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tablettext.is-shown {
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletclose.is-shown {
     opacity: 1;
     color: white;
     width: 10vw;
