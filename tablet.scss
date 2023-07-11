@@ -56,10 +56,10 @@ $lighterskills: #080e31;
                     height: 100vh;
                     .tophometablet {
                         display: flex;
-                        justify-content: center;
+                        justify-content: space-between;
                         align-items: center;
                         .logotablet {
-                            margin: 2vh 0 0 0;
+                            margin: 2vh 0 0 5vw;
                             img {
                                 width: 23vw;
                                 height: 23vw;
@@ -74,7 +74,8 @@ $lighterskills: #080e31;
                             background-color: $portfolios;
                             width: 20vw;
                             height: 6vh;
-                            margin: 2vh 0 0 35vw;
+                            margin: 0 7vw 0 0;
+                            // margin: 2vh 0 0 35vw;
                             .tabletburger {
                                 position: relative;
                                 width: 9vw;
@@ -166,6 +167,89 @@ $lighterskills: #080e31;
                         justify-content: center;
                         align-items: center;
                         margin: 4vh 0 0 0;
+                        .phototablet {
+                            img {
+                                border-radius: 50%;
+                                width: 40vw;
+                                height: 40vw;
+                            }
+                        }
+                        .nameheadertablet {
+                            margin: 6vh 0 0 0;
+                            #nametablet {
+                                font-size: 7vw;
+                                font-weight: bold;
+                                font-family: 'Inter', sans-serif;
+                                color: $skillswhite;
+                            }
+                            #jobdescriptablet {
+                                font-family: 'Inter', sans-serif;
+                                text-align: center;
+                                color: $socialsgrey;
+                                font-size: 4vw;
+                            }
+                        }
+                        .catchphrasetablet {
+                            margin: 4vh 0 0 0;
+                            text-align: center;
+                            #catchphrasetablet {
+                                // font-family: 'Inter', sans-serif;
+                                font-family: 'Roboto', sans-serif;
+                                color: $skillswhite;
+                                font-size: 3vw;
+                            }
+                        }
+                        .portfoliobuttontablet {
+                            border: 1px solid $portfolios;
+                            border-radius: 30px;
+                            background-color: $portfolios;
+                            padding: 2vw;
+                            width: 40vw;
+                            height: 3vw;
+                            text-align: center;
+                            margin: 10vh 0 0 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            a {
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif;
+                                color: $learnmorebutton;
+                                font-size: 3vw;
+                            }
+                        }
+                    }
+                }
+                // ABOUT SECTION TABLET
+                #abouttabletcontainer {
+                    #abouttablet {
+                        background-color: $aboutgreen;
+                        color: white;
+                        height: 100vh;
+                        // TOP of the about section
+                        .topabouttablet {
+                            display: flex;
+                            .titletablet {
+                                margin: 5vh 0 0 5vh;
+                                h1 {
+                                    font-size: 10vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+                // BOTTOM OF ABOUT SECTION TABLET
+                .botabouttablet {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .infotablet {
+                        font-family: 'Roboto', sans-serif;
+                        text-align: left;
+                        padding: 5vh;
+                        font-size: 3vw; 
                     }
                 }
             }

@@ -15,11 +15,11 @@
   }
   * body #tabletcontainer #tablethome .tophometablet {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   * body #tabletcontainer #tablethome .tophometablet .logotablet {
-    margin: 2vh 0 0 0;
+    margin: 2vh 0 0 5vw;
   }
   * body #tabletcontainer #tablethome .tophometablet .logotablet img {
     width: 23vw;
@@ -34,7 +34,7 @@
     background-color: #36395D;
     width: 20vw;
     height: 6vh;
-    margin: 2vh 0 0 35vw;
+    margin: 0 7vw 0 0;
   }
   * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletburger {
     position: relative;
@@ -119,6 +119,81 @@
     justify-content: center;
     align-items: center;
     margin: 4vh 0 0 0;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .phototablet img {
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .nameheadertablet {
+    margin: 6vh 0 0 0;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .nameheadertablet #nametablet {
+    font-size: 7vw;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .nameheadertablet #jobdescriptablet {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #B7BCD6;
+    font-size: 4vw;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .catchphrasetablet {
+    margin: 4vh 0 0 0;
+    text-align: center;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .catchphrasetablet #catchphrasetablet {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 3vw;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .portfoliobuttontablet {
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    padding: 2vw;
+    width: 40vw;
+    height: 3vw;
+    text-align: center;
+    margin: 10vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .portfoliobuttontablet a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #EBEBEB;
+    font-size: 3vw;
+  }
+  * body #tabletcontainer #abouttabletcontainer #abouttablet {
+    background-color: #0E4946;
+    color: white;
+    height: 100vh;
+  }
+  * body #tabletcontainer #abouttabletcontainer #abouttablet .topabouttablet {
+    display: flex;
+  }
+  * body #tabletcontainer #abouttabletcontainer #abouttablet .topabouttablet .titletablet {
+    margin: 5vh 0 0 5vh;
+  }
+  * body #tabletcontainer #abouttabletcontainer #abouttablet .topabouttablet .titletablet h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #tabletcontainer .botabouttablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  * body #tabletcontainer .botabouttablet .infotablet {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    padding: 5vh;
+    font-size: 3vw;
   }
   * body #desktopcontainer {
     display: none;
