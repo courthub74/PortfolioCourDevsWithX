@@ -260,7 +260,7 @@ $lighterskills: #080e31;
                         height: 3vw;
                         background-color: $experiencegreenbutton;
                         padding: 2vw;
-                        margin: 4vh 0 0 0;
+                        margin: 12vh 0 0 0;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -272,6 +272,434 @@ $lighterskills: #080e31;
                                 font-size: 3vw;
                         }
                     }
+                }
+            }
+            // SKILLS SECTION
+            #skillstabletcontainer {
+                #skillstablet {
+                    background-color: $skillsteal;
+                    color: white;
+                    height: 190vh;
+                    // Top of the skills section
+                    .topskillstablet {
+                        display: flex;
+                        .titletablet {
+                            margin: 4vh 0 0 5vh;
+                            h1 {
+                                font-size: 10vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    // Bottom of Skills section
+                    .botskillstablet {
+                        margin: 4vh 0 0 0;
+                        // First Circles Div
+                        .skillcirclestablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 7vh;
+                            // margin: 4vh 0 0 0;
+                            // Big Back Circle
+                            .bigcircletablet {
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                width: 50vw;
+                                height: 50vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                .lilcircletablet {
+                                    border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: $mainblue;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    p {
+                                        color: white;
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                        // front row of icons
+                        .iconsfirstrow {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2vw;
+                            margin: 4vh 0 0 0;
+                            .html {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 1vh;
+                                width: 20vw;
+                                height: 20vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #html {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                            .css {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 1vh;
+                                width: 20vw;
+                                height: 20vw;
+                                gap: 1vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #css {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                            .reactjs {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 1vh;
+                                width: 20vw;
+                                height: 20vw;
+                                gap: 2vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #reactjs {
+                                    width: 10vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                        }
+                        // second row of icons
+                        .iconssecondrow {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2vw;
+                            margin: 2vh 0 0 0;
+                            .sass {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 1vh;
+                                width: 20vw;
+                                height: 20vw;
+                                gap: 1.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #sass {
+                                    width: 9vw;
+                                    height: 9vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                            .figma {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 1vh;
+                                width: 20vw;
+                                height: 20vw;
+                                gap: 1.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #figma {
+                                    width: 8vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                            .react-native {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 1vh;
+                                width: 20vw;
+                                height: 20vw;
+                                gap: 0.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #react-native {
+                                    width: 11vw;
+                                    height: 11vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3vw;
+                                    text-align: center;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                }
+                            }
+                        }
+
+                        // SECOND BIG CIRCLE TABLET
+                        .responsivedesigndivtablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .bigcircletwotablet {
+                                margin: 12vh 0 0 0vw;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                width: 50vw;
+                                height: 50vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                .lilcircletwotablet {
+                                    border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 30vw;
+                                    height: 30vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: $mainblue;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    .technologiestablet {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        p {
+                                            color: white;
+                                            font-size: 3vw;
+                                            // background-color: blueviolet;
+                                        }
+                                    }
+                                }
+                            }
+                            .iconsthirdrowtablet {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2vw;
+                                margin: 4vh 0 0 0;
+                                .javascript {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: .5vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 1vh;
+                                    width: 20vw;
+                                    height: 20vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #javascript {
+                                        width: 12vw;
+                                        height: 12vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3vw;
+                                        font-family: 'Julius Sans One', sans-serif;
+                                    }
+                                }
+                                .python {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 1vh;
+                                    width: 20vw;
+                                    height: 20vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #python {
+                                        width: 12vw;
+                                        height: 12vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3vw;
+                                        font-family: 'Julius Sans One', sans-serif;
+                                    }
+                                }
+                                .nodejs {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 1vh;
+                                    width: 20vw;
+                                    height: 20vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #nodejs {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3vw;
+                                        font-family: 'Julius Sans One', sans-serif;
+                                    }
+                                }
+                            }
+                            .iconsfourthrowtablet {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2vw;
+                                margin: 4vh 0 0 0;
+                                .mongo {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 1vh;
+                                    width: 20vw;
+                                    height: 20vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #mongo {
+                                        margin: -1vh 0 0 0;
+                                        width: 4vw;
+                                        height: 10vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3vw;
+                                        font-family: 'Julius Sans One', sans-serif;
+                                    }
+                                }
+                                .firebase {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 1vh;
+                                    width: 20vw;
+                                    height: 20vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #firebase {
+                                        margin-top: -3vh;
+                                        width: 13vw;
+                                        height: 13vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3vw;
+                                        font-family: 'Julius Sans One', sans-serif;
+                                    }
+                                }
+                                .heroku {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1.5vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 1vh;
+                                    width: 20vw;
+                                    height: 20vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #heroku {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3vw;
+                                        font-family: 'Julius Sans One', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                 }
             }
             #desktopcontainer {

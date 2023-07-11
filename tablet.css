@@ -204,7 +204,7 @@
     height: 3vw;
     background-color: #476D6B;
     padding: 2vw;
-    margin: 4vh 0 0 0;
+    margin: 12vh 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,6 +215,420 @@
     color: #EBEBEB;
     text-align: center;
     font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet {
+    background-color: #146166;
+    color: white;
+    height: 190vh;
+  }
+  * body #skillstabletcontainer #skillstablet .topskillstablet {
+    display: flex;
+  }
+  * body #skillstabletcontainer #skillstablet .topskillstablet .titletablet {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #skillstabletcontainer #skillstablet .topskillstablet .titletablet h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet {
+    margin: 4vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet .lilcircletablet {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet .lilcircletablet p {
+    color: white;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 4vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html #html {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 1vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css #css {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .reactjs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 2vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .reactjs #reactjs {
+    width: 10vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .reactjs p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .sass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .sass #sass {
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .sass p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .figma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .figma #figma {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .figma p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .react-native {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .react-native #react-native {
+    width: 11vw;
+    height: 11vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .react-native p {
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet {
+    margin: 12vh 0 0 0vw;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet .technologiestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet .technologiestablet p {
+    color: white;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 4vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript #javascript {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python #python {
+    width: 12vw;
+    height: 12vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .nodejs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .nodejs #nodejs {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .nodejs p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 4vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo #mongo {
+    margin: -1vh 0 0 0;
+    width: 4vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase #firebase {
+    margin-top: -3vh;
+    width: 13vw;
+    height: 13vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku #heroku {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku p {
+    color: white;
+    font-size: 3vw;
+    font-family: "Julius Sans One", sans-serif;
   }
   * body #desktopcontainer {
     display: none;
