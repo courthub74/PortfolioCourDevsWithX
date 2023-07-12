@@ -349,9 +349,9 @@ $lighterskills: #080e31;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
-                                padding: 1vh;
-                                width: 20vw;
-                                height: 20vw;
+                                padding: 2vh;
+                                width: 15vw;
+                                height: 15vw;
                                 box-shadow: 2px 2px 3px $boxshadowcircles;
                                 #html {
                                     width: 10vw;
@@ -359,7 +359,7 @@ $lighterskills: #080e31;
                                 }
                                 p {
                                     color: white;
-                                    font-size: 3vw;
+                                    font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
@@ -372,9 +372,9 @@ $lighterskills: #080e31;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
-                                padding: 1vh;
-                                width: 20vw;
-                                height: 20vw;
+                                padding: 2vh;
+                                width: 15vw;
+                                height: 15vw;
                                 gap: 1vh;
                                 box-shadow: 2px 2px 3px $boxshadowcircles;
                                 #css {
@@ -383,7 +383,7 @@ $lighterskills: #080e31;
                                 }
                                 p {
                                     color: white;
-                                    font-size: 3vw;
+                                    font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
@@ -396,9 +396,9 @@ $lighterskills: #080e31;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
-                                padding: 1vh;
-                                width: 20vw;
-                                height: 20vw;
+                                padding: 2vh;
+                                width: 15vw;
+                                height: 15vw;
                                 gap: 2vh;
                                 box-shadow: 2px 2px 3px $boxshadowcircles;
                                 #reactjs {
@@ -407,7 +407,7 @@ $lighterskills: #080e31;
                                 }
                                 p {
                                     color: white;
-                                    font-size: 3vw;
+                                    font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
@@ -428,9 +428,9 @@ $lighterskills: #080e31;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
-                                padding: 1vh;
-                                width: 20vw;
-                                height: 20vw;
+                                padding: 2vh;
+                                width: 15vw;
+                                height: 15vw;
                                 gap: 1.5vh;
                                 box-shadow: 2px 2px 3px $boxshadowcircles;
                                 #sass {
@@ -439,7 +439,7 @@ $lighterskills: #080e31;
                                 }
                                 p {
                                     color: white;
-                                    font-size: 3vw;
+                                    font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
@@ -452,9 +452,9 @@ $lighterskills: #080e31;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
-                                padding: 1vh;
-                                width: 20vw;
-                                height: 20vw;
+                                padding: 2vh;
+                                width: 15vw;
+                                height: 15vw;
                                 gap: 1.5vh;
                                 box-shadow: 2px 2px 3px $boxshadowcircles;
                                 #figma {
@@ -463,7 +463,7 @@ $lighterskills: #080e31;
                                 }
                                 p {
                                     color: white;
-                                    font-size: 3vw;
+                                    font-size: 2.5vw;
                                     font-family: 'Julius Sans One', sans-serif;
                                 }
                             }
@@ -476,9 +476,9 @@ $lighterskills: #080e31;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
-                                padding: 1vh;
-                                width: 20vw;
-                                height: 20vw;
+                                padding: 2vh;
+                                width: 15vw;
+                                height: 15vw;
                                 gap: 0.5vh;
                                 box-shadow: 2px 2px 3px $boxshadowcircles;
                                 #react-native {
@@ -487,7 +487,7 @@ $lighterskills: #080e31;
                                 }
                                 p {
                                     color: white;
-                                    font-size: 3vw;
+                                    font-size: 2.5vw;
                                     text-align: center;
                                     font-family: 'Julius Sans One', sans-serif;
                                 }
@@ -726,19 +726,19 @@ $lighterskills: #080e31;
                             flex-direction: column;
                             align-items: center;
                             padding: 7vh;
-                            margin: 0 0 0 0;
+                            margin: 4vh 0 0 0;
                             gap: 6vh;
                             .app1 {
                                 border: 1px solid $portfolios;
                                 background-color: $portfolios;
                                 border-radius: 10px;
-                                height: 30vw;
+                                height: 25vw;
                                 width: 78vw;
                                 .app1cover {
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 6vh 0 0 0;
+                                    margin: 4vh 0 0 0;
                                     width: 100%;
                                     a {
                                         display: flex;
@@ -765,13 +765,13 @@ $lighterskills: #080e31;
                                 border: 1px solid $portfolios;
                                 background-color: $portfolios;
                                 border-radius: 10px;
-                                height: 30vw;
+                                height: 25vw;
                                 width: 78vw;
                                 .app2cover {
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 6vh 0 0 0;
+                                    margin: 4.5vh 0 0 0;
                                     width: 100%;
                                     a {
                                         display: flex;
@@ -779,7 +779,7 @@ $lighterskills: #080e31;
                                         align-items: center;
                                         img {
                                             margin: 2vh 0 0 0;
-                                            width: 45vw;
+                                            width: 37vw;
                                             height: 7vw;
                                             flex-shrink: 0;
                                         }
@@ -796,7 +796,7 @@ $lighterskills: #080e31;
                                 border: 1px solid $portfolios;
                                 background-color: $portfolios;
                                 border-radius: 10px;
-                                height: 30vw;
+                                height: 25vw;
                                 width: 78vw;
                                 .app3cover {
                                     display: flex;
@@ -806,8 +806,157 @@ $lighterskills: #080e31;
                                     width: 100%;
                                     a {
                                         img {
-                                            width: 25vw;
-                                            height: 30vw;
+                                            width: 24vw;
+                                            height: 25vw;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // EXPERIENCE SECTION
+            #experiencetabletcontainer {
+                #experiencetablet {
+                    background-color: $aboutgreen;
+                    color: white;
+                    height: 100vh;
+                    .topexperiencetablet {
+                        display: flex;
+                        .titletablet {
+                            margin: 4vh 0 0 5vh;
+                            h1 {
+                                font-size: 9vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    .botexperiencetablet {
+                        display: flex;
+                        justify-content: center;
+                        .places {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5vh;
+                            margin: 5vh 0 0 0;
+                            .courdevs {
+                                display: flex;
+                                flex-direction: column;
+                                border: 1px solid $experiencegreenbutton;
+                                background-color: $experiencegreenbutton;
+                                border-radius: 12px;
+                                padding: 8vw;
+                                width: 35vw;
+                                height: 35vw;
+                                margin: 0 0 0 5vw;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 2vw;
+                                img {
+                                    margin: -2vh 0 0 3vw;
+                                    width: 30vw;
+                                    height: 30vw;
+                                }
+                                .jobdeets {
+                                    margin: 2vh 0 0 0;
+                                }
+                            }
+                            .slea {
+                                display: flex;
+                                flex-direction: column;
+                                border: 1px solid $experiencegreenbutton;
+                                background-color: $experiencegreenbutton;
+                                border-radius: 12px;
+                                padding: 8vw;
+                                width: 35vw;
+                                height: 35vw;
+                                margin: 0 0 0 5vw;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 2vw;
+                                img {
+                                    margin: 0vh 0 0 5vw;
+                                    width: 25vw;
+                                    height: 25vw;
+                                }
+                                .jobdeets {
+                                    margin: 5vh 0 0 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // BLOG SECTION
+            #blogtabletcontainer {
+                #blogtablet {
+                    background-color: $skillsteal;
+                    color: white;
+                    height: 100vh;
+                    .topblogtablet {
+                        display: flex;
+                        .titlemobile {
+                            margin: 3vh 0 0 5vh;
+                            h1 {
+                                font-size: 10vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    #botblogtablet {
+                        display: flex;
+                        flex-direction: column;
+                        overflow: hidden;
+                        overflow-y: scroll;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0vh 0 0 0;
+                        gap: 3vh;
+                        // background-color: #58a6ff;
+                        padding: 1vh 1vh;
+                        .botblogoutline {
+                            display: flex;
+                            flex-direction: column;
+                            overflow: hidden;
+                            overflow-y: scroll;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 2vh 0 0 0;
+                            gap: 3vh;
+                            // background-color: #58a6ff;
+                            // padding: 1vh 1vh;
+                            .blogcircles {
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                width: 55vw;
+                                height: 55vw;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 1vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                .blogcontent {
+                                    border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 30vw;
+                                    height: 30vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 2vh;
+                                    a {
+                                        text-decoration: none;
+                                        color: $skillswhite;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: right;
+                                        gap: 1vh;
+                                        h2 {
+                                            font-size: 2.5vw;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        p {
+                                            font-size: 2vw;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                 }

@@ -286,9 +286,9 @@
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
-    padding: 1vh;
-    width: 20vw;
-    height: 20vw;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html #html {
@@ -297,7 +297,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html p {
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: "Julius Sans One", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css {
@@ -309,9 +309,9 @@
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
-    padding: 1vh;
-    width: 20vw;
-    height: 20vw;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
     gap: 1vh;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
@@ -321,7 +321,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css p {
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: "Julius Sans One", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .reactjs {
@@ -333,9 +333,9 @@
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
-    padding: 1vh;
-    width: 20vw;
-    height: 20vw;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
     gap: 2vh;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
@@ -345,7 +345,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .reactjs p {
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: "Julius Sans One", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow {
@@ -364,9 +364,9 @@
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
-    padding: 1vh;
-    width: 20vw;
-    height: 20vw;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
     gap: 1.5vh;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
@@ -376,7 +376,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .sass p {
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: "Julius Sans One", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .figma {
@@ -388,9 +388,9 @@
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
-    padding: 1vh;
-    width: 20vw;
-    height: 20vw;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
     gap: 1.5vh;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
@@ -400,7 +400,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .figma p {
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: "Julius Sans One", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .react-native {
@@ -412,9 +412,9 @@
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
-    padding: 1vh;
-    width: 20vw;
-    height: 20vw;
+    padding: 2vh;
+    width: 15vw;
+    height: 15vw;
     gap: 0.5vh;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
@@ -424,7 +424,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .react-native p {
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     font-family: "Julius Sans One", sans-serif;
   }
@@ -654,21 +654,21 @@
     flex-direction: column;
     align-items: center;
     padding: 7vh;
-    margin: 0 0 0 0;
+    margin: 4vh 0 0 0;
     gap: 6vh;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 {
     border: 1px solid #36395D;
     background-color: #36395D;
     border-radius: 10px;
-    height: 30vw;
+    height: 25vw;
     width: 78vw;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 .app1cover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 6vh 0 0 0;
+    margin: 4vh 0 0 0;
     width: 100%;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 .app1cover a {
@@ -693,14 +693,14 @@
     border: 1px solid #36395D;
     background-color: #36395D;
     border-radius: 10px;
-    height: 30vw;
+    height: 25vw;
     width: 78vw;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 .app2cover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 6vh 0 0 0;
+    margin: 4.5vh 0 0 0;
     width: 100%;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 .app2cover a {
@@ -710,7 +710,7 @@
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 .app2cover a img {
     margin: 2vh 0 0 0;
-    width: 45vw;
+    width: 37vw;
     height: 7vw;
     flex-shrink: 0;
   }
@@ -723,7 +723,7 @@
     border: 1px solid #36395D;
     background-color: #36395D;
     border-radius: 10px;
-    height: 30vw;
+    height: 25vw;
     width: 78vw;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app3 .app3cover {
@@ -734,8 +734,148 @@
     width: 100%;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app3 .app3cover a img {
-    width: 25vw;
+    width: 24vw;
+    height: 25vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet {
+    background-color: #0E4946;
+    color: white;
+    height: 100vh;
+  }
+  * body #experiencetabletcontainer #experiencetablet .topexperiencetablet {
+    display: flex;
+  }
+  * body #experiencetabletcontainer #experiencetablet .topexperiencetablet .titletablet {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #experiencetabletcontainer #experiencetablet .topexperiencetablet .titletablet h1 {
+    font-size: 9vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet {
+    display: flex;
+    justify-content: center;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 5vh 0 0 0;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
+    border-radius: 12px;
+    padding: 8vw;
+    width: 35vw;
+    height: 35vw;
+    margin: 0 0 0 5vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs img {
+    margin: -2vh 0 0 3vw;
+    width: 30vw;
     height: 30vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs .jobdeets {
+    margin: 2vh 0 0 0;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
+    border-radius: 12px;
+    padding: 8vw;
+    width: 35vw;
+    height: 35vw;
+    margin: 0 0 0 5vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea img {
+    margin: 0vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea .jobdeets {
+    margin: 5vh 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet {
+    background-color: #146166;
+    color: white;
+    height: 100vh;
+  }
+  * body #blogtabletcontainer #blogtablet .topblogtablet {
+    display: flex;
+  }
+  * body #blogtabletcontainer #blogtablet .topblogtablet .titlemobile {
+    margin: 3vh 0 0 5vh;
+  }
+  * body #blogtabletcontainer #blogtablet .topblogtablet .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    margin: 0vh 0 0 0;
+    gap: 3vh;
+    padding: 1vh 1vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0 0 0;
+    gap: 3vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles {
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 55vw;
+    height: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 1vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent a h2 {
+    font-size: 2.5vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent a p {
+    font-size: 2vw;
+    font-family: "Inter", sans-serif;
   }
   * body #desktopcontainer {
     display: none;
