@@ -630,6 +630,113 @@
     font-size: 3vw;
     font-family: "Julius Sans One", sans-serif;
   }
+  * body #portfoliotabletcontainer #portfoliotabletdiv {
+    background-color: #080E2F;
+    color: white;
+    height: 100vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet {
+    display: flex;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet .titlemobile {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile {
+    display: flex;
+    flex-direction: column;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7vh;
+    margin: 0 0 0 0;
+    gap: 6vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 .app1cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh 0 0 0;
+    width: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 .app1cover a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 1vh;
+    margin-top: -3vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 .app1cover a img {
+    width: 15vw;
+    height: 15vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 .app1cover a p {
+    font-size: 4vw;
+    font-family: "Julius Sans One", sans-serif;
+    color: white;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 .app2cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh 0 0 0;
+    width: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 .app2cover a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 .app2cover a img {
+    margin: 2vh 0 0 0;
+    width: 45vw;
+    height: 7vw;
+    flex-shrink: 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 .app2cover a p {
+    font-size: 4vw;
+    font-family: "Julius Sans One", sans-serif;
+    color: white;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app3 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app3 .app3cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app3 .app3cover a img {
+    width: 25vw;
+    height: 30vw;
+  }
   * body #desktopcontainer {
     display: none;
   }

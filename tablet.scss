@@ -702,6 +702,120 @@ $lighterskills: #080e31;
 
                 }
             }
+            // PORTFOLIO SECTION
+            #portfoliotabletcontainer {
+                #portfoliotabletdiv {
+                    background-color: $mainblue;
+                    color: white;
+                    height: 100vh;
+                    .topportfoliotablet {
+                        display: flex;
+                        .titlemobile {
+                            margin: 4vh 0 0 5vh;
+                            h1 {
+                                font-size: 10vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    .botportfoliomobile {
+                        display: flex;
+                        flex-direction: column;
+                        .portfoliooutline {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 7vh;
+                            margin: 0 0 0 0;
+                            gap: 6vh;
+                            .app1 {
+                                border: 1px solid $portfolios;
+                                background-color: $portfolios;
+                                border-radius: 10px;
+                                height: 30vw;
+                                width: 78vw;
+                                .app1cover {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 6vh 0 0 0;
+                                    width: 100%;
+                                    a {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-decoration: none;
+                                        gap: 1vh;
+                                        margin-top: -3vh;
+                                        img {
+                                            width: 15vw;
+                                            height: 15vw;
+                                        }
+                                        p {
+                                            font-size: 4vw;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                            // font-weight: bold;
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+                            .app2 {
+                                border: 1px solid $portfolios;
+                                background-color: $portfolios;
+                                border-radius: 10px;
+                                height: 30vw;
+                                width: 78vw;
+                                .app2cover {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 6vh 0 0 0;
+                                    width: 100%;
+                                    a {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        img {
+                                            margin: 2vh 0 0 0;
+                                            width: 45vw;
+                                            height: 7vw;
+                                            flex-shrink: 0;
+                                        }
+                                        p {
+                                            font-size: 4vw;
+                                            font-family: 'Julius Sans One', sans-serif;
+                                            // font-weight: bold;
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+                            .app3 {
+                                border: 1px solid $portfolios;
+                                background-color: $portfolios;
+                                border-radius: 10px;
+                                height: 30vw;
+                                width: 78vw;
+                                .app3cover {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 0 0 0 0;
+                                    width: 100%;
+                                    a {
+                                        img {
+                                            width: 25vw;
+                                            height: 30vw;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             #desktopcontainer {
                 display: none;
             }
