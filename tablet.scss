@@ -1038,13 +1038,13 @@ $lighterskills: #080e31;
                                 display: flex;
                                 flex-direction: column;
                                 .name {
-                                    margin: 0 0 5vh 0;
+                                    margin: 0 0 5vh -3.8vw;
                                     p {
                                         font-size: 4vw;
                                     }
                                     input {
-                                        width: 75vw;
-                                        height: 5vh;
+                                        width: 80vw;
+                                        height: 7vh;
                                         border: none;
                                         border-radius: 5px;
                                         background-color: $portfolios;
@@ -1052,14 +1052,14 @@ $lighterskills: #080e31;
                                     }  
                                 }
                                 .email {
-                                    margin: 0 0 5vh 0;
+                                    margin: 0 0 5vh -3.8vw;
                                     p {
                                         font-size: 4vw;
                                         // color: $hoverfonts;
                                     }
                                     input {
-                                        width: 75vw;
-                                        height: 5vh;
+                                        width: 80vw;
+                                        height: 7vh;
                                         border: none;
                                         border-radius: 5px;
                                         background-color: $portfolios;
@@ -1070,13 +1070,13 @@ $lighterskills: #080e31;
                                     }  
                                 }
                                 .message {
-                                    margin: 0 0 5vh 0;
+                                    margin: 0 0 5vh -3.8vw;
                                     p {
                                         font-size: 4vw;
                                     }
                                     input {
-                                        width: 75vw;
-                                        height: 20vh;
+                                        width: 80vw;
+                                        height: 25vh;
                                         border: none;
                                         border-radius: 5px;
                                         background-color: $portfolios;
@@ -1085,62 +1085,73 @@ $lighterskills: #080e31;
                                     }  
                                 }
                                 .submit {
-                                    margin: 0 0 0 0;
+                                    margin: 0 0 0 -3.8vw;
                                     button {
                                         background-color: $portfolios;
                                         border: 1px solid $portfolios;
                                         color: $skillswhite;
                                         border-radius: 10px;
-                                        width: 75vw;
-                                        height: 5vh;
+                                        width: 80vw;
+                                        height: 7vh;
                                         font-size: 4vw;
-                                    }
-                                }
-                                .tabletsocials {
-                                    margin: 4vh 0 0 18vw;
-                                    // background-color: rebeccapurple;
-                                    a {
-                                        // padding: 2vh 2vh;
-                                        #github {
-                                            width: 10vw;
-                                            height: 10vw;
-                                        }
-                                        #linkedin {
-                                            width: 10vw;
-                                            height: 10vw;
-                                        }
-                                        #twitter {
-                                            width: 10vw;
-                                            height: 10vw;
-                                        }
-                                        #instagram {
-                                            width: 10vw;
-                                            height: 10vw;
-                                        }
                                     }
                                 }
                                 .poweredby {
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 5vh 0 0 -12vw;
+                                    // background-color: rebeccapurple;
+                                    margin: 5vh 0 0 -20vw;
                                     color: $skillswhite;
                                     img {
-                                        width: 6vw;
-                                        height: 6vw;
+                                        width: 4vw;
+                                        height: 4vw;
                                         color: $portfolios;
-                                        margin: 0 2vw 0 0;
+                                        margin: 0 1vw 0 0;
                                     }
                                     small {
                                         display: flex;
+                                        justify-content: center;
+                                        align-items: center;
                                         gap: .5vh;
-                                        p {
-                                            color: $socialsgrey;
-                                            font-size: 2.5vw;
+                                        .tabletsocials {
+                                            // margin: 0 -3vw 0 0;
+                                            // background-color: rebeccapurple;
+                                            a {
+                                                // padding: 2vh 2vh;
+                                                #github {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #linkedin {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #twitter {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #instagram {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
                                         }
-                                        a {
-                                            color: $firstblue;
-                                            font-size: 2.5vw;
+                                        .copyrights {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            // padding: 0 0 0 6vw;
+                                            // margin: 0 4vw 0 0;
+                                            p {
+                                                color: $socialsgrey;
+                                                font-size: 2.5vw;
+                                                
+                                            }
+                                            a {
+                                                color: $firstblue;
+                                                font-size: 2.5vw;
+                                            }
                                         }
                                     }
                                 }
