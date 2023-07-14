@@ -710,7 +710,7 @@ $lighterskills: #080e31;
                 #portfoliotabletdiv {
                     background-color: $mainblue;
                     color: white;
-                    height: 100vh;
+                    height: 105vh;
                     .topportfoliotablet {
                         display: flex;
                         .titlemobile {
@@ -983,7 +983,7 @@ $lighterskills: #080e31;
                         ////////////////////// 
                         // APP TWO DESCRIPTION
                         .app-2-description {
-                            // position: fixed;
+                            position: fixed;
                             top: 0;
                             left: 100%;
                             width: 100%;
@@ -991,7 +991,7 @@ $lighterskills: #080e31;
                             display: block;
                             background-color: $mainblue;
                             // background-color: yellowgreen;
-                            margin: -7vh 0 0 0;
+                            margin: 4.7vh 0 0 0;
                             transition: ease-in .8s;
                             z-index: 98;
                             .bordertwo {
