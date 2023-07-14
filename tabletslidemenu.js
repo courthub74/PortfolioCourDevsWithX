@@ -61,3 +61,38 @@ wholebuttontablet.addEventListener('click', function () {
 ////////////////////////////////////////////////////
 
 // PORTFOLIO SLIDE INS
+
+// APP 1
+
+// query the app button
+const app1 = document.querySelector('.app1');
+
+// query the slide in description
+const app1description = document.querySelector('.app-1-description');
+
+// query the close button
+const closeapp1 = document.querySelector('.close_description');
+
+// apply the Event Listener to the app1 button
+app1.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the app1 button");
+    // toggle the is-active class on the slide in menu to on
+        // so it slides in
+    app1description.classList.toggle('slide-in');
+});
+
+// apply an Event Listener to the close button
+    // to toggle the app1description class to off
+closeapp1.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the app1 close button");
+    // toggle the is-active class on the slide in menu to off
+        // so it slides out
+    app1description.classList.toggle('slide-in');
+});
+
+
+
+// APP 2
+
