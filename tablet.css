@@ -1065,6 +1065,13 @@
     font-family: "Inter", sans-serif;
     font-size: 3vw;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .closeapp2 .close_description_two img {
+    width: 4vw;
+    height: 4vw;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description.slide-in {
     left: 0;

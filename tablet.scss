@@ -1191,6 +1191,13 @@ $lighterskills: #080e31;
                                     font-family: 'Inter', sans-serif;
                                     font-size: 3vw;
                                     font-weight: bold;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
                                 }
                             }
                         }
