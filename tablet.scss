@@ -1633,6 +1633,87 @@ $lighterskills: #080e31;
                         gap: 3vh;
                         // background-color: #58a6ff;
                         padding: 1vh 1vh;
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        // BLOG ONE SLIDE-IN
+                        .blogone-slide-in {
+                            // position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $skillsteal;
+                            // background-color: yellowgreen;
+                            margin: 4.5vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .blogone-border {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                .blogcircle {
+                                    .blogoneheader {
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 30vw;
+                                        height: 30vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        h1 {
+                                            font-size: 3vw;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        //////////////////////
+                        /// BLOG ONE END
                         .botblogoutline {
                             display: flex;
                             flex-direction: column;
