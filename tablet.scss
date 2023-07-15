@@ -792,12 +792,12 @@ $lighterskills: #080e31;
                                             font-weight: bold;
                                         }
                                     }
-                                    .close_description {
-                                        background-color: $mainblue;
-                                        border: none;
-                                        color: white;
-                                        font-size: 4vw;
-                                    }
+                                    // .close_description {
+                                    //     background-color: $mainblue;
+                                    //     border: none;
+                                    //     color: white;
+                                    //     font-size: 4vw;
+                                    // }
                                 }
                                 .app1content {
                                     .app1description {
@@ -1215,6 +1215,223 @@ $lighterskills: #080e31;
                         ///////////////////////////////////////////////
                         ///////////////////////////////////////////////
                         ///////////////////////////////////////////////
+                        /// 
+                        /// APP 3 DESCRIPTION
+                        .app-3-description {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $mainblue;
+                            // background-color: yellowgreen;
+                            // margin: 4.7vh 0 0 0;
+                            margin: -7vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .borderthree {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                .toplevelthree {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .app3logo {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 0 0 0 3vw;
+                                        img {
+                                            width: 30vw;
+                                            height: 34vw;
+                                        }
+                                    }
+                                    .sectiontitle {
+                                        margin: 4vh 5.5vw 0 0;
+                                        // background-color: yellowgreen;
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 5vw;
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+                                .app3content {
+                                    .app3description {
+                                        font-family: 'Inter', sans-serif;
+                                        text-align: left;
+                                        font-size: 3vw;
+                                        margin: 3vh 0 0 0;
+                                        padding-left: 3vw;
+                                    }
+                                    .apptechnologiesthree {
+                                        margin: 5vh 0 0 2.5vw;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        .apptechcircles {
+                                            display: flex;  
+                                            margin: 2vh 0 0 0;
+                                            gap: 4vw;
+                                            .apptechcircle {
+                                                border: 1px solid $techcirclegreen;
+                                                background-color: $techcirclegreen;
+                                                border-radius: 50%;
+                                                width: 18vw;
+                                                height: 18vw;
+                                                #figma {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .5vh;
+                                                    height: 100%;
+                                                    img {
+                                                        width: 8vw;
+                                                        height: 8vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                                #wix {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .5vh;
+                                                    height: 100%;
+                                                    img {
+                                                        width: 8vw;
+                                                        height: 8vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                                #design {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .3vh;
+                                                    height: 100%;
+                                                    img {
+                                                        // margin-top: -.2vh;
+                                                        width: 8vw;
+                                                        height: 8vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .accomplishmentsthree {
+                                        margin: 3vh 0 0 0;
+                                        // background-color: yellow;
+                                        h3 {
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 0 0 1vh 0;
+                                        }
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.8vw;
+                                            line-height: 3.5vh;
+                                        }
+                                    }
+                                    .linksthree {
+                                        // margin: 4.5vh 0 0 .1vw;
+                                        margin: 2vh 0 0 0;
+                                        display: flex;
+                                        gap: 5vw;
+                                        .linkto {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: $hoverfonts 1px solid;
+                                            border-radius: 50%;
+                                            background-color: $skillswhite;
+                                            background-color: $skillswhite;
+                                            width: 8vw;
+                                            height: 8vw;
+                                            a {
+                                                margin: .5vh 0 0 0;
+                                                img {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                color: $techcirclegreen;
+                                            }
+                                        }
+                                        .github {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: $hoverfonts 1px solid;
+                                            border-radius: 50%;
+                                            background-color: $skillswhite;
+                                            // background-color: $hoverfonts;
+                                            width: 8vw;
+                                            height: 8vw;
+                                            a {
+                                                margin: .5vh 0 0 0;
+                                                img {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                margin: 0 0 0 0;
+                                                color: $techcirclegreen;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .closeapp3 {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 3vh 0 0 0;
+                                .close_description_three {
+                                    background-color: $mainblue;
+                                    color: white;
+                                    border: none;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 3vw;
+                                    font-weight: bold;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                }
+                            }
+                        }
                         .portfoliooutline {
                             display: flex;
                             flex-direction: column;
@@ -1229,9 +1446,10 @@ $lighterskills: #080e31;
                                 height: 30vw;
                                 width: 78vw;
                                 display: flex;
+                                flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 1.5vh;
+                                gap: 1vh;
                                 margin: 4vh 0 0 0;
                                 width: 100%;
                                 img {
@@ -1253,8 +1471,8 @@ $lighterskills: #080e31;
                                 width: 78vw;
                                 img {
                                     margin: .5vh 0 0 0;
-                                    width: 43vw;
-                                    height: 7vw;
+                                    width: 40vw;
+                                    height: 6vw;
                                     flex-shrink: 0;
                                 }
                             }
@@ -1262,7 +1480,7 @@ $lighterskills: #080e31;
                                 border: 1px solid $portfolios;
                                 background-color: $portfolios;
                                 border-radius: 10px;
-                                height: 25vw;
+                                height: 30vw;
                                 width: 78vw;
                                 display: flex;
                                 justify-content: center;
@@ -1270,8 +1488,8 @@ $lighterskills: #080e31;
                                 margin: 0 0 0 0;
                                 width: 100%;
                                 img {
-                                    width: 24vw;
-                                    height: 25vw;
+                                    width: 28vw;
+                                    height: 28vw;
                                 }
                             }
                         }
