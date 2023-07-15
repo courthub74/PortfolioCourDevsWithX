@@ -660,7 +660,7 @@
     height: 100vh;
     display: block;
     background-color: #080E2F;
-    margin: 4.7vh 0 0 0;
+    margin: 4.5vh 0 0 0;
     transition: ease-in 0.8s;
     z-index: 98;
   }
@@ -866,7 +866,7 @@
     height: 100vh;
     display: block;
     background-color: #080E2F;
-    margin: 4.7vh 0 0 0;
+    margin: 4.5vh 0 0 0;
     transition: ease-in 0.8s;
     z-index: 98;
   }
@@ -1079,7 +1079,7 @@
     height: 100vh;
     display: block;
     background-color: #080E2F;
-    margin: -7vh 0 0 0;
+    margin: 4.5vh 0 0 0;
     transition: ease-in 0.8s;
     z-index: 98;
   }
@@ -1103,8 +1103,8 @@
     margin: 0 0 0 3vw;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .toplevelthree .app3logo img {
-    width: 30vw;
-    height: 34vw;
+    width: 24vw;
+    height: 28vw;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .toplevelthree .sectiontitle {
     margin: 4vh 5.5vw 0 0;
@@ -1202,7 +1202,7 @@
     line-height: 3.5vh;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree {
-    margin: 2vh 0 0 0;
+    margin: 4vh 0 0 0;
     display: flex;
     gap: 5vw;
   }
@@ -1276,6 +1276,9 @@
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .closeapp3 .close_description_three img {
     width: 4vw;
     height: 4vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description.slide-in {
+    left: 0;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline {
     display: flex;

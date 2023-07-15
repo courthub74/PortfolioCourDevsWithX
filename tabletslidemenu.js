@@ -123,3 +123,34 @@ closeapp2.addEventListener('click', function () {
         // so it slides out
     app2description.classList.toggle('slide-in');
 });
+
+
+// APP 3
+
+// query the app button
+const app3 = document.querySelector('.app3');
+
+// query the slide in description
+const app3description = document.querySelector('.app-3-description');
+
+// query the close button
+const closeapp3 = document.querySelector('.close_description_three');
+
+// apply the Event Listener to the app3 button
+app3.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the app3 button");
+    // toggle the is-active class on the slide in menu to on
+        // so it slides in
+    app3description.classList.toggle('slide-in');
+});
+
+// apply an Event Listener to the close button
+    // to toggle the app1description class to off
+closeapp3.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the app3 close button");
+    // toggle the is-active class on the slide in menu to off
+        // so it slides out
+    app3description.classList.toggle('slide-in');
+});

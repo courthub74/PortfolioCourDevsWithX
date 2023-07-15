@@ -755,7 +755,7 @@ $lighterskills: #080e31;
                             display: block;
                             background-color: $mainblue;
                             // background-color: yellowgreen;
-                            margin: 4.7vh 0 0 0;
+                            margin: 4.5vh 0 0 0;
                             transition: ease-in .8s;
                             z-index: 98;
                             .border {
@@ -991,7 +991,7 @@ $lighterskills: #080e31;
                             display: block;
                             background-color: $mainblue;
                             // background-color: yellowgreen;
-                            margin: 4.7vh 0 0 0;
+                            margin: 4.5vh 0 0 0;
                             transition: ease-in .8s;
                             z-index: 98;
                             .bordertwo {
@@ -1227,7 +1227,7 @@ $lighterskills: #080e31;
                             background-color: $mainblue;
                             // background-color: yellowgreen;
                             // margin: 4.7vh 0 0 0;
-                            margin: -7vh 0 0 0;
+                            margin: 4.5vh 0 0 0;
                             transition: ease-in .8s;
                             z-index: 98;
                             .borderthree {
@@ -1247,8 +1247,8 @@ $lighterskills: #080e31;
                                         align-items: center;
                                         margin: 0 0 0 3vw;
                                         img {
-                                            width: 30vw;
-                                            height: 34vw;
+                                            width: 24vw;
+                                            height: 28vw;
                                         }
                                     }
                                     .sectiontitle {
@@ -1353,7 +1353,7 @@ $lighterskills: #080e31;
                                     }
                                     .linksthree {
                                         // margin: 4.5vh 0 0 .1vw;
-                                        margin: 2vh 0 0 0;
+                                        margin: 4vh 0 0 0;
                                         display: flex;
                                         gap: 5vw;
                                         .linkto {
@@ -1432,6 +1432,21 @@ $lighterskills: #080e31;
                                 }
                             }
                         }
+                        .app-3-description.slide-in {
+                            left: 0;
+                        }
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        /// END OF DESCRIPTION
                         .portfoliooutline {
                             display: flex;
                             flex-direction: column;
