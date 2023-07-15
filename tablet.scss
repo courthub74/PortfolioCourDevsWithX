@@ -1529,7 +1529,9 @@ $lighterskills: #080e31;
                     }
                     .botexperiencetablet {
                         display: flex;
+                        flex-direction: column;
                         justify-content: center;
+                        align-items: center;
                         .places {
                             display: flex;
                             flex-direction: column;
@@ -1554,6 +1556,12 @@ $lighterskills: #080e31;
                                 }
                                 .jobdeets {
                                     margin: 2vh 0 0 0;
+                                    h4 {
+                                        font-size: 3vw;
+                                    }
+                                    p {
+                                        font-size: 2.5vw;
+                                    }
                                 }
                             }
                             .slea {
@@ -1575,7 +1583,24 @@ $lighterskills: #080e31;
                                 }
                                 .jobdeets {
                                     margin: 5vh 0 0 0;
+                                    h4 {
+                                        font-size: 3vw;
+                                    }
+                                    p {
+                                        font-size: 2.5vw;
+                                    }
                                 }
+                            }
+                        }
+                        // Education
+                        .education {
+                            display: flex;
+                            // background-color: yellow;
+                            width: 100%;
+                            h3 {
+                                margin: 4vh 0 0 5vh;
+                                font-size: 7vw;
+                                font-family: 'Inter', sans-serif;  
                             }
                         }
                     }
