@@ -161,3 +161,32 @@ closeapp3.addEventListener('click', function () {
 ////////////////////////////////////////////////////
 
 // BLOG SLIDE INS
+
+// BLOG ONE
+
+// query the blog 1 button
+const blog1button = document.querySelector('.blogcontent');
+
+// query the slide in menu
+const blog1slidein = document.querySelector('.blogone-slide-in');
+
+// query the close button
+const closeblog1 = document.querySelector('.closeblog1');
+
+// apply the Event Listener to the blog button
+blog1button.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the blog1 button");
+    // toggle the is-active class on the slide in menu to on
+        // so it slides in
+    blog1slidein.classList.toggle('slide-in');
+});
+
+// apply the Event Listener to the close button
+closeblog1.addEventListener('click', function () {
+    // test print
+    console.log("You've pressed the blog1 close button");
+    // toggle the is-active class on the slide in menu to off
+        // so it slides out
+    blog1slidein.classList.toggle('slide-in');
+});

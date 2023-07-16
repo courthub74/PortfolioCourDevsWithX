@@ -1656,7 +1656,7 @@ $lighterskills: #080e31;
                         ////////////////////// 
                         // BLOG ONE SLIDE-IN
                         .blogone-slide-in {
-                            // position: fixed;
+                            position: fixed;
                             top: 0;
                             left: 100%;
                             width: 100%;
@@ -1664,8 +1664,8 @@ $lighterskills: #080e31;
                             display: block;
                             background-color: $skillsteal;
                             // background-color: yellowgreen;
-                            // margin: 4.5vh 0 0 0;
-                            margin: -8vh 0 0 0;
+                            margin: 4.5vh 0 0 0;
+                            // margin: -8vh 0 0 0;
                             transition: ease-in .8s;
                             z-index: 98;
                             .blogone-border {
@@ -1729,11 +1729,18 @@ $lighterskills: #080e31;
                                         height: 20vw;
                                         margin: 0vh 0 0 5vw;
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        p {
+                                        gap: 1vh;
+                                        .nums {
                                             font-family: 'Inter', sans-serif;
-                                            font-size: 2.5vw;
+                                            font-size: 2.3vw;
+                                            text-align: center;
+                                        }
+                                        .times {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2vw;
                                             text-align: center;
                                         }
                                     }
@@ -1801,23 +1808,26 @@ $lighterskills: #080e31;
                                 margin: 3vh 0 0 40vw;
                                 button {
                                     display: flex;
+                                    justify-content: center;
+                                    align-items: center;
                                     text-decoration: none;
                                     background-color: $skillsteal;
                                     border: none;
                                     img {
-                                        width: 6vw;
-                                        height: 6vw;
+                                        width: 4vw;
+                                        height: 4vw;
                                     }
                                     p {
-                                        margin: .3vh 0 0 0;
                                         color: $skillswhite;
                                         font-family: 'Inter', sans-serif;
-                                        font-size: 4vw;
+                                        font-size: 3vw;
                                     }
                                 }
                             }
                         }
-
+                        .blogone-slide-in.slide-in {
+                            left: 0;
+                        }
                         ////////////////////// 
                         ////////////////////// 
                         ////////////////////// 
@@ -1863,15 +1873,19 @@ $lighterskills: #080e31;
                                 .blogcontent {
                                     border: 3px solid white;
                                     border-radius: 50%;
+                                    background-color: $mainblue;
                                     width: 30vw;
                                     height: 30vw;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
                                     padding: 2vh;
-                                    a {
+                                    .blogcircle {
                                         text-decoration: none;
-                                        color: $skillswhite;
+                                        background-color: $mainblue;
+                                        // background-color: #146166;
+                                        color: white;
+                                        border: none;
                                         display: flex;
                                         flex-direction: column;
                                         align-items: right;
