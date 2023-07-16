@@ -1448,8 +1448,6 @@
   * body #blogtabletcontainer #blogtablet #botblogtablet {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    overflow-y: scroll;
     justify-content: center;
     align-items: center;
     margin: 0vh 0 0 0;
@@ -1463,7 +1461,7 @@
     height: 100vh;
     display: block;
     background-color: #146166;
-    margin: 4.5vh 0 0 0;
+    margin: -8vh 0 0 0;
     transition: ease-in 0.8s;
     z-index: 98;
   }
@@ -1474,20 +1472,142 @@
     width: 88%;
     height: 80%;
     padding: 2vh;
+    overflow: hidden;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader {
+    display: flex;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle {
     border: 1px solid #080E2F;
     background-color: #080E2F;
     border-radius: 50%;
-    width: 30vw;
-    height: 30vw;
+    width: 40vw;
+    height: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
   }
-  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader h1 {
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle h1 {
+    font-family: "Inter", sans-serif;
     font-size: 3vw;
+    padding: 0 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .sectiontitle {
+    margin: 4vh 0 0 23vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .sectiontitle p {
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .author {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 27vw;
+    height: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -15vh 0 0 45vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .author p {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .date {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin: 0vh 0 0 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .date p {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .bogoneoutline {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    padding: 2vh;
+    border-radius: 50%;
+    width: 75vw;
+    height: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin: -10vh 0 0 30vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .bogoneoutline .blogonecontent {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    width: 50%;
+    margin: -7vh 10vw 0 0;
+    line-height: 2vh;
+    overflow-y: scroll;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    margin: -30vh 0 0 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle .blogoneshares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin: 1vh 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle .blogoneshares a #twitter {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle .blogoneshares a #linkedin {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle .blogoneshares a #share {
+    width: 6vw;
+    height: 6vw;
+    margin: -1vh 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogonearrow {
+    margin: 3vh 0 0 40vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogonearrow button {
+    display: flex;
+    text-decoration: none;
+    background-color: #146166;
+    border: none;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogonearrow button img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogonearrow button p {
+    margin: 0.3vh 0 0 0;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 4vw;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline {
     display: flex;
