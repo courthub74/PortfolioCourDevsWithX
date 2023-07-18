@@ -1,0 +1,2644 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+// COLORS
+$mainblue: #080E2F;
+$skillswhite: #FFFFFF;
+$aboutgreen: #0E4946;
+$skillsteal: #146166;
+$iconblock: #023430;
+$languagewhite: #d9e2e2;
+$techcirclegreen: #05607D;
+$hoverfonts: #B7BCD6;
+$experiencegreen: #255C5A;
+
+// BUTTON COLORS
+$learnmorebutton: #EBEBEB;
+$experiencegreenbutton: #476D6B;
+
+// DISPLAY SQAURES COLORS
+$portfolios: #36395D;
+$experiences: #496b69;
+$experiencestwo: #476D6B;
+$abouts: #627C7A;
+$skillses: #7FC4C9;
+$skillsdarker: #669EA3;
+$skillsdarker2: #507e81;
+
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+
+// CIRCLE OUTLINE
+$circleoutlines: rgb(221,221,221,0.52);
+
+// FOOTER
+$firstblue: #58a6ff;
+$secondblue: #6287cf;
+$thirdblue: rgb(85, 85, 255);
+$smallsgrey: #757782;
+
+// SOCIALS
+$socialsgrey: #B7BCD6;
+
+$lighterskills: #080e31;
+
+
+/// MAIN TABLET VERSION (from 500px to 1000px)
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    *{
+        margin: 0;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        body {
+            #mobilecontainer {
+                display: none;
+            }
+            #tabletcontainer {
+                #tablethome {
+                    background-color: $mainblue;
+                    color: white;
+                    height: 100vh;
+                    .tophometablet {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .logotablet {
+                            margin: 2vh 0 0 5vw;
+                            img {
+                                width: 23vw;
+                                height: 23vw;
+                            }
+                        }
+                        .hamburgertablet {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid $portfolios;
+                            border-radius: 40px;
+                            background-color: $portfolios;
+                            width: 20vw;
+                            height: 6vh;
+                            margin: 0 7vw 0 0;
+                            // margin: 2vh 0 0 35vw;
+                            .tabletburger {
+                                position: relative;
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            .tabletburger.is-gone {
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                            .tabletclose {
+                                width: 30vw;
+                                height: 5vh;
+                                padding: 1vw;
+                                position: absolute;
+                                color: white;
+                                opacity: 0;
+                                z-index: 100;
+                                img {
+                                     width: 10vw;
+                                     height: 10vw;
+                                }
+                            }
+                            .tabletclose.is-shown {
+                                opacity: 1;
+                                color: white;
+                                width: 10vw;
+                                height: 10vw;
+                                transition: .6s;
+                            }
+                        }
+                        .hamburgertablet.is-active {
+                            color: white;
+                            font-size: 3vw;
+                            transition: .3s;
+                        }
+                    }
+                    .tablet-nav-home {
+                        position: fixed;
+                        top: 0;
+                        left: 100%;
+                        width: 100%;
+                        height: 100vh;
+                        display: block;
+                        background-color: $mainblue;
+                        margin: 0 0 0 0;
+                        transition: .8s;
+                        z-index: 95;
+                        .tabletlogohome {
+                            margin: 5vh 15vw 0 0;
+                            // background-color: #023430;
+                            .navlogotablet {
+                                margin: -2vh 0 0 5vw;
+                                width: 23vw;
+                                height: 23vw;
+                            }
+                        }
+                        .tabletlisthome {
+                            a {
+                                display: block;
+                                text-align: left;
+                                text-decoration: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 5vw;
+                                font-weight: bold;
+                                margin: 4vh 0 0 9vw;
+                            }
+                        }
+                        .slidesocialstablethome {
+                            // background-color: #023430;
+                            display: flex;
+                            flex-direction: row;
+                            gap: 2vw;
+                            margin: 5vh 0 0 8vw;
+                            img {
+                                width: 8vw;
+                                height: 8vw;
+                            }
+                       }
+                    }
+                    // when nav home is toggled to class 'slide-in'
+                    .tablet-nav-home.slide-in {
+                        left: 0;
+                    }
+                    // BOTTOM of the home section
+                    .bothometablet {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 4vh 0 0 0;
+                        .phototablet {
+                            img {
+                                border-radius: 50%;
+                                width: 40vw;
+                                height: 40vw;
+                            }
+                        }
+                        .nameheadertablet {
+                            margin: 6vh 0 0 0;
+                            #nametablet {
+                                font-size: 7vw;
+                                font-weight: bold;
+                                font-family: 'Inter', sans-serif;
+                                color: $skillswhite;
+                            }
+                            #jobdescriptablet {
+                                font-family: 'Inter', sans-serif;
+                                text-align: center;
+                                color: $socialsgrey;
+                                font-size: 4vw;
+                            }
+                        }
+                        .catchphrasetablet {
+                            margin: 4vh 0 0 0;
+                            text-align: center;
+                            #catchphrasetablet {
+                                // font-family: 'Inter', sans-serif;
+                                font-family: 'Roboto', sans-serif;
+                                color: $skillswhite;
+                                font-size: 3vw;
+                            }
+                        }
+                        .portfoliobuttontablet {
+                            border: 1px solid $portfolios;
+                            border-radius: 30px;
+                            background-color: $portfolios;
+                            padding: 2vw;
+                            width: 40vw;
+                            height: 3vw;
+                            text-align: center;
+                            margin: 10vh 0 0 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            a {
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif;
+                                color: $learnmorebutton;
+                                font-size: 3vw;
+                            }
+                        }
+                    }
+                }
+                // ABOUT SECTION TABLET
+                #abouttabletcontainer {
+                    #abouttablet {
+                        background-color: $aboutgreen;
+                        color: white;
+                        height: 100vh;
+                        // TOP of the about section
+                        .topabouttablet {
+                            display: flex;
+                            .titletablet {
+                                margin: 5vh 0 0 5vh;
+                                h1 {
+                                    font-size: 10vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+                // BOTTOM OF ABOUT SECTION TABLET
+                .botabouttablet {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1.8;
+                    margin: 4vh 0 0 0;
+                    .infotablet {
+                        font-family: 'Roboto', sans-serif;
+                        text-align: left;
+                        padding: 5vh;
+                        font-size: 3vw; 
+                    }
+                    .resumetablet {
+                        border: 1px solid $experiencegreenbutton;
+                        border-radius: 40px;
+                        width: 40vw;
+                        height: 3vw;
+                        background-color: $experiencegreenbutton;
+                        padding: 2vw;
+                        margin: 12vh 0 0 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        a {
+                                font-family: 'Inter', sans-serif;
+                                text-decoration: none;
+                                color: $learnmorebutton;
+                                text-align: center;
+                                font-size: 3vw;
+                        }
+                    }
+                }
+            }
+            // SKILLS SECTION
+            #skillstabletcontainer {
+                #skillstablet {
+                    background-color: $skillsteal;
+                    color: white;
+                    height: 260vh;
+                    // Top of the skills section
+                    .topskillstablet {
+                        display: flex;
+                        .titletablet {
+                            margin: 4vh 0 0 5vh;
+                            h1 {
+                                font-size: 10vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    // Bottom of Skills section
+                    .botskillstablet {
+                        margin: 4vh 0 0 0;
+                        // First Circles Div
+                        .skillcirclestablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 7vh;
+                            // margin: 4vh 0 0 0;
+                            // Big Back Circle
+                            .bigcircletablet {
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 30vw;
+                                height: 30vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                // box-shadow: 2px 2px 3px $boxshadowcircles;
+                                .lilcircletablet {
+                                    // border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    display: flex;
+                                    gap: 4vh;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: $mainblue;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    // font-weight: bold;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    p {
+                                        color: white;
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                        // front row of icons
+                        .iconsfirstrow {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2vw;
+                            margin: 2vh 0 0 0;
+                            .html {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #html {
+                                    width: 9vw;
+                                    height: 9vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    // font-weight: bold;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .css {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: 1vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #css {
+                                    width: 9vw;
+                                    height: 9vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .sass {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: 1.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #sass {
+                                    width: 7.5vw;
+                                    height: 7.5vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .figma {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: 1.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #figma {
+                                    width: 6vw;
+                                    height: 6vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                        }
+                        // second row of icons
+                        .iconssecondrow {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2vw;
+                            margin: 2vh 0 0 0;
+                            .sass {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: 1.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #sass {
+                                    width: 8vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .figma {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: 1.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #figma {
+                                    width: 7vw;
+                                    height: 7vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                        }
+                        // User Interface Section
+                        .userinterfacesdivtablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .bigcircleinterfacetablet {
+                                margin: 5vh 0 0 0vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 30vw;
+                                height: 30vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .lilcircleinterfacetablet {
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 4vh;
+                                    background-color: $mainblue;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    .technologiestablet {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        p {
+                                            color: white;
+                                            // font-weight: bold;
+                                            font-size: 3vw;
+                                            // background-color: blueviolet;
+                                        }
+                                    }
+                                }
+                            }
+                            // User Interface Icons
+                            .iconsuserintrowtablet {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2vw;
+                                margin: 2vh 0 0 0;
+                                .react-native {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 3px solid $skillsdarker2;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    // gap: 0.5vh;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #react-native {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        text-align: center;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                                .reactjs {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 3px solid $skillsdarker2;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    gap: 1.5vh;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #reactjs {
+                                        width: 8.5vw;
+                                        height: 8vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+
+                        // SECOND BIG CIRCLE TABLET
+                        .responsivedesigndivtablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .bigcircletwotablet {
+                                margin: 12vh 0 0 0vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 30vw;
+                                height: 30vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .lilcircletwotablet {
+                                    // border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 4vh;
+                                    background-color: $mainblue;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    .technologiestablet {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        p {
+                                            color: white;
+                                            font-weight: bold;
+                                            font-size: 3vw;
+                                            // background-color: blueviolet;
+                                        }
+                                    }
+                                }
+                            }
+                            .iconsthirdrowtablet {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2vw;
+                                margin: 2vh 0 0 0;
+                                .javascript {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: .1vh;
+                                    border: 3px solid $skillsdarker2;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #javascript {
+                                        margin: -1vh 0 0 0;
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                                .python {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: .4vh;
+                                    border: 3px solid $skillsdarker2;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #python {
+                                        margin: -1vh 0 0 0;
+                                        width: 9vw;
+                                        height: 9vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                            }
+                            .iconsfourthrowtablet {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2vw;
+                                margin: 4vh 0 0 0;
+                                .mongo {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #mongo {
+                                        margin: -1vh 0 0 0;
+                                        width: 3.5vw;
+                                        height: 10vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                                .firebase {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #firebase {
+                                        margin-top: -2vh;
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                                .heroku {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1.5vh;
+                                    border: 1px solid $mainblue;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #heroku {
+                                        width: 8vw;
+                                        height: 8vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                        // THIRD BIG CIRCLE TABLET
+                        .serversideprogdivtablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .bigcirclethreetablet {
+                                margin: 6vh 0 0 0vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 30vw;
+                                height: 30vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .lilcirclethreetablet {
+                                    // border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 4vh;
+                                    background-color: $mainblue;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    .technologiestablet {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        p {
+                                            color: white;
+                                            font-weight: bold;
+                                            font-size: 3vw;
+                                            // background-color: blueviolet;
+                                        }
+                                    }
+                                }
+                            }
+                            .iconsfourthrowtablet  {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2vw;
+                                margin: 2vh 0 0 0;
+                                .nodejs {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    border: 3px solid $circleoutlines;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #nodejs {
+                                        margin: -1vh 0 0 0;
+                                        width: 7vw;
+                                        height: 8vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                                .django {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    // gap: .5vh;
+                                    border: 3px solid $circleoutlines;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #django {
+                                        margin: -1vh 0 0 0;
+                                        width: 9vw;
+                                        height: 9vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                        // FOURTH BIG CIRCLE TABLET
+                        .integrationdbdivtablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .bigcirclefourtablet {
+                                margin: 12vh 0 0 0vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 35vw;
+                                height: 35vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .lilcirclefourtablet {
+                                    // border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 30vw;
+                                    height: 30vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 4vh;
+                                    background-color: $skillsdarker2;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    .technologiestablet {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        p {
+                                            color: $mainblue;
+                                            font-weight: bold;
+                                            font-size: 3vw;
+                                            // background-color: blueviolet;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        // FOURTH ROW OF ICONS
+                        .iconsfourthrowtablet {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2vw;
+                            margin: 2vh 0 0 0;
+                            .mongo {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $circleoutlines;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: .5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #mongo {
+                                    width: 4vw;
+                                    height: 10vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .firebase {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $circleoutlines;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: .5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #firebase {
+                                    margin: -1vh 0 0 0;
+                                    width: 9vw;
+                                    height: 10vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .postgre {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $circleoutlines;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: .5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #postgre {
+                                    // margin: -1vh 0 0 0;
+                                    width: 8vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .heroku {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $circleoutlines;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: 0.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #heroku {
+                                    width: 8vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    text-align: center;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // PORTFOLIO SECTION
+            #portfoliotabletcontainer {
+                #portfoliotabletdiv {
+                    background-color: $mainblue;
+                    color: white;
+                    height: 105vh;
+                    .topportfoliotablet {
+                        display: flex;
+                        .titlemobile {
+                            margin: 4vh 0 0 5vh;
+                            h1 {
+                                font-size: 10vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    .botportfoliomobile {
+                        display: flex;
+                        flex-direction: column;
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        // APP ONE DESCRIPTION
+                        .app-1-description {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $mainblue;
+                            // background-color: yellowgreen;
+                            margin: 4.5vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .border {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                .toplevel {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .app1logo {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 0 0 0 3vw;
+                                        img {
+                                            width: 16vw;
+                                            height: 16vw;
+                                        }
+                                        p {
+                                            font-family: 'Julius Sans One', sans-serif;
+                                            font-size: 3vw;
+                                        }
+                                    }
+                                    .sectiontitle {
+                                        margin: 4vh 5.5vw 0 0;
+                                        // background-color: yellowgreen;
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 5vw;
+                                            font-weight: bold;
+                                        }
+                                    }
+                                    // .close_description {
+                                    //     background-color: $mainblue;
+                                    //     border: none;
+                                    //     color: white;
+                                    //     font-size: 4vw;
+                                    // }
+                                }
+                                .app1content {
+                                    .app1description {
+                                        font-family: 'Inter', sans-serif;
+                                        text-align: left;
+                                        font-size: 3vw;
+                                        margin: 5vh 0 0 0;
+                                        padding-left: 3vw;
+                                    }
+                                    .apptechnologies {
+                                        margin: 5vh 0 0 2.5vw;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        .apptechcircles {
+                                            display: flex;
+                                            margin: 2vh 0 0 0;
+                                            gap: 4vw;
+                                            .apptechcircle {
+                                                border: 1px solid $techcirclegreen;
+                                                background-color: $techcirclegreen;
+                                                border-radius: 50%;
+                                                width: 18vw;
+                                                height: 18vw;
+                                                #react {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .5vh;
+                                                    height: 100%;
+                                                    img {
+                                                        width: 8vw;
+                                                        height: 8vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                                #express {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: 1vh;
+                                                    height: 100%;
+                                                    img {
+                                                        width: 7vw;
+                                                        height: 7vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                                #firebase {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .3vh;
+                                                    height: 100%;
+                                                    
+                                                    img {
+                                                        // margin-top: -.2vh;
+                                                        width: 8.5vw;
+                                                        height: 8.5vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .accomplishments {
+                                        margin: 4vh 0 0 0;
+                                        h3 {
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 0 0 1vh 0;
+                                        }
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 3vw;
+                                            line-height: 3.5vh;
+                                        }
+                                    }
+                                    .links {
+                                        margin: 2vh 0 0 .1vw;
+                                        display: flex;
+                                        gap: 5vw;
+                                        .linkto {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: $hoverfonts 1px solid;
+                                            border-radius: 50%;
+                                            background-color: $skillswhite;
+                                            background-color: $skillswhite;
+                                            width: 8vw;
+                                            height: 8vw;
+                                            a {
+                                                margin: .5vh 0 0 0;
+                                                img {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                color: $techcirclegreen;
+                                            }
+                                        }
+                                        .github {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: $hoverfonts 1px solid;
+                                            border-radius: 50%;
+                                            background-color: $skillswhite;
+                                            // background-color: $hoverfonts;
+                                            width: 8vw;
+                                            height: 8vw;
+                                            a {
+                                                margin: .5vh 0 0 0;
+                                                img {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                margin: 0 0 0 0;
+                                                color: $techcirclegreen;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            // Close Button
+                            .closeapp1 {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 3vh 0 0 0;
+                                // background-color: #05607D;
+                                .close_description {
+                                    background-color: $mainblue;
+                                    color: white;
+                                    border: none;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 3vw;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                        .app-1-description.slide-in {
+                            left: 0;
+                        }
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                         
+                        ////////////////////// 
+                        ////////////////////// 
+                        // APP TWO DESCRIPTION
+                        .app-2-description {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $mainblue;
+                            // background-color: yellowgreen;
+                            margin: 4.5vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .bordertwo {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                .topleveltwo {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .app2logo {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 3.5vh 0 0 3vw;
+                                        img {
+                                            width: 37vw;
+                                            height: 6vw;
+                                        }
+                                        p {
+                                            font-family: 'Julius Sans One', sans-serif;
+                                            font-size: 3vw;
+                                        }
+                                    }
+                                    .sectiontitle {
+                                        margin: 4vh 5.5vw 0 0;
+                                        // background-color: yellowgreen;
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 5vw;
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+                                .app2content {
+                                    .app2description {
+                                        font-family: 'Inter', sans-serif;
+                                        text-align: left;
+                                        font-size: 2.8vw;
+                                        margin: 5vh 0 0 0;
+                                        padding-left: 3vw;
+                                    }
+                                    .apptechnologiestwo {
+                                        margin: 5vh 0 0 2.5vw;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        .apptechcircles {
+                                            display: flex;
+                                            margin: 2vh 0 0 0;
+                                            gap: 4vw;
+                                            .apptechcircle {
+                                                border: 1px solid $techcirclegreen;
+                                                background-color: $techcirclegreen;
+                                                border-radius: 50%;
+                                                width: 18vw;
+                                                height: 18vw;
+                                                #react {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .5vh;
+                                                    height: 100%;
+                                                    img {
+                                                        width: 8vw;
+                                                        height: 8vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                                #express {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: 1vh;
+                                                    height: 100%;
+                                                    img {
+                                                        width: 7vw;
+                                                        height: 7vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                                #mongo {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .3vh;
+                                                    height: 100%;
+                                                    
+                                                    img {
+                                                        // margin-top: -.2vh;
+                                                        width: 8.5vw;
+                                                        height: 8.5vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .accomplishmentstwo {
+                                        margin: 4vh 0 0 0;
+                                        h3 {
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 0 0 1vh 0;
+                                        }
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.8vw;
+                                            line-height: 3.5vh;
+                                        }
+                                    }
+                                    .linkstwo {
+                                        margin: 4.5vh 0 0 .1vw;
+                                        display: flex;
+                                        gap: 5vw;
+                                        .linkto {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: $hoverfonts 1px solid;
+                                            border-radius: 50%;
+                                            background-color: $skillswhite;
+                                            background-color: $skillswhite;
+                                            width: 8vw;
+                                            height: 8vw;
+                                            a {
+                                                margin: .5vh 0 0 0;
+                                                img {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                color: $techcirclegreen;
+                                            }
+                                        }
+                                        .github {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: $hoverfonts 1px solid;
+                                            border-radius: 50%;
+                                            background-color: $skillswhite;
+                                            // background-color: $hoverfonts;
+                                            width: 8vw;
+                                            height: 8vw;
+                                            a {
+                                                margin: .5vh 0 0 0;
+                                                img {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                margin: 0 0 0 0;
+                                                color: $techcirclegreen;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            // Close Button
+                            .closeapp2 {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 3vh 0 0 0;
+                                // background-color: #05607D;
+                                .close_description_two {
+                                    background-color: $mainblue;
+                                    color: white;
+                                    border: none;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 3vw;
+                                    font-weight: bold;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                }
+                            }
+                        }
+                        .app-2-description.slide-in {
+                            left: 0;
+                        }
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        /// 
+                        /// APP 3 DESCRIPTION
+                        .app-3-description {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $mainblue;
+                            // background-color: yellowgreen;
+                            // margin: 4.7vh 0 0 0;
+                            margin: 4.5vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .borderthree {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                .toplevelthree {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .app3logo {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 0 0 0 3vw;
+                                        img {
+                                            width: 24vw;
+                                            height: 28vw;
+                                        }
+                                    }
+                                    .sectiontitle {
+                                        margin: 4vh 5.5vw 0 0;
+                                        // background-color: yellowgreen;
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 5vw;
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+                                .app3content {
+                                    .app3description {
+                                        font-family: 'Inter', sans-serif;
+                                        text-align: left;
+                                        font-size: 3vw;
+                                        margin: 3vh 0 0 0;
+                                        padding-left: 3vw;
+                                    }
+                                    .apptechnologiesthree {
+                                        margin: 5vh 0 0 2.5vw;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        .apptechcircles {
+                                            display: flex;  
+                                            margin: 2vh 0 0 0;
+                                            gap: 4vw;
+                                            .apptechcircle {
+                                                border: 1px solid $techcirclegreen;
+                                                background-color: $techcirclegreen;
+                                                border-radius: 50%;
+                                                width: 18vw;
+                                                height: 18vw;
+                                                #figma {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .5vh;
+                                                    height: 100%;
+                                                    img {
+                                                        width: 8vw;
+                                                        height: 8vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                                #wix {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .5vh;
+                                                    height: 100%;
+                                                    img {
+                                                        width: 8vw;
+                                                        height: 8vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                                #design {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: .3vh;
+                                                    height: 100%;
+                                                    img {
+                                                        // margin-top: -.2vh;
+                                                        width: 8vw;
+                                                        height: 8vw;
+                                                    }
+                                                    p {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: .8em;
+                                                        color: $hoverfonts;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .accomplishmentsthree {
+                                        margin: 3vh 0 0 0;
+                                        // background-color: yellow;
+                                        h3 {
+                                            font-family: 'Inter', sans-serif;
+                                            margin: 0 0 1vh 0;
+                                        }
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.8vw;
+                                            line-height: 3.5vh;
+                                        }
+                                    }
+                                    .linksthree {
+                                        // margin: 4.5vh 0 0 .1vw;
+                                        margin: 4vh 0 0 0;
+                                        display: flex;
+                                        gap: 5vw;
+                                        .linkto {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: $hoverfonts 1px solid;
+                                            border-radius: 50%;
+                                            background-color: $skillswhite;
+                                            background-color: $skillswhite;
+                                            width: 8vw;
+                                            height: 8vw;
+                                            a {
+                                                margin: .5vh 0 0 0;
+                                                img {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                color: $techcirclegreen;
+                                            }
+                                        }
+                                        .github {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border: $hoverfonts 1px solid;
+                                            border-radius: 50%;
+                                            background-color: $skillswhite;
+                                            // background-color: $hoverfonts;
+                                            width: 8vw;
+                                            height: 8vw;
+                                            a {
+                                                margin: .5vh 0 0 0;
+                                                img {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: bold;
+                                                margin: 0 0 0 0;
+                                                color: $techcirclegreen;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .closeapp3 {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 3vh 0 0 0;
+                                .close_description_three {
+                                    background-color: $mainblue;
+                                    color: white;
+                                    border: none;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 3vw;
+                                    font-weight: bold;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                }
+                            }
+                        }
+                        .app-3-description.slide-in {
+                            left: 0;
+                        }
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        ///////////////////////////////////////////////
+                        /// END OF DESCRIPTION
+                        .portfoliooutline {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 7vh;
+                            margin: -4vh 0 0 0;
+                            gap: 6vh;
+                            .app1 {
+                                border: 1px solid $portfolios;
+                                background-color: $portfolios;
+                                border-radius: 10px;
+                                height: 30vw;
+                                width: 78vw;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                margin: 4vh 0 0 0;
+                                width: 100%;
+                                img {
+                                    width: 15vw;
+                                    height: 15vw;
+                                }
+                                p {
+                                    font-size: 4vw;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    // font-weight: bold;
+                                    color: white;
+                                }
+                            }
+                            .app2 {
+                                border: 1px solid $portfolios;
+                                background-color: $portfolios;
+                                border-radius: 10px;
+                                height: 30vw;
+                                width: 78vw;
+                                img {
+                                    margin: .5vh 0 0 0;
+                                    width: 40vw;
+                                    height: 6vw;
+                                    flex-shrink: 0;
+                                }
+                            }
+                            .app3 {
+                                border: 1px solid $portfolios;
+                                background-color: $portfolios;
+                                border-radius: 10px;
+                                height: 30vw;
+                                width: 78vw;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 0 0 0 0;
+                                width: 100%;
+                                img {
+                                    width: 28vw;
+                                    height: 28vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // EXPERIENCE SECTION
+            #experiencetabletcontainer {
+                #experiencetablet {
+                    background-color: $aboutgreen;
+                    color: white;
+                    height: 103vh;
+                    .topexperiencetablet {
+                        display: flex;
+                        .titletablet {
+                            margin: 4vh 0 0 5vh;
+                            h1 {
+                                font-size: 9vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    .botexperiencetablet {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .places {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5vh;
+                            margin: 5vh 0 0 0;
+                            .courdevs {
+                                display: flex;
+                                flex-direction: column;
+                                border: 1px solid $experiencegreenbutton;
+                                background-color: $experiencegreenbutton;
+                                border-radius: 12px;
+                                padding: 8vw;
+                                width: 35vw;
+                                height: 35vw;
+                                margin: 0 0 0 5vw;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 2vw;
+                                img {
+                                    margin: -2vh 0 0 3vw;
+                                    width: 30vw;
+                                    height: 30vw;
+                                }
+                                .jobdeets {
+                                    margin: 2vh 0 0 0;
+                                    h4 {
+                                        font-size: 3vw;
+                                    }
+                                    p {
+                                        font-size: 2.5vw;
+                                    }
+                                }
+                            }
+                            .slea {
+                                display: flex;
+                                flex-direction: column;
+                                border: 1px solid $experiencegreenbutton;
+                                background-color: $experiencegreenbutton;
+                                border-radius: 12px;
+                                padding: 8vw;
+                                width: 35vw;
+                                height: 35vw;
+                                margin: 0 0 0 5vw;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 2vw;
+                                img {
+                                    margin: 0vh 0 0 5vw;
+                                    width: 25vw;
+                                    height: 25vw;
+                                }
+                                .jobdeets {
+                                    margin: 5vh 0 0 0;
+                                    h4 {
+                                        font-size: 3vw;
+                                    }
+                                    p {
+                                        font-size: 2.5vw;
+                                    }
+                                }
+                            }
+                        }
+                        // Education
+                        .education {
+                            display: flex;
+                            // background-color: yellow;
+                            width: 100%;
+                            h3 {
+                                margin: 4vh 0 0 5vh;
+                                font-size: 7vw;
+                                font-family: 'Inter', sans-serif;  
+                            }
+                        }
+                    }
+                }
+            }
+            // BLOG SECTION
+            #blogtabletcontainer {
+                #blogtablet {
+                    background-color: $skillsteal;
+                    color: white;
+                    height: 100vh;
+                    .topblogtablet {
+                        display: flex;
+                        .titlemobile {
+                            margin: 3vh 0 0 5vh;
+                            h1 {
+                                font-size: 10vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    #botblogtablet {
+                        display: flex;
+                        flex-direction: column;
+                        // overflow: hidden;
+                        // overflow-y: scroll;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0vh 0 0 0;
+                        gap: 3vh;
+                        // background-color: #58a6ff;
+                        padding: 1vh 1vh;
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        // BLOG ONE SLIDE-IN
+                        .blogone-slide-in {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $skillsteal;
+                            // background-color: yellowgreen;
+                            margin: 4.5vh 0 0 0;
+                            // margin: -8vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .blogone-border {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                overflow: hidden;
+                                .blogcircle {
+                                    .blogoneheader {
+                                        display: flex;
+                                        .blogonetitle {
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 50%;
+                                            width: 40vw;
+                                            height: 40vw;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            box-shadow: 2px 2px 5px $boxshadowcircles;
+                                            .outertitle {
+                                                border: 3px solid $mainblue;
+                                                background-color: $skillsdarker2;
+                                                border-radius: 50%;
+                                                width: 40vw;
+                                                height: 40vw;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                .innertitle {
+                                                    background-color: $mainblue;
+                                                    border-radius: 50%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    width: 37vw;
+                                                    height: 38vw;
+                                                    h1 {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: 3vw;
+                                                        padding: 0 0 0 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .sectiontitle {
+                                            margin: 4vh 0 0 23vw;
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 6vw;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                    .author {
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 27vw;
+                                        height: 27vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: -15vh 0 0 45vw;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            text-align: center;
+                                        }
+                                    }
+                                    .date {
+                                        border: 3px solid $skillsdarker2;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        margin: 0vh 0 0 5vw;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        .nums {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.3vw;
+                                            text-align: center;
+                                        }
+                                        .times {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2vw;
+                                            text-align: center;
+                                        }
+                                    }
+                                    .bogoneoutline {
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        padding: 2vh;
+                                        border-radius: 50%;
+                                        width: 75vw;
+                                        height: 75vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        overflow: auto;
+                                        margin: -10vh 0 0 30vw;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        .blogonecontent {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            text-align: center;
+                                            width: 50%;
+                                            margin: -7vh 10vw 0 0;
+                                            line-height: 2vh;
+                                            overflow-y: scroll;
+                                        }
+                                    }
+                                    .blogonesharescircle {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 2vw;
+                                        border: 3px solid $skillsdarker2;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 25vw;
+                                        height: 25vw;
+                                        margin: -30vh 0 0 0;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        .blogoneshares {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vw;
+                                            margin: 1vh 0 0 0;
+                                            a {
+                                                #twitter {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #linkedin {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #share {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                    margin: -1vh 0 0 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .blogonearrow {
+                                margin: 3vh 0 0 40vw;
+                                button {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-decoration: none;
+                                    background-color: $skillsteal;
+                                    border: none;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                    p {
+                                        color: $skillswhite;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                        .blogone-slide-in.slide-in {
+                            left: 0;
+                        }
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        //////////////////////
+                        /// BLOG ONE SLIDE IN END
+                        /// 
+                        
+
+                         ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        // BLOG TWO SLIDE-IN
+                        .blogtwo-slide-in {
+                            position: fixed;
+                            top: 0;
+                            left: 100%;
+                            width: 100%;
+                            height: 100vh;
+                            display: block;
+                            background-color: $skillsteal;
+                            // background-color: yellowgreen;
+                            margin: 4.5vh 0 0 0;
+                            // margin: -8vh 0 0 0;
+                            transition: ease-in .8s;
+                            z-index: 98;
+                            .blogtwo-border {
+                                border: 4px solid $skillswhite;
+                                border-radius: 10px;
+                                margin: 0 auto;
+                                width: 88%;
+                                height: 80%;
+                                padding: 2vh;
+                                overflow: hidden;
+                                .blogcircle {
+                                    .blogtwoheader {
+                                        display: flex;
+                                        .blogtwotitle {
+                                            border: 1px solid $mainblue;
+                                            background-color: $mainblue;
+                                            border-radius: 50%;
+                                            width: 40vw;
+                                            height: 40vw;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            box-shadow: 2px 2px 5px $boxshadowcircles;
+                                            h1 {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                padding: 0 0 0 0;
+                                            }
+                                        }
+                                        .sectiontitle {
+                                            margin: 4vh 0 0 23vw;
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 6vw;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                    .author {
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 27vw;
+                                        height: 27vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: -15vh 0 0 45vw;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        p {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            text-align: center;
+                                        }
+                                    }
+                                    .date {
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 20vw;
+                                        height: 20vw;
+                                        margin: 0vh 0 0 5vw;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        .nums {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.3vw;
+                                            text-align: center;
+                                        }
+                                        .times {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2vw;
+                                            text-align: center;
+                                        }
+                                    }
+                                    .blogtwooutline {
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        padding: 2vh;
+                                        border-radius: 50%;
+                                        width: 75vw;
+                                        height: 75vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        overflow: auto;
+                                        margin: -10vh 0 0 30vw;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        .blogonecontent {
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 2.5vw;
+                                            text-align: center;
+                                            width: 50%;
+                                            margin: -7vh 10vw 0 0;
+                                            line-height: 2vh;
+                                            overflow-y: scroll;
+                                        }
+                                    }
+                                    .blogtwosharescircle {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 2vw;
+                                        border: 1px solid $mainblue;
+                                        background-color: $mainblue;
+                                        border-radius: 50%;
+                                        width: 25vw;
+                                        height: 25vw;
+                                        margin: -30vh 0 0 0;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
+                                        .blogoneshares {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 1vw;
+                                            margin: 1vh 0 0 0;
+                                            a {
+                                                #twitter {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #linkedin {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #share {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                    margin: -1vh 0 0 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            // Back Button
+                            .blogonearrow {
+                                margin: 3vh 0 0 40vw;
+                                button {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-decoration: none;
+                                    background-color: $skillsteal;
+                                    border: none;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                    p {
+                                        color: $skillswhite;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                        .blogtwo-slide-in.slide-in {
+                            left: 0;
+                        }
+
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        ////////////////////// 
+                        //////////////////////
+                        /// BLOG TWO SLIDE IN END
+                        /// 
+                        .botblogoutline {
+                            display: flex;
+                            flex-direction: column;
+                            overflow: hidden;
+                            overflow-y: scroll;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 2vh 0 0 0;
+                            gap: 3vh;
+                            // background-color: #58a6ff;
+                            // padding: 1vh 1vh;
+                            .blogcircles {
+                                background-color: $mainblue;
+                                background-color: $skillsdarker2;
+                                border: 5px solid $mainblue;
+                                border-radius: 50%;
+                                width: 55vw;
+                                height: 55vw;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 1vw;
+                                // box-shadow: 2px 2px 3px $boxshadowcircles;
+                                .blogcontent {
+                                    border: 3px solid $mainblue;
+                                    border-radius: 50%;
+                                    background-color: $mainblue;
+                                    // background-color: #023430;
+                                    width: 55vw;
+                                    height: 55vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 2vh;
+                                    .blogcircle {
+                                        text-decoration: none;
+                                        background-color: $mainblue;
+                                        // background-color: #146166;
+                                        color: white;
+                                        border: none;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: right;
+                                        gap: 1vh;
+                                        h2 {
+                                            font-size: 4vw;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        p {
+                                            font-size: 3vw;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // CONTACT SECTION
+            #contacttabletcontainer {
+                #contacttablet {
+                    background-color: $mainblue;
+                    color: white;
+                    height: 100vh;
+                    .topcontacttablet {
+                        display: flex;
+                        .titletablet {
+                            margin: 3vh 0 0 5vh;
+                            h1 {
+                                font-size: 10vw;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                    .botcontacttablet {
+                        margin: 4vh 0 0 11.5vw;
+                        font-family: 'Inter', sans-serif;
+                        .contactform {
+                            display: flex;
+                            flex-direction: column;
+                            .nameemaildiv {
+                                display: flex;
+                                flex-direction: column;
+                                .name {
+                                    margin: 0 0 5vh -3.8vw;
+                                    p {
+                                        font-size: 4vw;
+                                    }
+                                    input {
+                                        width: 80vw;
+                                        height: 7vh;
+                                        border: none;
+                                        border-radius: 5px;
+                                        background-color: $portfolios;
+                                        border: 1px solid $portfolios;
+                                    }  
+                                }
+                                .email {
+                                    margin: 0 0 5vh -3.8vw;
+                                    p {
+                                        font-size: 4vw;
+                                        // color: $hoverfonts;
+                                    }
+                                    input {
+                                        width: 80vw;
+                                        height: 7vh;
+                                        border: none;
+                                        border-radius: 5px;
+                                        background-color: $portfolios;
+                                        border: 1px solid $portfolios;
+                                        // background-color: $mainblue;
+                                        // border: 2px solid white;
+                                        // color: white;
+                                    }  
+                                }
+                                .message {
+                                    margin: 0 0 5vh -3.8vw;
+                                    p {
+                                        font-size: 4vw;
+                                    }
+                                    input {
+                                        width: 80vw;
+                                        height: 25vh;
+                                        border: none;
+                                        border-radius: 5px;
+                                        background-color: $portfolios;
+                                        border: 1px solid $portfolios;
+                                        color: white;
+                                    }  
+                                }
+                                .submit {
+                                    margin: 0 0 0 -3.8vw;
+                                    button {
+                                        background-color: $portfolios;
+                                        border: 1px solid $portfolios;
+                                        color: $skillswhite;
+                                        border-radius: 10px;
+                                        width: 80vw;
+                                        height: 7vh;
+                                        font-size: 4vw;
+                                    }
+                                }
+                                .poweredby {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    // background-color: rebeccapurple;
+                                    margin: 5vh 0 0 -20vw;
+                                    color: $skillswhite;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                        color: $portfolios;
+                                        margin: 0 1vw 0 0;
+                                    }
+                                    small {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: .5vh;
+                                        .tabletsocials {
+                                            // margin: 0 -3vw 0 0;
+                                            // background-color: rebeccapurple;
+                                            a {
+                                                // padding: 2vh 2vh;
+                                                #github {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #linkedin {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #twitter {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                                #instagram {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                }
+                                            }
+                                        }
+                                        .copyrights {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: .5vw;
+                                            // padding: 0 0 0 6vw;
+                                            // margin: 0 4vw 0 0;
+                                            p {
+                                                color: $socialsgrey;
+                                                font-size: 2.5vw;
+                                                
+                                            }
+                                            a {
+                                                color: $firstblue;
+                                                font-size: 2.5vw;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #desktopcontainer {
+                display: none;
+            }
+        }  
+    }
+}

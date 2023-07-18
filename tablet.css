@@ -1,0 +1,2312 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body #mobilecontainer {
+    display: none;
+  }
+  * body #tabletcontainer #tablethome {
+    background-color: #080E2F;
+    color: white;
+    height: 100vh;
+  }
+  * body #tabletcontainer #tablethome .tophometablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .logotablet {
+    margin: 2vh 0 0 5vw;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .logotablet img {
+    width: 23vw;
+    height: 23vw;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #36395D;
+    border-radius: 40px;
+    background-color: #36395D;
+    width: 20vw;
+    height: 6vh;
+    margin: 0 7vw 0 0;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletburger {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletburger.is-gone {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletclose {
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 100;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletclose img {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet .tabletclose.is-shown {
+    opacity: 1;
+    color: white;
+    width: 10vw;
+    height: 10vw;
+    transition: 0.6s;
+  }
+  * body #tabletcontainer #tablethome .tophometablet .hamburgertablet.is-active {
+    color: white;
+    font-size: 3vw;
+    transition: 0.3s;
+  }
+  * body #tabletcontainer #tablethome .tablet-nav-home {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 0 0 0 0;
+    transition: 0.8s;
+    z-index: 95;
+  }
+  * body #tabletcontainer #tablethome .tablet-nav-home .tabletlogohome {
+    margin: 5vh 15vw 0 0;
+  }
+  * body #tabletcontainer #tablethome .tablet-nav-home .tabletlogohome .navlogotablet {
+    margin: -2vh 0 0 5vw;
+    width: 23vw;
+    height: 23vw;
+  }
+  * body #tabletcontainer #tablethome .tablet-nav-home .tabletlisthome a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 4vh 0 0 9vw;
+  }
+  * body #tabletcontainer #tablethome .tablet-nav-home .slidesocialstablethome {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin: 5vh 0 0 8vw;
+  }
+  * body #tabletcontainer #tablethome .tablet-nav-home .slidesocialstablethome img {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #tabletcontainer #tablethome .tablet-nav-home.slide-in {
+    left: 0;
+  }
+  * body #tabletcontainer #tablethome .bothometablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 0;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .phototablet img {
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .nameheadertablet {
+    margin: 6vh 0 0 0;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .nameheadertablet #nametablet {
+    font-size: 7vw;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .nameheadertablet #jobdescriptablet {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #B7BCD6;
+    font-size: 4vw;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .catchphrasetablet {
+    margin: 4vh 0 0 0;
+    text-align: center;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .catchphrasetablet #catchphrasetablet {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 3vw;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .portfoliobuttontablet {
+    border: 1px solid #36395D;
+    border-radius: 30px;
+    background-color: #36395D;
+    padding: 2vw;
+    width: 40vw;
+    height: 3vw;
+    text-align: center;
+    margin: 10vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #tabletcontainer #tablethome .bothometablet .portfoliobuttontablet a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #EBEBEB;
+    font-size: 3vw;
+  }
+  * body #tabletcontainer #abouttabletcontainer #abouttablet {
+    background-color: #0E4946;
+    color: white;
+    height: 100vh;
+  }
+  * body #tabletcontainer #abouttabletcontainer #abouttablet .topabouttablet {
+    display: flex;
+  }
+  * body #tabletcontainer #abouttabletcontainer #abouttablet .topabouttablet .titletablet {
+    margin: 5vh 0 0 5vh;
+  }
+  * body #tabletcontainer #abouttabletcontainer #abouttablet .topabouttablet .titletablet h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #tabletcontainer .botabouttablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+    margin: 4vh 0 0 0;
+  }
+  * body #tabletcontainer .botabouttablet .infotablet {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    padding: 5vh;
+    font-size: 3vw;
+  }
+  * body #tabletcontainer .botabouttablet .resumetablet {
+    border: 1px solid #476D6B;
+    border-radius: 40px;
+    width: 40vw;
+    height: 3vw;
+    background-color: #476D6B;
+    padding: 2vw;
+    margin: 12vh 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #tabletcontainer .botabouttablet .resumetablet a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #EBEBEB;
+    text-align: center;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet {
+    background-color: #146166;
+    color: white;
+    height: 260vh;
+  }
+  * body #skillstabletcontainer #skillstablet .topskillstablet {
+    display: flex;
+  }
+  * body #skillstabletcontainer #skillstablet .topskillstablet .titletablet {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #skillstabletcontainer #skillstablet .topskillstablet .titletablet h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet {
+    margin: 4vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet {
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet .lilcircletablet {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    gap: 4vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet .lilcircletablet p {
+    color: white;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html #html {
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 1vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css #css {
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .css p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass #sass {
+    width: 7.5vw;
+    height: 7.5vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .figma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .figma #figma {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .figma p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .sass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .sass #sass {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .sass p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .figma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .figma #figma {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .figma p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet {
+    margin: 5vh 0 0 0vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet .technologiestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet .technologiestablet p {
+    color: white;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .react-native {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .react-native #react-native {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .react-native p {
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .reactjs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .reactjs #reactjs {
+    width: 8.5vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .reactjs p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet {
+    margin: 12vh 0 0 0vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet .technologiestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet .technologiestablet p {
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript #javascript {
+    margin: -1vh 0 0 0;
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python #python {
+    margin: -1vh 0 0 0;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 4vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo #mongo {
+    margin: -1vh 0 0 0;
+    width: 3.5vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase #firebase {
+    margin-top: -2vh;
+    width: 10vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku #heroku {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet {
+    margin: 6vh 0 0 0vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet .technologiestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet .technologiestablet p {
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs #nodejs {
+    margin: -1vh 0 0 0;
+    width: 7vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django #django {
+    margin: -1vh 0 0 0;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet {
+    margin: 12vh 0 0 0vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet {
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    background-color: #507e81;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet .technologiestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet .technologiestablet p {
+    color: #080E2F;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo #mongo {
+    width: 4vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase #firebase {
+    margin: -1vh 0 0 0;
+    width: 9vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre #postgre {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku #heroku {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku p {
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv {
+    background-color: #080E2F;
+    color: white;
+    height: 105vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet {
+    display: flex;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet .titlemobile {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .topportfoliotablet .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile {
+    display: flex;
+    flex-direction: column;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 4.5vh 0 0 0;
+    transition: ease-in 0.8s;
+    z-index: 98;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border {
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 88%;
+    height: 80%;
+    padding: 2vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel {
+    display: flex;
+    justify-content: space-between;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .app1logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .app1logo img {
+    width: 16vw;
+    height: 16vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .app1logo p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .sectiontitle {
+    margin: 4vh 5.5vw 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .toplevel .sectiontitle p {
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .app1description {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 3vw;
+    margin: 5vh 0 0 0;
+    padding-left: 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies {
+    margin: 5vh 0 0 2.5vw;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles {
+    display: flex;
+    margin: 2vh 0 0 0;
+    gap: 4vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle {
+    border: 1px solid #05607D;
+    background-color: #05607D;
+    border-radius: 50%;
+    width: 18vw;
+    height: 18vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #react {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #react img {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #react p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #express {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #express img {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #express p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #firebase img {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .apptechnologies .apptechcircles .apptechcircle #firebase p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .accomplishments {
+    margin: 4vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .accomplishments h3 {
+    font-family: "Inter", sans-serif;
+    margin: 0 0 1vh 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .accomplishments p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    line-height: 3.5vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links {
+    margin: 2vh 0 0 0.1vw;
+    display: flex;
+    gap: 5vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .linkto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .linkto a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .linkto a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .linkto p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #05607D;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .github a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .github a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .border .app1content .links .github p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    color: #05607D;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .closeapp1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description .closeapp1 .close_description {
+    background-color: #080E2F;
+    color: white;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-1-description.slide-in {
+    left: 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 4.5vh 0 0 0;
+    transition: ease-in 0.8s;
+    z-index: 98;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo {
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 88%;
+    height: 80%;
+    padding: 2vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo {
+    display: flex;
+    justify-content: space-between;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .app2logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5vh 0 0 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .app2logo img {
+    width: 37vw;
+    height: 6vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .app2logo p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .sectiontitle {
+    margin: 4vh 5.5vw 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .topleveltwo .sectiontitle p {
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .app2description {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 2.8vw;
+    margin: 5vh 0 0 0;
+    padding-left: 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo {
+    margin: 5vh 0 0 2.5vw;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles {
+    display: flex;
+    margin: 2vh 0 0 0;
+    gap: 4vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle {
+    border: 1px solid #05607D;
+    background-color: #05607D;
+    border-radius: 50%;
+    width: 18vw;
+    height: 18vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #react {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #react img {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #react p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #express {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #express img {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #express p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #mongo img {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .apptechnologiestwo .apptechcircles .apptechcircle #mongo p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .accomplishmentstwo {
+    margin: 4vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .accomplishmentstwo h3 {
+    font-family: "Inter", sans-serif;
+    margin: 0 0 1vh 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .accomplishmentstwo p {
+    font-family: "Inter", sans-serif;
+    font-size: 2.8vw;
+    line-height: 3.5vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo {
+    margin: 4.5vh 0 0 0.1vw;
+    display: flex;
+    gap: 5vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .linkto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .linkto a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .linkto a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .linkto p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #05607D;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .github a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .github a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .bordertwo .app2content .linkstwo .github p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    color: #05607D;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .closeapp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .closeapp2 .close_description_two {
+    background-color: #080E2F;
+    color: white;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description .closeapp2 .close_description_two img {
+    width: 4vw;
+    height: 4vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-2-description.slide-in {
+    left: 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #080E2F;
+    margin: 4.5vh 0 0 0;
+    transition: ease-in 0.8s;
+    z-index: 98;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree {
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 88%;
+    height: 80%;
+    padding: 2vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .toplevelthree {
+    display: flex;
+    justify-content: space-between;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .toplevelthree .app3logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .toplevelthree .app3logo img {
+    width: 24vw;
+    height: 28vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .toplevelthree .sectiontitle {
+    margin: 4vh 5.5vw 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .toplevelthree .sectiontitle p {
+    font-family: "Inter", sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .app3description {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 3vw;
+    margin: 3vh 0 0 0;
+    padding-left: 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree {
+    margin: 5vh 0 0 2.5vw;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles {
+    display: flex;
+    margin: 2vh 0 0 0;
+    gap: 4vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle {
+    border: 1px solid #05607D;
+    background-color: #05607D;
+    border-radius: 50%;
+    width: 18vw;
+    height: 18vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #figma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #figma img {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #figma p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #wix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #wix img {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #wix p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vh;
+    height: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #design img {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .apptechnologiesthree .apptechcircles .apptechcircle #design p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: #B7BCD6;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .accomplishmentsthree {
+    margin: 3vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .accomplishmentsthree h3 {
+    font-family: "Inter", sans-serif;
+    margin: 0 0 1vh 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .accomplishmentsthree p {
+    font-family: "Inter", sans-serif;
+    font-size: 2.8vw;
+    line-height: 3.5vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree {
+    margin: 4vh 0 0 0;
+    display: flex;
+    gap: 5vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree .linkto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree .linkto a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree .linkto a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree .linkto p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #05607D;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree .github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #B7BCD6 1px solid;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree .github a {
+    margin: 0.5vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree .github a img {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .borderthree .app3content .linksthree .github p {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    color: #05607D;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .closeapp3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0 0 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .closeapp3 .close_description_three {
+    background-color: #080E2F;
+    color: white;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description .closeapp3 .close_description_three img {
+    width: 4vw;
+    height: 4vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .app-3-description.slide-in {
+    left: 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7vh;
+    margin: -4vh 0 0 0;
+    gap: 6vh;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    margin: 4vh 0 0 0;
+    width: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 img {
+    width: 15vw;
+    height: 15vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app1 p {
+    font-size: 4vw;
+    font-family: "Julius Sans One", sans-serif;
+    color: white;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app2 img {
+    margin: 0.5vh 0 0 0;
+    width: 40vw;
+    height: 6vw;
+    flex-shrink: 0;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app3 {
+    border: 1px solid #36395D;
+    background-color: #36395D;
+    border-radius: 10px;
+    height: 30vw;
+    width: 78vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  * body #portfoliotabletcontainer #portfoliotabletdiv .botportfoliomobile .portfoliooutline .app3 img {
+    width: 28vw;
+    height: 28vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet {
+    background-color: #0E4946;
+    color: white;
+    height: 103vh;
+  }
+  * body #experiencetabletcontainer #experiencetablet .topexperiencetablet {
+    display: flex;
+  }
+  * body #experiencetabletcontainer #experiencetablet .topexperiencetablet .titletablet {
+    margin: 4vh 0 0 5vh;
+  }
+  * body #experiencetabletcontainer #experiencetablet .topexperiencetablet .titletablet h1 {
+    font-size: 9vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 5vh 0 0 0;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
+    border-radius: 12px;
+    padding: 8vw;
+    width: 35vw;
+    height: 35vw;
+    margin: 0 0 0 5vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs img {
+    margin: -2vh 0 0 3vw;
+    width: 30vw;
+    height: 30vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs .jobdeets {
+    margin: 2vh 0 0 0;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs .jobdeets h4 {
+    font-size: 3vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .courdevs .jobdeets p {
+    font-size: 2.5vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #476D6B;
+    background-color: #476D6B;
+    border-radius: 12px;
+    padding: 8vw;
+    width: 35vw;
+    height: 35vw;
+    margin: 0 0 0 5vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea img {
+    margin: 0vh 0 0 5vw;
+    width: 25vw;
+    height: 25vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea .jobdeets {
+    margin: 5vh 0 0 0;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea .jobdeets h4 {
+    font-size: 3vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .places .slea .jobdeets p {
+    font-size: 2.5vw;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .education {
+    display: flex;
+    width: 100%;
+  }
+  * body #experiencetabletcontainer #experiencetablet .botexperiencetablet .education h3 {
+    margin: 4vh 0 0 5vh;
+    font-size: 7vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #blogtabletcontainer #blogtablet {
+    background-color: #146166;
+    color: white;
+    height: 100vh;
+  }
+  * body #blogtabletcontainer #blogtablet .topblogtablet {
+    display: flex;
+  }
+  * body #blogtabletcontainer #blogtablet .topblogtablet .titlemobile {
+    margin: 3vh 0 0 5vh;
+  }
+  * body #blogtabletcontainer #blogtablet .topblogtablet .titlemobile h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0vh 0 0 0;
+    gap: 3vh;
+    padding: 1vh 1vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #146166;
+    margin: 4.5vh 0 0 0;
+    transition: ease-in 0.8s;
+    z-index: 98;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border {
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 88%;
+    height: 80%;
+    padding: 2vh;
+    overflow: hidden;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader {
+    display: flex;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle .outertitle {
+    border: 3px solid #080E2F;
+    background-color: #507e81;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle .outertitle .innertitle {
+    background-color: #080E2F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37vw;
+    height: 38vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle .outertitle .innertitle h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    padding: 0 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .sectiontitle {
+    margin: 4vh 0 0 23vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .sectiontitle p {
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .author {
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 27vw;
+    height: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -15vh 0 0 45vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .author p {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .date {
+    border: 3px solid #507e81;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin: 0vh 0 0 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .date .nums {
+    font-family: "Inter", sans-serif;
+    font-size: 2.3vw;
+    text-align: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .date .times {
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    text-align: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .bogoneoutline {
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    padding: 2vh;
+    border-radius: 50%;
+    width: 75vw;
+    height: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin: -10vh 0 0 30vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .bogoneoutline .blogonecontent {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    width: 50%;
+    margin: -7vh 10vw 0 0;
+    line-height: 2vh;
+    overflow-y: scroll;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    margin: -30vh 0 0 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle .blogoneshares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin: 1vh 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle .blogoneshares a #twitter {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle .blogoneshares a #linkedin {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogonesharescircle .blogoneshares a #share {
+    width: 6vw;
+    height: 6vw;
+    margin: -1vh 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogonearrow {
+    margin: 3vh 0 0 40vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogonearrow button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #146166;
+    border: none;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogonearrow button img {
+    width: 4vw;
+    height: 4vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogonearrow button p {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in.slide-in {
+    left: 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #146166;
+    margin: 4.5vh 0 0 0;
+    transition: ease-in 0.8s;
+    z-index: 98;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border {
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 88%;
+    height: 80%;
+    padding: 2vh;
+    overflow: hidden;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwoheader {
+    display: flex;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwoheader .blogtwotitle {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwoheader .blogtwotitle h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    padding: 0 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwoheader .sectiontitle {
+    margin: 4vh 0 0 23vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwoheader .sectiontitle p {
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .author {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 27vw;
+    height: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -15vh 0 0 45vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .author p {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .date {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    margin: 0vh 0 0 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .date .nums {
+    font-family: "Inter", sans-serif;
+    font-size: 2.3vw;
+    text-align: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .date .times {
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    text-align: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwooutline {
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    padding: 2vh;
+    border-radius: 50%;
+    width: 75vw;
+    height: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin: -10vh 0 0 30vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwooutline .blogonecontent {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    width: 50%;
+    margin: -7vh 10vw 0 0;
+    line-height: 2vh;
+    overflow-y: scroll;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwosharescircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    margin: -30vh 0 0 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwosharescircle .blogoneshares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin: 1vh 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwosharescircle .blogoneshares a #twitter {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwosharescircle .blogoneshares a #linkedin {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .blogtwosharescircle .blogoneshares a #share {
+    width: 6vw;
+    height: 6vw;
+    margin: -1vh 0 0 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogonearrow {
+    margin: 3vh 0 0 40vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogonearrow button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #146166;
+    border: none;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogonearrow button img {
+    width: 4vw;
+    height: 4vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogonearrow button p {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in.slide-in {
+    left: 0;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0 0 0;
+    gap: 3vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles {
+    background-color: #080E2F;
+    background-color: #507e81;
+    border: 5px solid #080E2F;
+    border-radius: 50%;
+    width: 55vw;
+    height: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent {
+    border: 3px solid #080E2F;
+    border-radius: 50%;
+    background-color: #080E2F;
+    width: 55vw;
+    height: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent .blogcircle {
+    text-decoration: none;
+    background-color: #080E2F;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 1vh;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent .blogcircle h2 {
+    font-size: 4vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent .blogcircle p {
+    font-size: 3vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #contacttabletcontainer #contacttablet {
+    background-color: #080E2F;
+    color: white;
+    height: 100vh;
+  }
+  * body #contacttabletcontainer #contacttablet .topcontacttablet {
+    display: flex;
+  }
+  * body #contacttabletcontainer #contacttablet .topcontacttablet .titletablet {
+    margin: 3vh 0 0 5vh;
+  }
+  * body #contacttabletcontainer #contacttablet .topcontacttablet .titletablet h1 {
+    font-size: 10vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet {
+    margin: 4vh 0 0 11.5vw;
+    font-family: "Inter", sans-serif;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform {
+    display: flex;
+    flex-direction: column;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv {
+    display: flex;
+    flex-direction: column;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .name {
+    margin: 0 0 5vh -3.8vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .name p {
+    font-size: 4vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .name input {
+    width: 80vw;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #36395D;
+    border: 1px solid #36395D;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .email {
+    margin: 0 0 5vh -3.8vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .email p {
+    font-size: 4vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .email input {
+    width: 80vw;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #36395D;
+    border: 1px solid #36395D;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message {
+    margin: 0 0 5vh -3.8vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message p {
+    font-size: 4vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .message input {
+    width: 80vw;
+    height: 25vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #36395D;
+    border: 1px solid #36395D;
+    color: white;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .submit {
+    margin: 0 0 0 -3.8vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .submit button {
+    background-color: #36395D;
+    border: 1px solid #36395D;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 80vw;
+    height: 7vh;
+    font-size: 4vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 0 -20vw;
+    color: #FFFFFF;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby img {
+    width: 4vw;
+    height: 4vw;
+    color: #36395D;
+    margin: 0 1vw 0 0;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .tabletsocials a #github {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .tabletsocials a #linkedin {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .tabletsocials a #twitter {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .tabletsocials a #instagram {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .copyrights p {
+    color: #B7BCD6;
+    font-size: 2.5vw;
+  }
+  * body #contacttabletcontainer #contacttablet .botcontacttablet .contactform .nameemaildiv .poweredby small .copyrights a {
+    color: #58a6ff;
+    font-size: 2.5vw;
+  }
+  * body #desktopcontainer {
+    display: none;
+  }
+}/*# sourceMappingURL=tablet.css.map */

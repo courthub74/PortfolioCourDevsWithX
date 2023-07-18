@@ -51,7 +51,7 @@ wholebutton.addEventListener('click', function () {
     wholebutton.classList.toggle('is-active');
     // toggle the X to is-shown when the button is active
     buttontext.classList.toggle('is-shown');
-    // toggle the slide in menu css class to slide-in
+    // toggle the slide in menu css class on to slide-in
     slide_menu_home.classList.toggle('slide-in');
 });
 
