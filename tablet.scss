@@ -27,6 +27,9 @@ $skillsdarker2: #507e81;
 // BOX SHADOW
 $boxshadowcircles: rgba(0, 0, 0, 0.521);
 
+// CIRCLE OUTLINE
+$circleoutlines: rgb(221,221,221,0.52);
+
 // FOOTER
 $firstblue: #58a6ff;
 $secondblue: #6287cf;
@@ -304,22 +307,22 @@ $lighterskills: #080e31;
                             // margin: 4vh 0 0 0;
                             // Big Back Circle
                             .bigcircletablet {
-                                border: 1px solid $mainblue;
+                                border: 5px solid $circleoutlines;
                                 background-color: $mainblue;
-                                width: 50vw;
-                                height: 50vw;
+                                width: 45vw;
+                                height: 45vw;
                                 border-radius: 50%;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                // box-shadow: 2px 2px 3px $boxshadowcircles;
                                 .lilcircletablet {
-                                    border: 3px solid white;
+                                    // border: 3px solid white;
                                     border-radius: 50%;
-                                    width: 25vw;
+                                    width: 40vw;
                                     height: 25vw;
                                     display: flex;
-                                    gap: 1vh;
+                                    gap: 4vh;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
@@ -504,23 +507,23 @@ $lighterskills: #080e31;
                             align-items: center;
                             .bigcircletwotablet {
                                 margin: 12vh 0 0 0vw;
-                                border: 1px solid $mainblue;
+                                border: 5px solid $circleoutlines;
                                 background-color: $mainblue;
-                                width: 50vw;
-                                height: 50vw;
+                                width: 45vw;
+                                height: 45vw;
                                 border-radius: 50%;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                box-shadow: 2px 2px 3px $boxshadowcircles;
                                 .lilcircletwotablet {
-                                    border: 3px solid white;
+                                    // border: 3px solid white;
                                     border-radius: 50%;
-                                    width: 30vw;
-                                    height: 30vw;
+                                    width: 40vw;
+                                    height: 40vw;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
+                                    gap: 4vh;
                                     background-color: $mainblue;
                                     font-family: 'Julius Sans One', sans-serif;
                                     text-align: center;
