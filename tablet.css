@@ -219,7 +219,7 @@
   * body #skillstabletcontainer #skillstablet {
     background-color: #146166;
     color: white;
-    height: 175vh;
+    height: 260vh;
   }
   * body #skillstabletcontainer #skillstablet .topskillstablet {
     display: flex;
@@ -242,10 +242,10 @@
     gap: 7vh;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet {
-    border: 5px solid rgba(221, 221, 221, 0.52);
-    background-color: #080E2F;
-    width: 45vw;
-    height: 45vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -253,7 +253,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet .lilcircletablet {
     border-radius: 50%;
-    width: 40vw;
+    width: 25vw;
     height: 25vw;
     display: flex;
     gap: 4vh;
@@ -274,7 +274,7 @@
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    margin: 4vh 0 0 0;
+    margin: 2vh 0 0 0;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .html {
     display: flex;
@@ -282,7 +282,7 @@
     justify-content: center;
     align-items: center;
     gap: 1vh;
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
@@ -305,7 +305,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
@@ -324,12 +324,12 @@
     font-size: 2.5vw;
     font-family: "Roboto", sans-serif;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .reactjs {
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
@@ -339,11 +339,35 @@
     gap: 1.5vh;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .reactjs #reactjs {
-    width: 8.5vw;
-    height: 8vw;
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass #sass {
+    width: 7.5vw;
+    height: 7.5vw;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .reactjs p {
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .sass p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .figma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .figma #figma {
+    width: 6vw;
+    height: 6vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow .figma p {
     color: white;
     font-size: 2.5vw;
     font-family: "Roboto", sans-serif;
@@ -360,7 +384,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
@@ -384,7 +408,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
@@ -403,29 +427,100 @@
     font-size: 2.5vw;
     font-family: "Roboto", sans-serif;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .react-native {
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #080E2F;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet {
+    margin: 5vh 0 0 0vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet .technologiestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet .technologiestablet p {
+    color: white;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .react-native {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
     padding: 2vh;
     width: 12vw;
     height: 12vw;
-    gap: 0.5vh;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .react-native #react-native {
-    width: 9vw;
-    height: 9vw;
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .react-native #react-native {
+    width: 10vw;
+    height: 10vw;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconssecondrow .react-native p {
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .react-native p {
     color: white;
     font-size: 2.5vw;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .reactjs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 1.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .reactjs #reactjs {
+    width: 8.5vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet .reactjs p {
+    color: white;
+    font-size: 2.5vw;
     font-family: "Roboto", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet {
@@ -436,10 +531,10 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet {
     margin: 12vh 0 0 0vw;
-    border: 5px solid rgba(221, 221, 221, 0.52);
-    background-color: #080E2F;
-    width: 45vw;
-    height: 45vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -447,8 +542,8 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet {
     border-radius: 50%;
-    width: 40vw;
-    height: 40vw;
+    width: 25vw;
+    height: 25vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -467,6 +562,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet .technologiestablet p {
     color: white;
+    font-weight: bold;
     font-size: 3vw;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet {
@@ -474,7 +570,7 @@
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    margin: 4vh 0 0 0;
+    margin: 2vh 0 0 0;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript {
     display: flex;
@@ -482,7 +578,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.1vh;
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
@@ -507,7 +603,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.4vh;
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 10px;
     border-radius: 50%;
@@ -522,31 +618,6 @@
     height: 9vw;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .nodejs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .nodejs #nodejs {
-    margin: -1vh 0 0 0;
-    width: 7vw;
-    height: 8vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .nodejs p {
     color: white;
     font-size: 2.5vw;
     font-family: "Roboto", sans-serif;
@@ -630,6 +701,251 @@
   * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku p {
     color: white;
     font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet {
+    margin: 6vh 0 0 0vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    background-color: #080E2F;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet .technologiestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet .technologiestablet p {
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs #nodejs {
+    margin: -1vh 0 0 0;
+    width: 7vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django #django {
+    margin: -1vh 0 0 0;
+    width: 9vw;
+    height: 9vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet {
+    margin: 12vh 0 0 0vw;
+    border: 5px solid #080E2F;
+    background-color: #507e81;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet {
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    background-color: #507e81;
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    padding: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet .technologiestablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet .technologiestablet p {
+    color: #080E2F;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2vh 0 0 0;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo #mongo {
+    width: 4vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase #firebase {
+    margin: -1vh 0 0 0;
+    width: 9vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre #postgre {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(221, 221, 221, 0.52);
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 12vw;
+    height: 12vw;
+    gap: 0.5vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku #heroku {
+    width: 8vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku p {
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
     font-family: "Roboto", sans-serif;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv {
@@ -1488,7 +1804,26 @@
     align-items: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
   }
-  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle h1 {
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle .outertitle {
+    border: 3px solid #080E2F;
+    background-color: #507e81;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle .outertitle .innertitle {
+    background-color: #080E2F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37vw;
+    height: 38vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .blogoneheader .blogonetitle .outertitle .innertitle h1 {
     font-family: "Inter", sans-serif;
     font-size: 3vw;
     padding: 0 0 0 0;
@@ -1502,7 +1837,7 @@
     font-weight: bold;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .author {
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 50%;
     width: 27vw;
@@ -1519,7 +1854,8 @@
     text-align: center;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .date {
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
     background-color: #080E2F;
     border-radius: 50%;
     width: 20vw;
@@ -1542,7 +1878,7 @@
     text-align: center;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .blogone-slide-in .blogone-border .blogcircle .bogoneoutline {
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     padding: 2vh;
     border-radius: 50%;
@@ -1569,7 +1905,7 @@
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    border: 1px solid #080E2F;
+    border: 3px solid #507e81;
     background-color: #080E2F;
     border-radius: 50%;
     width: 25vw;
@@ -1621,6 +1957,7 @@
     left: 0;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in {
+    position: fixed;
     top: 0;
     left: 100%;
     width: 100%;
@@ -1685,6 +2022,7 @@
     text-align: center;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogtwo-border .blogcircle .date {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
     border: 1px solid #080E2F;
     background-color: #080E2F;
     border-radius: 50%;
@@ -1763,6 +2101,29 @@
     height: 6vw;
     margin: -1vh 0 0 0;
   }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogonearrow {
+    margin: 3vh 0 0 40vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogonearrow button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #146166;
+    border: none;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogonearrow button img {
+    width: 4vw;
+    height: 4vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in .blogonearrow button p {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+  }
+  * body #blogtabletcontainer #blogtablet #botblogtablet .blogtwo-slide-in.slide-in {
+    left: 0;
+  }
   * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline {
     display: flex;
     flex-direction: column;
@@ -1775,6 +2136,8 @@
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles {
     background-color: #080E2F;
+    background-color: #507e81;
+    border: 5px solid #080E2F;
     border-radius: 50%;
     width: 55vw;
     height: 55vw;
@@ -1782,14 +2145,13 @@
     justify-content: center;
     align-items: center;
     padding: 1vw;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent {
-    border: 3px solid white;
+    border: 3px solid #080E2F;
     border-radius: 50%;
     background-color: #080E2F;
-    width: 30vw;
-    height: 30vw;
+    width: 55vw;
+    height: 55vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1806,11 +2168,11 @@
     gap: 1vh;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent .blogcircle h2 {
-    font-size: 2.5vw;
+    font-size: 4vw;
     font-family: "Inter", sans-serif;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent .blogcircle p {
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: "Inter", sans-serif;
   }
   * body #contacttabletcontainer #contacttablet {

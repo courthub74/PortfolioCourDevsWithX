@@ -282,7 +282,7 @@ $lighterskills: #080e31;
                 #skillstablet {
                     background-color: $skillsteal;
                     color: white;
-                    height: 175vh;
+                    height: 260vh;
                     // Top of the skills section
                     .topskillstablet {
                         display: flex;
@@ -307,10 +307,10 @@ $lighterskills: #080e31;
                             // margin: 4vh 0 0 0;
                             // Big Back Circle
                             .bigcircletablet {
-                                border: 5px solid $circleoutlines;
-                                background-color: $mainblue;
-                                width: 45vw;
-                                height: 45vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 30vw;
+                                height: 30vw;
                                 border-radius: 50%;
                                 display: flex;
                                 justify-content: center;
@@ -319,7 +319,7 @@ $lighterskills: #080e31;
                                 .lilcircletablet {
                                     // border: 3px solid white;
                                     border-radius: 50%;
-                                    width: 40vw;
+                                    width: 25vw;
                                     height: 25vw;
                                     display: flex;
                                     gap: 4vh;
@@ -328,6 +328,7 @@ $lighterskills: #080e31;
                                     align-items: center;
                                     background-color: $mainblue;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-weight: bold;
                                     text-align: center;
                                     padding: 1vh;
                                     p {
@@ -343,14 +344,14 @@ $lighterskills: #080e31;
                             justify-content: center;
                             align-items: center;
                             gap: 2vw;
-                            margin: 4vh 0 0 0;
+                            margin: 2vh 0 0 0;
                             .html {
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 1vh;
-                                border: 1px solid $mainblue;
+                                border: 3px solid $skillsdarker2;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
@@ -365,6 +366,7 @@ $lighterskills: #080e31;
                                 p {
                                     color: white;
                                     font-size: 2.5vw;
+                                    // font-weight: bold;
                                     font-family: 'Roboto', sans-serif;
                                 }
                             }
@@ -373,7 +375,7 @@ $lighterskills: #080e31;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                border: 1px solid $mainblue;
+                                border: 3px solid $skillsdarker2;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
@@ -392,12 +394,12 @@ $lighterskills: #080e31;
                                     font-family: 'Roboto', sans-serif;
                                 }
                             }
-                            .reactjs {
+                            .sass {
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                border: 1px solid $mainblue;
+                                border: 3px solid $skillsdarker2;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
@@ -406,9 +408,33 @@ $lighterskills: #080e31;
                                 height: 12vw;
                                 gap: 1.5vh;
                                 box-shadow: 2px 2px 3px $boxshadowcircles;
-                                #reactjs {
-                                    width: 8.5vw;
-                                    height: 8vw;
+                                #sass {
+                                    width: 7.5vw;
+                                    height: 7.5vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .figma {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: 1.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #figma {
+                                    width: 6vw;
+                                    height: 6vw;
                                 }
                                 p {
                                     color: white;
@@ -429,7 +455,7 @@ $lighterskills: #080e31;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                border: 1px solid $mainblue;
+                                border: 3px solid $skillsdarker2;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
@@ -453,7 +479,7 @@ $lighterskills: #080e31;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                border: 1px solid $mainblue;
+                                border: 3px solid $skillsdarker2;
                                 background-color: $mainblue;
                                 border-radius: 10px;
                                 border-radius: 50%;
@@ -472,54 +498,27 @@ $lighterskills: #080e31;
                                     font-family: 'Roboto', sans-serif;
                                 }
                             }
-                            .react-native {
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                border: 1px solid $mainblue;
-                                background-color: $mainblue;
-                                border-radius: 10px;
-                                border-radius: 50%;
-                                padding: 2vh;
-                                width: 12vw;
-                                height: 12vw;
-                                gap: 0.5vh;
-                                box-shadow: 2px 2px 3px $boxshadowcircles;
-                                #react-native {
-                                    width: 9vw;
-                                    height: 9vw;
-                                }
-                                p {
-                                    color: white;
-                                    font-size: 2.5vw;
-                                    text-align: center;
-                                    font-family: 'Roboto', sans-serif;
-                                }
-                            }
                         }
-
-                        // SECOND BIG CIRCLE TABLET
-                        .responsivedesigndivtablet {
+                        // User Interface Section
+                        .userinterfacesdivtablet {
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            .bigcircletwotablet {
-                                margin: 12vh 0 0 0vw;
-                                border: 5px solid $circleoutlines;
-                                background-color: $mainblue;
-                                width: 45vw;
-                                height: 45vw;
+                            .bigcircleinterfacetablet {
+                                margin: 5vh 0 0 0vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 30vw;
+                                height: 30vw;
                                 border-radius: 50%;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                .lilcircletwotablet {
-                                    // border: 3px solid white;
+                                .lilcircleinterfacetablet {
                                     border-radius: 50%;
-                                    width: 40vw;
-                                    height: 40vw;
+                                    width: 25vw;
+                                    height: 25vw;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
@@ -536,6 +535,110 @@ $lighterskills: #080e31;
                                         gap: 1vh;
                                         p {
                                             color: white;
+                                            // font-weight: bold;
+                                            font-size: 3vw;
+                                            // background-color: blueviolet;
+                                        }
+                                    }
+                                }
+                            }
+                            // User Interface Icons
+                            .iconsuserintrowtablet {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2vw;
+                                margin: 2vh 0 0 0;
+                                .react-native {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 3px solid $skillsdarker2;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    // gap: 0.5vh;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #react-native {
+                                        width: 10vw;
+                                        height: 10vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        text-align: center;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                                .reactjs {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 3px solid $skillsdarker2;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    gap: 1.5vh;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #reactjs {
+                                        width: 8.5vw;
+                                        height: 8vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+
+                        // SECOND BIG CIRCLE TABLET
+                        .responsivedesigndivtablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .bigcircletwotablet {
+                                margin: 12vh 0 0 0vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 30vw;
+                                height: 30vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .lilcircletwotablet {
+                                    // border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 4vh;
+                                    background-color: $mainblue;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    .technologiestablet {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        p {
+                                            color: white;
+                                            font-weight: bold;
                                             font-size: 3vw;
                                             // background-color: blueviolet;
                                         }
@@ -547,14 +650,14 @@ $lighterskills: #080e31;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 2vw;
-                                margin: 4vh 0 0 0;
+                                margin: 2vh 0 0 0;
                                 .javascript {
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
                                     gap: .1vh;
-                                    border: 1px solid $mainblue;
+                                    border: 3px solid $skillsdarker2;
                                     background-color: $mainblue;
                                     border-radius: 10px;
                                     border-radius: 50%;
@@ -579,7 +682,7 @@ $lighterskills: #080e31;
                                     justify-content: center;
                                     align-items: center;
                                     gap: .4vh;
-                                    border: 1px solid $mainblue;
+                                    border: 3px solid $skillsdarker2;
                                     background-color: $mainblue;
                                     border-radius: 10px;
                                     border-radius: 50%;
@@ -591,31 +694,6 @@ $lighterskills: #080e31;
                                         margin: -1vh 0 0 0;
                                         width: 9vw;
                                         height: 9vw;
-                                    }
-                                    p {
-                                        color: white;
-                                        font-size: 2.5vw;
-                                        font-family: 'Roboto', sans-serif;
-                                    }
-                                }
-                                .nodejs {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
-                                    align-items: center;
-                                    gap: 1vh;
-                                    border: 1px solid $mainblue;
-                                    background-color: $mainblue;
-                                    border-radius: 10px;
-                                    border-radius: 50%;
-                                    padding: 2vh;
-                                    width: 12vw;
-                                    height: 12vw;
-                                    box-shadow: 2px 2px 3px $boxshadowcircles;
-                                    #nodejs {
-                                        margin: -1vh 0 0 0;
-                                        width: 7vw;
-                                        height: 8vw;
                                     }
                                     p {
                                         color: white;
@@ -706,8 +784,261 @@ $lighterskills: #080e31;
                                 }
                             }
                         }
+                        // THIRD BIG CIRCLE TABLET
+                        .serversideprogdivtablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .bigcirclethreetablet {
+                                margin: 6vh 0 0 0vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 30vw;
+                                height: 30vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .lilcirclethreetablet {
+                                    // border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 4vh;
+                                    background-color: $mainblue;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    .technologiestablet {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        p {
+                                            color: white;
+                                            font-weight: bold;
+                                            font-size: 3vw;
+                                            // background-color: blueviolet;
+                                        }
+                                    }
+                                }
+                            }
+                            .iconsfourthrowtablet  {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 2vw;
+                                margin: 2vh 0 0 0;
+                                .nodejs {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 1vh;
+                                    border: 3px solid $circleoutlines;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #nodejs {
+                                        margin: -1vh 0 0 0;
+                                        width: 7vw;
+                                        height: 8vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                                .django {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    // gap: .5vh;
+                                    border: 3px solid $circleoutlines;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 2vh;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #django {
+                                        margin: -1vh 0 0 0;
+                                        width: 9vw;
+                                        height: 9vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                        // FOURTH BIG CIRCLE TABLET
+                        .integrationdbdivtablet {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .bigcirclefourtablet {
+                                margin: 12vh 0 0 0vw;
+                                border: 5px solid $mainblue;
+                                background-color: $skillsdarker2;
+                                width: 35vw;
+                                height: 35vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .lilcirclefourtablet {
+                                    // border: 3px solid white;
+                                    border-radius: 50%;
+                                    width: 30vw;
+                                    height: 30vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 4vh;
+                                    background-color: $skillsdarker2;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    text-align: center;
+                                    padding: 1vh;
+                                    .technologiestablet {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 1vh;
+                                        p {
+                                            color: $mainblue;
+                                            font-weight: bold;
+                                            font-size: 3vw;
+                                            // background-color: blueviolet;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        // FOURTH ROW OF ICONS
+                        .iconsfourthrowtablet {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2vw;
+                            margin: 2vh 0 0 0;
+                            .mongo {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $circleoutlines;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: .5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #mongo {
+                                    width: 4vw;
+                                    height: 10vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .firebase {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $circleoutlines;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: .5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #firebase {
+                                    margin: -1vh 0 0 0;
+                                    width: 9vw;
+                                    height: 10vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .postgre {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $circleoutlines;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: .5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #postgre {
+                                    // margin: -1vh 0 0 0;
+                                    width: 8vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .heroku {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                border: 3px solid $circleoutlines;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 12vw;
+                                height: 12vw;
+                                gap: 0.5vh;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #heroku {
+                                    width: 8vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    text-align: center;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                        }
                     }
-
                 }
             }
             // PORTFOLIO SECTION
@@ -1694,10 +2025,29 @@ $lighterskills: #080e31;
                                             justify-content: center;
                                             align-items: center;
                                             box-shadow: 2px 2px 5px $boxshadowcircles;
-                                            h1 {
-                                                font-family: 'Inter', sans-serif;
-                                                font-size: 3vw;
-                                                padding: 0 0 0 0;
+                                            .outertitle {
+                                                border: 3px solid $mainblue;
+                                                background-color: $skillsdarker2;
+                                                border-radius: 50%;
+                                                width: 40vw;
+                                                height: 40vw;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                .innertitle {
+                                                    background-color: $mainblue;
+                                                    border-radius: 50%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    width: 37vw;
+                                                    height: 38vw;
+                                                    h1 {
+                                                        font-family: 'Inter', sans-serif;
+                                                        font-size: 3vw;
+                                                        padding: 0 0 0 0;
+                                                    }
+                                                }
                                             }
                                         }
                                         .sectiontitle {
@@ -1710,7 +2060,7 @@ $lighterskills: #080e31;
                                         }
                                     }
                                     .author {
-                                        border: 1px solid $mainblue;
+                                        border: 3px solid $skillsdarker2;
                                         background-color: $mainblue;
                                         border-radius: 50%;
                                         width: 27vw;
@@ -1727,7 +2077,8 @@ $lighterskills: #080e31;
                                         }
                                     }
                                     .date {
-                                        border: 1px solid $mainblue;
+                                        border: 3px solid $skillsdarker2;
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
                                         background-color: $mainblue;
                                         border-radius: 50%;
                                         width: 20vw;
@@ -1750,7 +2101,7 @@ $lighterskills: #080e31;
                                         }
                                     }
                                     .bogoneoutline {
-                                        border: 1px solid $mainblue;
+                                        border: 3px solid $skillsdarker2;
                                         background-color: $mainblue;
                                         padding: 2vh;
                                         border-radius: 50%;
@@ -1777,7 +2128,7 @@ $lighterskills: #080e31;
                                         justify-content: center;
                                         align-items: center;
                                         gap: 2vw;
-                                        border: 1px solid $mainblue;
+                                        border: 3px solid $skillsdarker2;
                                         background-color: $mainblue;
                                         border-radius: 50%;
                                         width: 25vw;
@@ -1880,7 +2231,7 @@ $lighterskills: #080e31;
                         ////////////////////// 
                         // BLOG TWO SLIDE-IN
                         .blogtwo-slide-in {
-                            // position: fixed;
+                            position: fixed;
                             top: 0;
                             left: 100%;
                             width: 100%;
@@ -1946,6 +2297,7 @@ $lighterskills: #080e31;
                                         }
                                     }
                                     .date {
+                                        box-shadow: 2px 2px 5px $boxshadowcircles;
                                         border: 1px solid $mainblue;
                                         background-color: $mainblue;
                                         border-radius: 50%;
@@ -2028,6 +2380,30 @@ $lighterskills: #080e31;
                                     }
                                 }
                             }
+                            // Back Button
+                            .blogonearrow {
+                                margin: 3vh 0 0 40vw;
+                                button {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-decoration: none;
+                                    background-color: $skillsteal;
+                                    border: none;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                    p {
+                                        color: $skillswhite;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                        .blogtwo-slide-in.slide-in {
+                            left: 0;
                         }
 
                         ////////////////////// 
@@ -2065,6 +2441,8 @@ $lighterskills: #080e31;
                             // padding: 1vh 1vh;
                             .blogcircles {
                                 background-color: $mainblue;
+                                background-color: $skillsdarker2;
+                                border: 5px solid $mainblue;
                                 border-radius: 50%;
                                 width: 55vw;
                                 height: 55vw;
@@ -2072,13 +2450,14 @@ $lighterskills: #080e31;
                                 justify-content: center;
                                 align-items: center;
                                 padding: 1vw;
-                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                // box-shadow: 2px 2px 3px $boxshadowcircles;
                                 .blogcontent {
-                                    border: 3px solid white;
+                                    border: 3px solid $mainblue;
                                     border-radius: 50%;
                                     background-color: $mainblue;
-                                    width: 30vw;
-                                    height: 30vw;
+                                    // background-color: #023430;
+                                    width: 55vw;
+                                    height: 55vw;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
@@ -2094,11 +2473,11 @@ $lighterskills: #080e31;
                                         align-items: right;
                                         gap: 1vh;
                                         h2 {
-                                            font-size: 2.5vw;
+                                            font-size: 4vw;
                                             font-family: 'Inter', sans-serif;
                                         }
                                         p {
-                                            font-size: 2vw;
+                                            font-size: 3vw;
                                             font-family: 'Inter', sans-serif;
                                         }
                                     }
