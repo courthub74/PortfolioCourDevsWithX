@@ -241,34 +241,6 @@
     align-items: center;
     gap: 7vh;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet {
-    border: 5px solid #080E2F;
-    background-color: #507e81;
-    width: 30vw;
-    height: 30vw;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet .lilcircletablet {
-    border-radius: 50%;
-    width: 25vw;
-    height: 25vw;
-    display: flex;
-    gap: 4vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #080E2F;
-    font-family: "Julius Sans One", sans-serif;
-    text-align: center;
-    padding: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .skillcirclestablet .bigcircletablet .lilcircletablet p {
-    color: white;
-    font-size: 3vw;
-  }
   * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfirstrow {
     display: flex;
     justify-content: center;
@@ -393,41 +365,6 @@
     justify-content: center;
     align-items: center;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet {
-    margin: 5vh 0 0 0vw;
-    border: 5px solid #080E2F;
-    background-color: #507e81;
-    width: 30vw;
-    height: 30vw;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet {
-    border-radius: 50%;
-    width: 25vw;
-    height: 25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4vh;
-    background-color: #080E2F;
-    font-family: "Julius Sans One", sans-serif;
-    text-align: center;
-    padding: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet .technologiestablet {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .bigcircleinterfacetablet .lilcircleinterfacetablet .technologiestablet p {
-    color: white;
-    font-size: 3vw;
-  }
   * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacesdivtablet .iconsuserintrowtablet {
     display: flex;
     justify-content: center;
@@ -498,56 +435,20 @@
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet {
+  * body #skillstabletcontainer #skillstablet .responsivedesigndivtablet {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet {
-    margin: 12vh 0 0 0vw;
-    border: 5px solid #080E2F;
-    background-color: #507e81;
-    width: 30vw;
-    height: 30vw;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet {
-    border-radius: 50%;
-    width: 25vw;
-    height: 25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4vh;
-    background-color: #080E2F;
-    font-family: "Julius Sans One", sans-serif;
-    text-align: center;
-    padding: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet .technologiestablet {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .bigcircletwotablet .lilcircletwotablet .technologiestablet p {
-    color: white;
-    font-weight: bold;
-    font-size: 3vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet {
+  * body #skillstabletcontainer #skillstablet .iconsthirdrowtablet {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    margin: 2vh 0 0 0;
+    margin: 9vh 50vw 0 0;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript {
+  * body #skillstabletcontainer #skillstablet .iconsthirdrowtablet .javascript {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -562,17 +463,17 @@
     height: 12vw;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript #javascript {
+  * body #skillstabletcontainer #skillstablet .iconsthirdrowtablet .javascript #javascript {
     margin: -1vh 0 0 0;
     width: 10vw;
     height: 10vw;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .javascript p {
+  * body #skillstabletcontainer #skillstablet .iconsthirdrowtablet .javascript p {
     color: white;
     font-size: 2.5vw;
     font-family: "Roboto", sans-serif;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python {
+  * body #skillstabletcontainer #skillstablet .iconsthirdrowtablet .python {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -587,356 +488,30 @@
     height: 12vw;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python #python {
+  * body #skillstabletcontainer #skillstablet .iconsthirdrowtablet .python #python {
     margin: -1vh 0 0 0;
     width: 9vw;
     height: 9vw;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsthirdrowtablet .python p {
+  * body #skillstabletcontainer #skillstablet .iconsthirdrowtablet .python p {
     color: white;
     font-size: 2.5vw;
     font-family: "Roboto", sans-serif;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-    margin: 4vh 0 0 0;
+  * body #skillstabletcontainer #skillstablet .skillsscriptingdescription {
+    margin: 0 0 -6vh 60vw;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo #mongo {
-    margin: -1vh 0 0 0;
-    width: 3.5vw;
-    height: 10vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .mongo p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase #firebase {
-    margin-top: -2vh;
-    width: 10vw;
-    height: 10vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .firebase p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5vh;
-    border: 1px solid #080E2F;
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku #heroku {
-    width: 8vw;
-    height: 8vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .responsivedesigndivtablet .iconsfourthrowtablet .heroku p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .skillsdescription {
-    margin: 0 0 -5vh 33.5vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .skillsdescription p {
+  * body #skillstabletcontainer #skillstablet .skillsscriptingdescription p {
     font-family: "Julius Sans One", sans-serif;
     font-size: 4vw;
   }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .underlinediv .underlinetablet {
-    margin: 0 22vw 0 0;
-    width: 95vw;
+  * body #skillstabletcontainer #skillstablet .scriptingdiv .scriptinglinetablet {
+    margin: 8vh 22vw 0 0;
+    width: 105vw;
     height: 2vh;
     background-color: #080E2F;
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet {
-    margin: 6vh 0 0 0vw;
-    border: 5px solid #080E2F;
-    background-color: #507e81;
-    width: 30vw;
-    height: 30vw;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet {
-    border-radius: 50%;
-    width: 25vw;
-    height: 25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4vh;
-    background-color: #080E2F;
-    font-family: "Julius Sans One", sans-serif;
-    text-align: center;
-    padding: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet .technologiestablet {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .bigcirclethreetablet .lilcirclethreetablet .technologiestablet p {
-    color: white;
-    font-weight: bold;
-    font-size: 3vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-    margin: 2vh 0 0 0;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-    border: 3px solid rgba(221, 221, 221, 0.52);
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs #nodejs {
-    margin: -1vh 0 0 0;
-    width: 7vw;
-    height: 8vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .nodejs p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid rgba(221, 221, 221, 0.52);
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django #django {
-    margin: -1vh 0 0 0;
-    width: 9vw;
-    height: 9vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .serversideprogdivtablet .iconsfourthrowtablet .django p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet {
-    margin: 12vh 0 0 0vw;
-    border: 5px solid #080E2F;
-    background-color: #507e81;
-    width: 35vw;
-    height: 35vw;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet {
-    border-radius: 50%;
-    width: 30vw;
-    height: 30vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4vh;
-    background-color: #507e81;
-    font-family: "Julius Sans One", sans-serif;
-    text-align: center;
-    padding: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet .technologiestablet {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1vh;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .integrationdbdivtablet .bigcirclefourtablet .lilcirclefourtablet .technologiestablet p {
-    color: #080E2F;
-    font-weight: bold;
-    font-size: 3vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-    margin: 2vh 0 0 0;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid rgba(221, 221, 221, 0.52);
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    gap: 0.5vh;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo #mongo {
-    width: 4vw;
-    height: 10vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .mongo p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid rgba(221, 221, 221, 0.52);
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    gap: 0.5vh;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase #firebase {
-    margin: -1vh 0 0 0;
-    width: 9vw;
-    height: 10vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .firebase p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid rgba(221, 221, 221, 0.52);
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    gap: 0.5vh;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre #postgre {
-    width: 8vw;
-    height: 8vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .postgre p {
-    color: white;
-    font-size: 2.5vw;
-    font-family: "Roboto", sans-serif;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid rgba(221, 221, 221, 0.52);
-    background-color: #080E2F;
-    border-radius: 10px;
-    border-radius: 50%;
-    padding: 2vh;
-    width: 12vw;
-    height: 12vw;
-    gap: 0.5vh;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku #heroku {
-    width: 8vw;
-    height: 8vw;
-  }
-  * body #skillstabletcontainer #skillstablet .botskillstablet .iconsfourthrowtablet .heroku p {
-    color: white;
-    font-size: 2.5vw;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv {
     background-color: #080E2F;
