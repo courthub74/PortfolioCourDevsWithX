@@ -389,35 +389,11 @@ $lighterskills: #080e31;
                                     font-family: 'Roboto', sans-serif;
                                 }
                             }
-                            .figma {
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                border: 3px solid $skillsdarker2;
-                                background-color: $mainblue;
-                                border-radius: 10px;
-                                border-radius: 50%;
-                                padding: 3vh;
-                                width: 10vw;
-                                height: 10vw;
-                                gap: 1.5vh;
-                                box-shadow: 2px 2px 3px $boxshadowcircles;
-                                #figma {
-                                    width: 6vw;
-                                    height: 6vw;
-                                }
-                                p {
-                                    color: white;
-                                    font-size: 2.5vw;
-                                    font-family: 'Roboto', sans-serif;
-                                }
-                            }
                         }
                         // Skills Description
                         .skillsresponsivedescription {
                             // background-color: yellow;
-                            margin: 0 0 -5vh 43vw;
+                            margin: -.5vh 0 -5vh 43vw;
                             p {
                                 font-family: 'Julius Sans One', sans-serif;
                                 font-size: 4vw;
@@ -447,7 +423,7 @@ $lighterskills: #080e31;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 2vw;
-                                margin: 7vh 0 -1vh 41vw;
+                                margin: 8vh 4vw 0 0;
                                 // background-color: yellow;
                                 .react-native {
                                     // background-color: yellow;
@@ -499,12 +475,36 @@ $lighterskills: #080e31;
                                         font-family: 'Roboto', sans-serif;
                                     }
                                 }
+                                .figma {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 3px solid $skillsdarker2;
+                                    background-color: $mainblue;
+                                    border-radius: 10px;
+                                    border-radius: 50%;
+                                    padding: 3vh;
+                                    width: 10vw;
+                                    height: 10vw;
+                                    gap: 1.5vh;
+                                    box-shadow: 2px 2px 3px $boxshadowcircles;
+                                    #figma {
+                                        width: 6vw;
+                                        height: 6vw;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 2.5vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
+                                }
                             }
                         }
                         // Skills Description
                         .skillsuserdescription {
                             // background-color: yellow;
-                            margin: 3vh 0 2vh 8.5vw;
+                            margin: 4vh 0 2vh 8.5vw;
                             p {
                                 font-family: 'Julius Sans One', sans-serif;
                                 font-size: 4vw;
@@ -534,8 +534,8 @@ $lighterskills: #080e31;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        gap: 2vw;
-                        margin: 9vh 47vw 0 0;
+                        gap: 2.2vw;
+                        margin: 9vh 3vw 0 0;
                         .javascript {
                             display: flex;
                             flex-direction: column;
@@ -547,8 +547,8 @@ $lighterskills: #080e31;
                             border-radius: 10px;
                             border-radius: 50%;
                             padding: 2vh;
-                            width: 12vw;
-                            height: 12vw;
+                            width: 13vw;
+                            height: 13vw;
                             box-shadow: 2px 2px 3px $boxshadowcircles;
                             #javascript {
                                 margin: -1vh 0 0 0;
@@ -572,10 +572,35 @@ $lighterskills: #080e31;
                             border-radius: 10px;
                             border-radius: 50%;
                             padding: 2vh;
-                            width: 12vw;
-                            height: 12vw;
+                            width: 13vw;
+                            height: 13vw;
                             box-shadow: 2px 2px 3px $boxshadowcircles;
                             #python {
+                                margin: -1vh 0 0 0;
+                                width: 9vw;
+                                height: 9vw;
+                            }
+                            p {
+                                color: white;
+                                font-size: 2.5vw;
+                                font-family: 'Roboto', sans-serif;
+                            }
+                        }
+                        .php {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: .4vh;
+                            border: 3px solid $skillsdarker2;
+                            background-color: $mainblue;
+                            border-radius: 10px;
+                            border-radius: 50%;
+                            padding: 2vh;
+                            width: 13vw;
+                            height: 13vw;
+                            box-shadow: 2px 2px 3px $boxshadowcircles;
+                            #php {
                                 margin: -1vh 0 0 0;
                                 width: 9vw;
                                 height: 9vw;
@@ -590,7 +615,7 @@ $lighterskills: #080e31;
                     // Skills Description
                     .skillsscriptingdescription {
                         // background-color: yellow;
-                        margin: 0 0 -6vh 60vw;
+                        margin: 4vh 0 -6vh 60vw;
                         p {
                             font-family: 'Julius Sans One', sans-serif;
                             font-size: 4vw;
@@ -606,6 +631,126 @@ $lighterskills: #080e31;
                             border: none;
                             box-shadow: 3px 3px 5px $boxshadowcircles;
                         }
+                    }
+
+
+                    // SERVER SIDE SKILLS DIV
+                    .serversideprogdivtablet {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .iconsfourthrowtablet {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2vw;
+                            margin: 10vh 5vw 0 0vw;
+                            .nodejs {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 13vw;
+                                height: 13vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #nodejs {
+                                    margin: 0vh 0 0 0;
+                                    width: 7vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .django {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: .4vh;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 13vw;
+                                height: 13vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #django {
+                                    margin: -1vh 0 0 0;
+                                    width: 9vw;
+                                    height: 9vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .laravel {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 13vw;
+                                height: 13vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #laravel {
+                                    margin: -1vh 0 0 0;
+                                    width: 7vw;
+                                    height: 7vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                        }
+                        // Skills Description
+                        .skillsserversidedescription {
+                            // background-color: yellow;
+                            width: 100%;
+                            margin: 4vh 0 -6vh 18vw;
+                            p {
+                                font-family: 'Julius Sans One', sans-serif;
+                                font-size: 4vw;
+                            }
+                        }
+                        // Titled underline
+                        .serverdiv {
+                            .serverlinetablet {
+                                margin: 8vh 0 0 22vw;
+                                width: 105vw;
+                                height: 2vh;
+                                background-color: $mainblue;
+                                border: none;
+                                box-shadow: 3px 3px 5px $boxshadowcircles;
+                            }
+                        }
+                    }
+
+                    // DATABASE AND DEPLOYMENT
+                    .databasedeploydivtablet {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center; 
                     }
                 }   
             }
