@@ -345,7 +345,7 @@
     font-family: "Roboto", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .skillsresponsivedescription {
-    margin: 0 0 -5vh 40vw;
+    margin: 0 0 -5vh 43vw;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .skillsresponsivedescription p {
     font-family: "Julius Sans One", sans-serif;
@@ -421,7 +421,7 @@
     font-family: "Roboto", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .skillsuserdescription {
-    margin: 3vh 0 2vh 12vw;
+    margin: 3vh 0 2vh 8.5vw;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .skillsuserdescription p {
     font-family: "Julius Sans One", sans-serif;
@@ -446,7 +446,7 @@
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    margin: 9vh 50vw 0 0;
+    margin: 9vh 47vw 0 0;
   }
   * body #skillstabletcontainer #skillstablet .iconsthirdrowtablet .javascript {
     display: flex;
