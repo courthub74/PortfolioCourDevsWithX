@@ -745,12 +745,115 @@ $lighterskills: #080e31;
                         }
                     }
 
-                    // DATABASE AND DEPLOYMENT
-                    .databasedeploydivtablet {
+                    // DATABASE INTEGRATION DIV
+                    .databasedivtablet {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        align-items: center; 
+                        align-items: center;
+                        .iconsfifthrowtablet {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2vw;
+                            margin: 10vh 5vw 0 0vw;
+                            .mongo {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 13vw;
+                                height: 13vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #mongo {
+                                    margin: 0vh 0 0 0;
+                                    width: 3vw;
+                                    height: 8vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .firebase {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 13vw;
+                                height: 13vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #firebase {
+                                    margin: -2vh 0 0 0;
+                                    width: 8vw;
+                                    height: 10vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                            .postgre {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 1vh;
+                                border: 3px solid $skillsdarker2;
+                                background-color: $mainblue;
+                                border-radius: 10px;
+                                border-radius: 50%;
+                                padding: 2vh;
+                                width: 13vw;
+                                height: 13vw;
+                                box-shadow: 2px 2px 3px $boxshadowcircles;
+                                #postgre {
+                                    margin: -2vh 0 0 0;
+                                    width: 8vw;
+                                    height: 10vw;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 2.5vw;
+                                    font-family: 'Roboto', sans-serif;
+                                }
+                            }
+                        }
+                        // Skills Description
+                        .skillsdatabsedescription {
+                            // background-color: yellow;
+                            width: 100%;
+                            margin: 4vh 0 -6vh 60vw;
+                            p {
+                                font-family: 'Julius Sans One', sans-serif;
+                                font-size: 4vw;
+                            }
+                        }
+                        // Titled underline
+                        .databasediv {
+                            .databaselinetablet {
+                                margin: 8vh 22vw 0 0;
+                                width: 105vw;
+                                height: 2vh;
+                                background-color: $mainblue;
+                                border: none;
+                                box-shadow: 3px 3px 5px $boxshadowcircles;
+                            }
+                        } 
                     }
                 }   
             }

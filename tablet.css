@@ -642,11 +642,109 @@
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
   }
-  * body #skillstabletcontainer #skillstablet .databasedeploydivtablet {
+  * body #skillstabletcontainer #skillstablet .databasedivtablet {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 10vh 5vw 0 0vw;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .mongo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .mongo #mongo {
+    margin: 0vh 0 0 0;
+    width: 3vw;
+    height: 8vw;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .mongo p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .firebase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .firebase #firebase {
+    margin: -2vh 0 0 0;
+    width: 8vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .firebase p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .postgre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid #507e81;
+    background-color: #080E2F;
+    border-radius: 10px;
+    border-radius: 50%;
+    padding: 2vh;
+    width: 13vw;
+    height: 13vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .postgre #postgre {
+    margin: -2vh 0 0 0;
+    width: 8vw;
+    height: 10vw;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .iconsfifthrowtablet .postgre p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .skillsdatabsedescription {
+    width: 100%;
+    margin: 4vh 0 -6vh 60vw;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .skillsdatabsedescription p {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 4vw;
+  }
+  * body #skillstabletcontainer #skillstablet .databasedivtablet .databasediv .databaselinetablet {
+    margin: 8vh 22vw 0 0;
+    width: 105vw;
+    height: 2vh;
+    background-color: #080E2F;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
   }
   * body #portfoliotabletcontainer #portfoliotabletdiv {
     background-color: #080E2F;
