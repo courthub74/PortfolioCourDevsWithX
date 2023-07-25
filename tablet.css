@@ -321,15 +321,15 @@
     font-family: "Roboto", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .skillsresponsivedescription {
-    margin: -0.5vh 0 -5vh 43vw;
+    margin: -0.5vh 0 -5vh 37vw;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .skillsresponsivedescription p {
     font-family: "Julius Sans One", sans-serif;
     font-size: 4vw;
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .underlineresponsediv .underlinetablet {
-    margin: 0 22vw 0 0;
-    width: 105vw;
+    margin: 0 4vw 0 0;
+    width: 80vw;
     height: 2vh;
     background-color: #080E2F;
     border: none;
@@ -429,7 +429,7 @@
   }
   * body #skillstabletcontainer #skillstablet .botskillstablet .userinterfacediv .userinterfacelinetablet {
     margin: 0 0 0 8vw;
-    width: 105vw;
+    width: 80vw;
     height: 2vh;
     background-color: #080E2F;
     border: none;
@@ -524,15 +524,15 @@
     font-family: "Roboto", sans-serif;
   }
   * body #skillstabletcontainer #skillstablet .skillsscriptingdescription {
-    margin: 4vh 0 -6vh 60vw;
+    margin: 4vh 0 -6vh 55vw;
   }
   * body #skillstabletcontainer #skillstablet .skillsscriptingdescription p {
     font-family: "Julius Sans One", sans-serif;
     font-size: 4vw;
   }
   * body #skillstabletcontainer #skillstablet .scriptingdiv .scriptinglinetablet {
-    margin: 8vh 22vw 0 0;
-    width: 105vw;
+    margin: 8vh 3vw 0 0;
+    width: 80vw;
     height: 2vh;
     background-color: #080E2F;
     border: none;
@@ -635,8 +635,8 @@
     font-size: 4vw;
   }
   * body #skillstabletcontainer #skillstablet .serversideprogdivtablet .serverdiv .serverlinetablet {
-    margin: 8vh 0 0 22vw;
-    width: 105vw;
+    margin: 8vh 2vw 0 0vw;
+    width: 80vw;
     height: 2vh;
     background-color: #080E2F;
     border: none;
@@ -732,15 +732,15 @@
   }
   * body #skillstabletcontainer #skillstablet .databasedivtablet .skillsdatabsedescription {
     width: 100%;
-    margin: 4vh 0 -6vh 91vw;
+    margin: 4vh 0 -6vh 88vw;
   }
   * body #skillstabletcontainer #skillstablet .databasedivtablet .skillsdatabsedescription p {
     font-family: "Julius Sans One", sans-serif;
     font-size: 4vw;
   }
   * body #skillstabletcontainer #skillstablet .databasedivtablet .databasediv .databaselinetablet {
-    margin: 8vh 22vw 0 0;
-    width: 105vw;
+    margin: 8vh 1vw 0 0;
+    width: 80vw;
     height: 2vh;
     background-color: #080E2F;
     border: none;
@@ -840,8 +840,8 @@
     font-size: 4vw;
   }
   * body #skillstabletcontainer #skillstablet .deploymentdivtablet .deploydiv .deploylinetablet {
-    margin: 8vh 0 0 22vw;
-    width: 105vw;
+    margin: 8vh 1vw 0 0;
+    width: 80vw;
     height: 2vh;
     background-color: #080E2F;
     border: none;
