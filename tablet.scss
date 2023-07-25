@@ -2369,8 +2369,8 @@ $lighterskills: #080e31;
                                 background-color: $skillsdarker2;
                                 border: 5px solid $mainblue;
                                 border-radius: 50%;
-                                width: 55vw;
-                                height: 55vw;
+                                width: 50vw;
+                                height: 50vw;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -2381,8 +2381,8 @@ $lighterskills: #080e31;
                                     border-radius: 50%;
                                     background-color: $mainblue;
                                     // background-color: #023430;
-                                    width: 55vw;
-                                    height: 55vw;
+                                    width: 50vw;
+                                    height: 50vw;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
@@ -2398,11 +2398,11 @@ $lighterskills: #080e31;
                                         align-items: right;
                                         gap: 1vh;
                                         h2 {
-                                            font-size: 4vw;
+                                            font-size: 3vw;
                                             font-family: 'Inter', sans-serif;
                                         }
                                         p {
-                                            font-size: 3vw;
+                                            font-size: 2vw;
                                             font-family: 'Inter', sans-serif;
                                         }
                                     }

@@ -2038,8 +2038,8 @@
     background-color: #507e81;
     border: 5px solid #080E2F;
     border-radius: 50%;
-    width: 55vw;
-    height: 55vw;
+    width: 50vw;
+    height: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2049,8 +2049,8 @@
     border: 3px solid #080E2F;
     border-radius: 50%;
     background-color: #080E2F;
-    width: 55vw;
-    height: 55vw;
+    width: 50vw;
+    height: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2067,11 +2067,11 @@
     gap: 1vh;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent .blogcircle h2 {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: "Inter", sans-serif;
   }
   * body #blogtabletcontainer #blogtablet #botblogtablet .botblogoutline .blogcircles .blogcontent .blogcircle p {
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: "Inter", sans-serif;
   }
   * body #contacttabletcontainer #contacttablet {
